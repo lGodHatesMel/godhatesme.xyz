@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legends: Arceus Special Request List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+
+        header {
+            background-color: #ffffff; /* White */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ffd700; /* Gold */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f8f9fa;
+        }
+
+        .back-button {
+            background-color: #f8f9fa;
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .back-button:hover {
+            background-color: #e9ecef;
+        }
+
+        #categoryFilter {
+            font-size: 1.2em;
+            padding: 0.6em;
+            background-color: #b10303;
+            color: black;
+        }
+
+        #categoryFilter:hover {
+            background-color: #90ff9d;
+        }
+
+        #categoryFilter option {
+            background-color: rgba(81, 79, 79, 0.719);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Legends: Arceus Special Request List</h1>
+    </header>
+
+    <a href="https://example.com/raid-request-list" class="raid-request-button">
+        <img src="images/logo.png" alt="Logo" class="button-logo">Raid Request List
+    </a>
+
+    <style>
+        #categoryFilter {
+            font-size: 1.2em;
+            padding: 0.6em;
+            background-color: #b10303;
+            color: black;
+        }
+
+        #categoryFilter:hover {
+            background-color: #90ff9d;
+        }
+
+        #categoryFilter option {
+            background-color: rgba(146, 143, 143, 0.7);
+        }
+
+        .new {color: rgb(190, 6, 6);}
+        .event{color: rgb(9, 174, 9);}
+        .home{color: rgb(205, 205, 81);}
+    </style>
+
+    <select id="categoryFilter" aria-label="Category Filter">
+        <option value="">All</option>
+        <option value="NEW" class="new">NEW</option>
+        <option value="EVENTS-DISTRIBUTION" class="events">EVENTS-DISTRIBUTION</option>
+        <option value="HOME" class="home">HOME</option>
+    </select>
+
+    <main>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>File Name</th>
+                <th>Info</th>
+            </tr>
+            <!--MARK: NEW -->
+            <tr> 
+                <td class="new">NEW</td>
+                <td>Home Enamorus</td>
+                <td>Shiny Enamorus from Pokemon HOME</td>
+            </tr>
+            <tr> 
+                <td class="new">NEW</td>
+                <td>Home Manaphy</td>
+                <td>Shiny Manaphy from Pokemon HOME</td>
+            </tr>
+
+            <!--MARK: HOME -->
+            <tr> 
+                <td class="home">HOME</td>
+                <td>Home Enamorus</td>
+                <td>Shiny Enamorus from Pokemon HOME</td>
+            </tr>
+            <tr> 
+                <td class="home">HOME</td>
+                <td>Home Manaphy</td>
+                <td>Shiny Manaphy from Pokemon HOME</td>
+            </tr>
+
+<!--MARK: EVENTS -->
+
+        </table>
+    </main>
+
+    <script>
+        document.getElementById('categoryFilter').addEventListener('change', function() {
+            const category = this.value;
+            const rows = document.querySelectorAll('table tr:not(:first-child)');
+            rows.forEach(row => {
+                const cell = row.querySelector('td:first-child');
+                if (category === '' || cell.textContent === category) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

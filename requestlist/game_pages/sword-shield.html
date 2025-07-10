@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sword & Shield Special Request List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+
+        header {
+            background-color: #39a1e6;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #f33d5c;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f8f9fa;
+        }
+
+        .back-button {
+            background-color: #f8f9fa;
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .back-button:hover {
+            background-color: #e9ecef;
+        }
+
+        #categoryFilter {
+            font-size: 1.2em;
+            padding: 0.6em;
+            background-color: #b10303;
+            color: black;
+        }
+
+        #categoryFilter:hover {
+            background-color: #90ff9d;
+        }
+
+        #categoryFilter option {
+            background-color: rgba(81, 79, 79, 0.719);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sword & Shield Special Request List</h1>
+    </header>
+
+    <a href="https://example.com/raid-request-list" class="raid-request-button">
+        <img src="images/logo.png" alt="Logo" class="button-logo">Raid Request List
+    </a>
+
+    <style>
+        #categoryFilter {
+            font-size: 1.2em;
+            padding: 0.6em;
+            background-color: #b10303;
+            color: black;
+        }
+
+        #categoryFilter:hover {
+            background-color: #90ff9d;
+        }
+
+        #categoryFilter option {
+            background-color: rgba(146, 143, 143, 0.7);
+        }
+
+        .new {color: rgb(190, 6, 6);}
+        .event{color: rgb(9, 174, 9);}
+        .ditto{color: rgb(41, 135, 207);}
+        .eggs{color: rgb(190, 129, 14);}
+        .home{color: rgb(205, 205, 81);}
+    </style>
+
+    <select id="categoryFilter" aria-label="Category Filter">
+        <option value="">All</option>
+        <option value="NEW" class="new">NEW</option>
+        <option value="EVENTS-DISTRIBUTION" class="events">EVENTS-DISTRIBUTION</option>
+        <option value="DITTO" class="ditto">DITTO</option>
+        <option value="EGGS" class="eggs">EGGS</option>
+        <option value="HOME" class="home">HOME</option>
+    </select>
+
+    <main>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>File Name</th>
+                <th>Info</th>
+            </tr>
+            <!--MARK: NEW -->
+            <tr>
+                <td class="new">NEW</td>
+                <td>Breeding Ditto</td>
+                <td>Shiny Japan Breeding Ditto</td>
+            </tr>
+            <tr>
+                <td class="new">NEW</td>
+                <td>Home Shiny Keldeo</td>
+                <td>Shiny Keldeo from Pokemon HOME</td>
+            </tr>
+            <tr> 
+                <td class="new">NEW</td>
+                <td>Home Shiny Diancie</td>
+                <td>Pokemon All-Stars Battle Gift</td>
+            </tr>
+            <tr> 
+                <td class="new">NEW</td>
+                <td>Home VGC10 Eevee</td>
+                <td>Pokemon VGC10 Distribution</td>
+            </tr>
+            <tr> 
+                <td class="new">NEW</td>
+                <td>Home Lance Dragonite</td>
+                <td>Pokemon ORAS Distribution (Lance's)</td>
+            </tr>
+            <tr> 
+                <td class="new">NEW</td>
+                <td>Home Shiny Zygarde</td>
+                <td>USUM Pokémon Legendary Celebration Distribution</td>
+            </tr>
+
+            <!--MARK: Ditto -->
+            <tr>
+                <td class="ditto">NEW</td>
+                <td>Breeding Ditto</td>
+                <td>Shiny Japan Breeding Ditto</td>
+            </tr>
+
+            <!--MARK: HOME -->
+            <tr> 
+                <td class="home">HOME</td>
+                <td>Home Shiny Keldeo</td>
+                <td>Shiny Keldeo from Pokemon HOME</td>
+            </tr>
+            <tr> 
+                <td class="home">HOME</td><td class="home">HOME</td>
+                <td>Home Shiny Diancie</td>
+                <td>Pokemon All-Stars Battle Gift</td>
+            </tr>
+            <tr> 
+                <td class="home">HOME</td>
+                <td>Home VGC10 Eevee</td>
+                <td>Pokemon VGC10 Distribution</td>
+            </tr>
+            <tr> 
+                <td class="home">HOME</td>
+                <td>Home Lance Dragonite</td>
+                <td>Pokemon ORAS Distribution</td>
+            </tr>
+            <tr> 
+                <td class="home">HOME</td>
+                <td>Home Shiny Zygarde</td>
+                <td>USUM Pokémon Legendary Celebration Distribution</td>
+            </tr>
+            <tr> 
+                <td class="home">HOME</td>
+                <td>Pogo (Mew)</td>
+                <td>Shiny POGO Mew</td>
+            </tr>
+            <tr> 
+                <td class="home">HOME</td>
+                <td>Pogo (Meltan)</td>
+                <td>Shiny POGO Meltan</td>
+            </tr>
+            <tr> 
+                <td class="home">HOME</td>
+                <td>Emerald (Mew)</td>
+                <td>Shiny Emerald Mew</td>
+            </tr>
+            <tr> 
+                <td class="home">HOME</td>
+                <td>Home Zeraora</td>
+                <td>Shiny Zeraora Distribution from via Pokemon HOME</td>
+            </tr>
+<!--MARK: EVENTS -->
+            <!-- <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Jirachi</td>
+                <td>Jirachi Wish Maker</td>
+            </tr> -->
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Shiny Grimmsnarl</td>
+                <td>Pokémon World Championships Festival</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Zarude</td>
+                <td>Pokémon the Movie Secrets of the Jungle</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Zarude-Dada</td>
+                <td>Pokémon the Movie Secrets of the Jungle</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Shiny Celebi</td>
+                <td>Pokémon the Movie Secrets of the Jungle</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Shiny Toxtricity-Amped</td>
+                <td>Pokémon Shining Fates Tie-In</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Palkia</td>
+                <td>Pokémon Movie Fest - Special Distribution (The Rise of Darkrai)</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Dialga</td>
+                <td>Pokémon Movie Fest - Special Distribution (The Rise of Darkrai)</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Volcanion</td>
+                <td>Pokémon Mythical Distribution</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Marshadow</td>
+                <td>Pokémon Mythical Distribution</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Genesect</td>
+                <td>Pokémon Mythical Distribution</td>
+            </tr>
+
+
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Ash-Gengar-Gmax</td>
+                <td>Pokémon Masters Eight Tournament</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Ash-Dracovish</td>
+                <td>Pokémon Masters Eight Tournament</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Ash-Dragonite</td>
+                <td>Pokémon Masters Eight Tournament</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Ash-Lucario</td>
+                <td>Pokémon Masters Eight Tournament</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Ash-Sirfetchd</td>
+                <td>Pokémon Masters Eight Tournament</td>
+            </tr>
+            <tr> 
+                <td class="event">EVENTS-DISTRIBUTION</td>
+                <td>Gift Victini</td>
+                <td>Pokémon World Championships Livestream Distribution</td>
+            </tr>
+        </table>
+    </main>
+
+    <script>
+        document.getElementById('categoryFilter').addEventListener('change', function() {
+            const category = this.value;
+            const rows = document.querySelectorAll('table tr:not(:first-child)');
+            rows.forEach(row => {
+                const cell = row.querySelector('td:first-child');
+                if (category === '' || cell.textContent === category) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

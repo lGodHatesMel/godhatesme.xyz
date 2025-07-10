@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Special Request List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+      background-image: url('images/background.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      border: 5px solid black;
+      margin: 0 auto;
+      width: 80%;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .button-container {
+      padding: 20px;
+    }
+
+    .button-container {
+      padding: 20px;
+    }
+
+    .game-button {
+      background-color: rgba(254, 254, 254, 0.65);
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #333;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .game-button:hover {
+      background-color: #e9ecef;
+    }
+
+  .info-box {
+    background-color: rgba(254, 254, 254, 0.65);
+    border: 1px solid #0a0a0a;
+    border-radius: 4px;
+    padding: 14px;
+    margin: 14px auto;
+    width: 35%;
+    max-width: 300px;
+    height: auto;
+    max-height: none;
+    color: #ee0505;
+    font-size: 18px;
+  }
+
+  .info-box h2 {
+    color: #111010;
+    margin-bottom: 6px;
+    font-size: 18px;
+  }
+
+  .info-box h3 {
+    color: #111010;
+    margin: 6px 0;
+    font-size: 15px;
+  }
+
+  .info-box p {
+    color: #111010;
+    margin: 3px 0;
+    font-size: 14px;
+  }
+
+  .raid-request-button {
+    position: absolute;
+    top: 0;
+    right: 120px; /* Increased from 50px to 100px */
+    margin: 20px;
+    background-color: #007bff;
+    color: white; /* Text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .button-logo {
+    width: 36px;
+    height: 24px;
+    margin-right: 8px;
+  }
+
+  @media (max-width: 768px) {
+    .info-box {
+      width: 80%;
+      padding: 10px;
+      margin: 10px auto;
+      font-size: 16px;
+    }
+  }
+  </style>
+</head>
+
+<body>
+  <h1 id="title">Pokémon Special Request List</h1>
+  <a href="https://knsnekoshi.com" class="raid-request-button">
+    <img src="images/sv-teraraid.png" alt="Logo" class="button-logo">Raid Request List
+  </a>
+  <div class="button-container">
+    <a href="game_pages/scarlet-violet.html" class="game-button">Scarlet & Violet</a>
+    <a href="game_pages/sword-shield.html" class="game-button">Sword & Shield</a>
+    <a href="game_pages/legends-arceus.html" class="game-button">Legends: Arceus</a>
+    <a href="game_pages/brilliant-diamond-shining-pearl.html" class="game-button">Brilliant Diamond & Shining Pearl</a>
+  </div>
+  <div class="info-box">
+    <h2>Special Request Trade Commands</h2>
+    <h3>Discord</h3>
+    <p>SV - !svrequest filename</p>
+    <p>SWSH - !swshrequest filename</p>
+    <p>PLA - !plarequest filename</p>
+    <p>BDSP - !bdsprequest filename</p>
+
+    <h3>Twitch</h3>
+    <p>SV - !trade filename</p>
+    <p>SWSH - $trade filename</p>
+    <p>PLA - $trade filename</p>
+    <p>BDSP - #trade filename</p>
+  </div>
+  <style>
+    #title {
+      color: red;
+    }
+
+    .info-box h2 {
+      font-weight: bold;
+    }
+
+    .info-box h3 {
+      text-decoration: underline;
+    }
+  </style>
+</body>
+
+</html>
