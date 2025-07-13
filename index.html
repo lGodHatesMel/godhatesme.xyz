@@ -37,10 +37,31 @@
         .button:hover {
             background-color: #0056b3;
         }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+            margin: 0 15px;
+            transition: transform 0.3s;
+        }
+        .logo:hover {
+            transform: scale(1.1);
+        }
         @media (max-width: 600px) {
             .button {
                 width: 80%;
                 text-align: center;
+            }
+            .logo-container {
+                flex-direction: column;
+            }
+            .logo {
+                margin: 10px 0;
             }
         }
     </style>
@@ -49,6 +70,11 @@
     <h1>Welcome to GodHatesMe Pages</h1>
     <a href="requestlist/" class="button">Special Request List</a>
     <a href="discord.html" class="button">Discord Servers</a>
-    <a href="raid-list.html" class="button">Raid List</a>
+    <a href="https://knsnekoshi.com/" class="button" target="_blank">Raid List</a>
+    <div class="logo-container">
+        <a href="https://www.youtube.com/@lGodHatesMel" target="_blank" title="My YouTube"><img src="images/youtube-logo.png" alt="YouTube" class="logo"></a>
+        <a href="donate.html" title="Donate"><img src="images/donate-logo.png" alt="Donate" class="logo"></a>
+        <a href="https://www.twitch.tv/lgodhatesmel" target="_blank" title="My Twitch"><img src="images/twitch-logo.png" alt="Twitch" class="logo"></a>
+    </div>
 </body>
 </html>
