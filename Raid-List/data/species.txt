@@ -987,27 +987,27 @@ BruteBonnet
 FlutterMane
 SlitherWing
 SandyShocks
-IronTreads
-IronBundle
-IronHands
-IronJugulis
-IronMoth
-IronThorns
+Iron Treads
+Iron Bundle
+Iron Hands
+Iron Jugulis
+Iron Moth
+Iron Thorns
 Frigibax
 Arctibax
 Baxcalibur
 Gimmighoul
 Gholdengo
-WoChien
-ChienPao
-TingLu
-ChiYu
-RoaringMoon
-IronValiant
+Wo-Chien
+Chien-Pao
+Ting-Lu
+Chi-Yu
+Roaring Moon
+Iron Valiant
 Koraidon
 Miraidon
-WalkingWake
-IronLeaves
+Walking Wake
+Iron Leaves
 Dipplin
 Poltchageist
 Sinistcha
@@ -1017,9 +1017,9 @@ Fezandipiti
 Ogerpon
 Archaludon
 Hydrapple
-GougingFire
-RagingBolt
-IronBoulder
-IronCrown
+Gouging Fire
+Raging Bolt
+Iron Boulder
+Iron Crown
 Terapagos
 Pecharunt
