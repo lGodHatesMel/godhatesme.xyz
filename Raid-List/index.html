@@ -10,29 +10,31 @@
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
             margin: 0;
-            padding: 20px;
+            padding: 10px;
             display: flex;
             flex-direction: column;
             align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
         }
         h1 {
-            font-size: 2.5em; /* Slightly smaller for mobile */
+            font-size: 2.5em;
             background: linear-gradient(45deg, #800080, #ff69b4);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             text-align: center;
         }
         .controls {
             display: flex;
             flex-direction: column;
-            gap: 10px;
-            margin-bottom: 20px;
+            gap: 8px;
+            margin-bottom: 15px;
             align-items: center;
             width: 100%;
-            max-width: 1200px;
+            max-width: 900px;
         }
         .filter-row {
             display: flex;
@@ -42,27 +44,27 @@
             width: 100%;
         }
         .controls .filter-row:nth-child(2) {
-            gap: 10px; /* Slightly reduced for mobile */
+            gap: 8px;
         }
         .filter-group {
             display: flex;
             flex-direction: column;
             width: 100%;
-            max-width: 150px; /* Constrain filter width */
+            max-width: 140px;
         }
         .iv-filter-group {
-            max-width: 80px; /* Smaller width for IV inputs */
+            max-width: 80px;
         }
         .filter-group label {
-            margin-bottom: 5px;
+            margin-bottom: 4px;
             font-weight: bold;
-            font-size: 0.9em; /* Smaller font for mobile */
+            font-size: 0.85em;
         }
         .filter-group input, .filter-group select {
-            padding: 8px;
+            padding: 6px;
             border: 1px solid #7e00d2;
             border-radius: 4px;
-            font-size: 0.9em;
+            font-size: 0.85em;
             width: 100%;
             box-sizing: border-box;
         }
@@ -81,15 +83,15 @@
             min-width: 100%;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
-            max-height: 200px;
+            max-height: 180px;
             overflow-y: auto;
         }
         .dropdown-content a {
             color: black;
-            padding: 10px 12px;
+            padding: 8px 10px;
             text-decoration: none;
             display: block;
-            font-size: 0.9em;
+            font-size: 0.85em;
         }
         .dropdown-content a:hover {
             background-color: #f1f1f1;
@@ -99,17 +101,17 @@
         }
         .button-group {
             display: flex;
-            gap: 10px;
-            margin-bottom: 20px;
+            gap: 8px;
+            margin-bottom: 15px;
             flex-wrap: wrap;
             justify-content: center;
         }
         .button-group button {
-            padding: 8px 12px;
+            padding: 6px 10px;
             border: none;
-            border-radius: 5px;
+            border-radius: 4px;
             cursor: pointer;
-            font-size: 0.9em;
+            font-size: 0.85em;
             background-color: #007bff;
             color: white;
             transition: background-color 0.3s;
@@ -120,31 +122,34 @@
         .button-group button.active {
             background-color: #28a745;
         }
-        .raid-list {
+        .table-container {
             width: 100%;
-            max-width: 1200px;
-            margin-bottom: 20px;
-            background-color: transparent;
-            color: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 1000px;
             overflow-x: auto; /* Enable horizontal scrolling */
             -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-            position: relative; /* For scroll indicators */
+            position: relative;
+            margin-bottom: 15px;
+            background-color: transparent;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        .raid-list {
+            width: 100%;
         }
         .raid-list table {
             width: 100%;
-            table-layout: fixed; /* Fix column widths */
+            table-layout: fixed; /* Consistent column widths */
             border-collapse: collapse;
         }
         .raid-list th, .raid-list td {
             border: 1px solid #7e00d2;
-            padding: 6px 8px; /* Reduced padding for mobile */
+            padding: 5px 6px;
             text-align: left;
             color: white;
             font-weight: bold;
-            white-space: nowrap; /* Prevent text wrapping */
+            white-space: nowrap;
             overflow: hidden;
-            text-overflow: ellipsis; /* Truncate long text */
+            text-overflow: ellipsis;
+            font-size: 0.85em;
         }
         .raid-list th {
             background-color: #4CAF50;
@@ -153,66 +158,40 @@
             top: 0;
             z-index: 1;
         }
-        /* Define column widths */
-        .raid-list th:nth-child(1), .raid-list td:nth-child(1) { /* ID */
-            width: 80px;
-        }
-        .raid-list th:nth-child(2), .raid-list td:nth-child(2) { /* Pokemon */
-            width: 120px;
-        }
-        .raid-list th:nth-child(3), .raid-list td:nth-child(3) { /* Ability */
-            width: 100px;
-        }
-        .raid-list th:nth-child(4), .raid-list td:nth-child(4) { /* Nature */
-            width: 100px;
-        }
-        .raid-list th:nth-child(5), .raid-list td:nth-child(5) { /* HP */
-            width: 50px;
-        }
-        .raid-list th:nth-child(6), .raid-list td:nth-child(6) { /* ATK */
-            width: 50px;
-        }
-        .raid-list th:nth-child(7), .raid-list td:nth-child(7) { /* DEF */
-            width: 50px;
-        }
-        .raid-list th:nth-child(8), .raid-list td:nth-child(8) { /* SPA */
-            width: 50px;
-        }
-        .raid-list th:nth-child(9), .raid-list td:nth-child(9) { /* SPD */
-            width: 50px;
-        }
-        .raid-list th:nth-child(10), .raid-list td:nth-child(10) { /* SPE */
-            width: 50px;
-        }
-        .raid-list th:nth-child(11), .raid-list td:nth-child(11) { /* Gender */
-            width: 60px;
-        }
-        .raid-list th:nth-child(12), .raid-list td:nth-child(12) { /* Tera Type */
-            width: 80px;
-        }
-        .raid-list th:nth-child(13), .raid-list td:nth-child(13) { /* Mark */
-            width: 80px;
-        }
-        /* Scroll indicator (optional) */
-        .raid-list::before {
+        /* Column widths */
+        .raid-list th:nth-child(1), .raid-list td:nth-child(1) { width: 10%; } /* ID */
+        .raid-list th:nth-child(2), .raid-list td:nth-child(2) { width: 15%; } /* Pokemon */
+        .raid-list th:nth-child(3), .raid-list td:nth-child(3) { width: 12%; } /* Ability */
+        .raid-list th:nth-child(4), .raid-list td:nth-child(4) { width: 10%; } /* Nature */
+        .raid-list th:nth-child(5), .raid-list td:nth-child(5) { width: 6%; } /* HP */
+        .raid-list th:nth-child(6), .raid-list td:nth-child(6) { width: 6%; } /* ATK */
+        .raid-list th:nth-child(7), .raid-list td:nth-child(7) { width: 6%; } /* DEF */
+        .raid-list th:nth-child(8), .raid-list td:nth-child(8) { width: 6%; } /* SPA */
+        .raid-list th:nth-child(9), .raid-list td:nth-child(9) { width: 6%; } /* SPD */
+        .raid-list th:nth-child(10), .raid-list td:nth-child(10) { width: 6%; } /* SPE */
+        .raid-list th:nth-child(11), .raid-list td:nth-child(11) { width: 8%; } /* Gender */
+        .raid-list th:nth-child(12), .raid-list td:nth-child(12) { width: 10%; } /* Tera Type */
+        .raid-list th:nth-child(13), .raid-list td:nth-child(13) { width: 10%; } /* Mark */
+        /* Scroll indicators */
+        .table-container::before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             height: 100%;
-            width: 10px;
-            background: linear-gradient(to right, rgba(0,0,0,0.2), transparent);
+            width: 15px;
+            background: linear-gradient(to right, rgba(0,0,0,0.3), transparent);
             pointer-events: none;
             z-index: 2;
         }
-        .raid-list::after {
+        .table-container::after {
             content: '';
             position: absolute;
             top: 0;
             right: 0;
             height: 100%;
-            width: 10px;
-            background: linear-gradient(to left, rgba(0,0,0,0.2), transparent);
+            width: 15px;
+            background: linear-gradient(to left, rgba(0,0,0,0.3), transparent);
             pointer-events: none;
             z-index: 2;
         }
@@ -220,29 +199,29 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 10px;
-            margin-top: 20px;
+            gap: 8px;
+            margin-top: 15px;
         }
         .pagination-controls button {
-            padding: 8px 16px;
+            padding: 6px 12px;
             border: none;
-            border-radius: 5px;
+            border-radius: 4px;
             cursor: pointer;
             background-color: #6c757d;
             color: white;
-            font-size: 0.9em;
+            font-size: 0.85em;
         }
         .pagination-controls button:hover {
             background-color: #5a6268;
         }
         .pagination-controls span {
-            font-size: 1em;
+            font-size: 0.9em;
             font-weight: bold;
         }
         /* Mobile-specific styles */
         @media (max-width: 768px) {
             body {
-                padding: 10px;
+                padding: 5px;
             }
             h1 {
                 font-size: 2em;
@@ -255,30 +234,34 @@
                 align-items: center;
             }
             .filter-group {
-                max-width: 100%; /* Full width for filters */
+                max-width: 100%;
             }
             .iv-filter-group {
                 max-width: 100px;
             }
             .filter-group input, .filter-group select {
-                font-size: 0.85em;
+                font-size: 0.8em;
+                padding: 5px;
             }
             .button-group button {
                 width: 100%;
-                max-width: 200px;
-                padding: 8px;
-                font-size: 0.85em;
+                max-width: 180px;
+                padding: 5px;
+                font-size: 0.8em;
             }
-            .raid-list {
+            .table-container {
                 overflow-x: auto;
                 -webkit-overflow-scrolling: touch;
             }
+            .raid-list {
+                width: 100%;
+            }
             .raid-list table {
-                min-width: 600px; /* Minimum width to maintain readability */
+                width: 100%;
             }
             .raid-list th, .raid-list td {
-                padding: 4px 6px; /* Further reduce padding */
-                font-size: 0.8em; /* Smaller font for mobile */
+                padding: 4px 5px;
+                font-size: 0.75em;
             }
         }
         @media (max-width: 480px) {
@@ -286,18 +269,18 @@
                 font-size: 1.8em;
             }
             .filter-group label {
-                font-size: 0.8em;
+                font-size: 0.75em;
             }
             .filter-group input, .filter-group select {
-                padding: 6px;
-                font-size: 0.8em;
+                padding: 4px;
+                font-size: 0.75em;
             }
             .button-group button {
-                font-size: 0.8em;
-                padding: 6px;
+                font-size: 0.75em;
+                padding: 4px;
             }
             .raid-list th, .raid-list td {
-                font-size: 0.75em;
+                font-size: 0.7em;
             }
         }
     </style>
