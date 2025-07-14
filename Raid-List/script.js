@@ -98,27 +98,63 @@ document.addEventListener('DOMContentLoaded', () => {
     const violetFiles = ['ID1.txt', 'ID2.txt', 'ID3.txt', 'ID4.txt', 'ID5.txt', 'ID6.txt', 'IDI.txt', 'P1.txt', 'P2.txt', 'P3.txt', 'P4.txt', 'P5.txt', 'P6.txt', 'P7.txt', 'P8.txt', 'PI.txt', 'TM1.txt', 'TM2.txt', 'TM3.txt', 'TM4.txt', 'TM5.txt', 'TM6.txt'];
 
     async function loadRaidData(version) {
-        raidData = [];
-        const filesToLoad = version === 'Scarlet' ? scarletFiles : violetFiles;
-        const folderPath = `data/${version}/`;
+      raidData = [];
+      const filesToLoad = version === "Scarlet" ? scarletFiles : violetFiles;
+      const folderPath = `data/${version}/`;
 
-        console.log(`Loading raid data for ${version} from ${filesToLoad.length} files...`);
+      console.log(
+        `Loading raid data for ${version} from ${filesToLoad.length} files...`
+      );
 
-        for (const file of filesToLoad) {
-            try {
-                const response = await fetch(`${folderPath}${file}`);
-                if (!response.ok) {
-                    console.warn(`Failed to fetch ${folderPath}${file}: ${response.status} ${response.statusText}`);
-                    continue;
-                }
-                const data = await response.text();                const lines = data.split(/\r?\n/).map(line => line.trim()).filter(line => line);                if (lines.length < 2) {                    console.warn(`Skipping empty or malformed file: ${folderPath}${file}`);                    continue;                }                const headers = lines[0].split('\t');                let entriesAddedFromFile = 0;                for (let i = 1; i < lines.length; i++) {                    const values = lines[i].split('\t');                    if (values.length === headers.length) {                        const raid = {};                        headers.forEach((header, index) => {                            raid[header] = values[index];                        });                        raidData.push(raid);                        entriesAddedFromFile++;                    } else {                        console.warn(`Skipping malformed line in ${folderPath}${file}: ${lines[i]}`);                    }                }                console.log(`File: ${folderPath}${file}, Total lines read: ${lines.length}, Entries added: ${entriesAddedFromFile}`);
-            } catch (error) {
-                console.error(`Error loading file: ${folderPath}${file}`, error);
+      for (const file of filesToLoad) {
+        try {
+          const response = await fetch(`${folderPath}${file}`);
+          if (!response.ok) {
+            console.warn(
+              `Failed to fetch ${folderPath}${file}: ${response.status} ${response.statusText}`
+            );
+            continue;
+          }
+          const data = await response.text();
+          const lines = data
+            .split(/\r?\n/)
+            .map((line) => line.trim())
+            .filter((line) => line);
+          if (lines.length < 2) {
+            console.warn(
+              `Skipping empty or malformed file: ${folderPath}${file}`
+            );
+            continue;
+          }
+          const headers = lines[0].split("\t");
+          let entriesAddedFromFile = 0;
+          for (let i = 1; i < lines.length; i++) {
+            const values = lines[i].split("\t");
+            if (values.length === headers.length) {
+              const raid = {};
+              headers.forEach((header, index) => {
+                raid[header] = values[index];
+              });
+              raidData.push(raid);
+              entriesAddedFromFile++;
+            } else {
+              console.warn(
+                `Skipping malformed line in ${folderPath}${file}: ${lines[i]}`
+              );
             }
+          }
+          console.log(
+            `File: ${folderPath}${file}, Total lines read: ${lines.length}, Entries added: ${entriesAddedFromFile}`
+          );
+        } catch (error) {
+          console.error(`Error loading file: ${folderPath}${file}`, error);
         }
-        console.log(`Finished loading data for ${version}. Total raidData length: ${raidData.length}`);
-        populateTable(raidData);
-        filterRaids(); // Apply initial filters
+      }
+      console.log(
+        `Finished loading data for ${version}. Total raidData length: ${raidData.length}`
+      );
+      populateTable(raidData);
+      filterRaids(); // Apply initial filters
     }
 
     scarletButton.addEventListener('click', () => {
