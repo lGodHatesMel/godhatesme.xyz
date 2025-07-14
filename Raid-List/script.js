@@ -111,27 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     console.warn(`Failed to fetch ${folderPath}${file}: ${response.status} ${response.statusText}`);
                     continue;
                 }
-                const data = await response.text();
-                const lines = data.split(/\r?\n/).map(line => line.trim()).filter(line => line);
-                if (lines.length < 2) {
-                    console.warn(`Skipping empty or malformed file: ${folderPath}${file}`);
-                    continue;
-                }
-
-                const headers = lines[0].split('\t');
-                for (let i = 1; i < lines.length; i++) {
-                    const values = lines[i].split('\t');
-                    if (values.length === headers.length) {
-                        const raid = {};
-                        headers.forEach((header, index) => {
-                            raid[header] = values[index];
-                        });
-                        raidData.push(raid);
-                        // console.log(`Added raid: ${raid.ID}, Pokemon: ${raid.Pokemon}, Current raidData length: ${raidData.length}`);
-                    } else {
-                        console.warn(`Skipping malformed line in ${folderPath}${file}: ${lines[i]}`);
-                    }
-                }
+                const data = await response.text();                const lines = data.split(/\r?\n/).map(line => line.trim()).filter(line => line);                if (lines.length < 2) {                    console.warn(`Skipping empty or malformed file: ${folderPath}${file}`);                    continue;                }                const headers = lines[0].split('\t');                let entriesAddedFromFile = 0;                for (let i = 1; i < lines.length; i++) {                    const values = lines[i].split('\t');                    if (values.length === headers.length) {                        const raid = {};                        headers.forEach((header, index) => {                            raid[header] = values[index];                        });                        raidData.push(raid);                        entriesAddedFromFile++;                    } else {                        console.warn(`Skipping malformed line in ${folderPath}${file}: ${lines[i]}`);                    }                }                console.log(`File: ${folderPath}${file}, Total lines read: ${lines.length}, Entries added: ${entriesAddedFromFile}`);
             } catch (error) {
                 console.error(`Error loading file: ${folderPath}${file}`, error);
             }
