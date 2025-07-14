@@ -1,23 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Coming Soon</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 50px;
-        }
-
-        h1 {
-            font-size: 3em;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brilliant Diamond & Shining Pearl Special Request List</title>
+  <link rel="stylesheet" href="../styles.css">
 </head>
 
+
 <body>
-    <h1>Coming Soon</h1>
+  <header>
+    <h1 style="font-size: 3em; background: linear-gradient(45deg, #800080, #ff69b4); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Brilliant Diamond & Shining Pearl Special Request List</h1>
+  </header>
+
+  <a href="../index.html" class="game-button">Back to Home</a>
+
+  <select id="categoryFilter" aria-label="Category Filter">
+    <option value="">All</option>
+    <option value="NEW" class="new">NEW</option>
+    <option value="RAIDS" class="raids">RAIDS</option>
+    <option value="EVENTS-DISTRIBUTION" class="events">EVENTS-DISTRIBUTION</option>
+    <option value="DITTO" class="ditto">DITTO</option>
+    <option value="EGGS" class="eggs">EGGS</option>
+    <option value="HOME" class="home">HOME</option>
+  </select>
+
+  <div class="search-container">
+    <input type="text" id="pokemonSearch" placeholder="Search Pokémon..." autocomplete="off">
+    <div id="pokemonDropdown" class="autocomplete-dropdown"></div>
+  </div>
+
+  <main>
+    <table>
+      <tr>
+        <th>Category</th>
+        <th>File Name</th>
+        <th>Info</th>
+      </tr>
+      <!-- Data will be dynamically loaded here by script.js -->
+    </table>
+  </main>
+  <script src="../script.js"></script>
 </body>
 
 </html>

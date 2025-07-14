@@ -6,59 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scarlet & Violet Special Request List</title>
   <link rel="stylesheet" href="../styles.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      color: black;
-    }
-
-    header {
-      background-color: rgb(130, 7, 130);
-      padding: 10px 0;
-      text-align: center;
-    }
-
-    h1 {
-      color: #ff2400;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    th,
-    td {
-      border: 1px solid #ddd;
-      padding: 8px;
-      text-align: left;
-    }
-
-    th {
-      background-color: #f8f9fa;
-    }
-
-    .back-button {
-      background-color: #f8f9fa;
-      border: none;
-      padding: 10px 20px;
-      text-decoration: none;
-      color: #333;
-      display: inline-block;
-      margin: 20px;
-    }
-
-    .back-button:hover {
-      background-color: #e9ecef;
-    }
-    @media (max-width: 600px) {
-        .raid-request-button {
-            display: none;
-        }
-    }
-  </style>
 </head>
 
 
@@ -67,31 +14,7 @@
     <h1>Scarlet & Violet Special Request List</h1>
   </header>
 
-  <a href="../index.html" class="back-button">Back to Home</a>
-
-  <style>
-    #categoryFilter {
-      font-size: 1.2em;
-      padding: 0.6em;
-      background-color: #b10303;
-      color: black;
-    }
-
-    #categoryFilter:hover {
-      background-color: #90ff9d;
-    }
-
-    #categoryFilter option {
-      background-color: rgba(146, 143, 143, 0.7);
-    }
-
-    .new {color: rgb(190, 6, 6);}
-    .raids{color: rgb(123, 10, 210);}
-    .event{color: rgb(9, 174, 9);}
-    .ditto{color: rgb(41, 135, 207);}
-    .eggs{color: rgb(190, 129, 14);}
-    .home{color: rgb(205, 205, 81);}
-  </style>
+  <a href="../index.html" class="game-button">Back to Home</a>
 
   <select id="categoryFilter" aria-label="Category Filter">
     <option value="">All</option>
@@ -102,6 +25,11 @@
     <option value="EGGS" class="eggs">EGGS</option>
     <option value="HOME" class="home">HOME</option>
   </select>
+
+  <div class="search-container">
+    <input type="text" id="pokemonSearch" placeholder="Search Pokémon..." autocomplete="off">
+    <div id="pokemonDropdown" class="autocomplete-dropdown"></div>
+  </div>
 
   <main>
     <table>
@@ -1502,21 +1430,7 @@
 
     </table>
   </main>
+  <script src="../script.js"></script>
 </body>
-
-<script>
-  document.getElementById('categoryFilter').addEventListener('change', function() {
-    const category = this.value;
-    const rows = document.querySelectorAll('table tr:not(:first-child)');
-    rows.forEach(row => {
-      const cell = row.querySelector('td:first-child');
-      if (category === '' || cell.textContent === category) {
-        row.style.display = '';
-      } else {
-        row.style.display = 'none';
-      }
-    });
-  });
-</script>
 
 </html>

@@ -2,116 +2,36 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sword & Shield Special Request List</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: black;
-        }
-
-        header {
-            background-color: #39a1e6;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        h1 {
-            color: #f33d5c;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th,
-        td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #f8f9fa;
-        }
-
-        .back-button {
-            background-color: #f8f9fa;
-            border: none;
-            padding: 10px 20px;
-            text-decoration: none;
-            color: #333;
-            display: inline-block;
-            margin: 20px;
-        }
-
-        .back-button:hover {
-            background-color: #e9ecef;
-        }
-
-        #categoryFilter {
-            font-size: 1.2em;
-            padding: 0.6em;
-            background-color: #b10303;
-            color: black;
-        }
-
-        #categoryFilter:hover {
-            background-color: #90ff9d;
-        }
-
-        #categoryFilter option {
-            background-color: rgba(81, 79, 79, 0.719);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sword & Shield Special Request List</title>
+  <link rel="stylesheet" href="../styles.css">
 </head>
 
+
 <body>
-    <header>
-        <h1>Sword & Shield Special Request List</h1>
-    </header>
+  <header>
+    <h1 style="font-size: 3em; background: linear-gradient(45deg, #800080, #ff69b4); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Sword & Shield Special Request List</h1>
+  </header>
 
-    <a href="https://example.com/raid-request-list" class="raid-request-button">
-        <img src="images/logo.png" alt="Logo" class="button-logo">Raid Request List
-    </a>
+  <a href="../index.html" class="game-button">Back to Home</a>
 
-    <style>
-        #categoryFilter {
-            font-size: 1.2em;
-            padding: 0.6em;
-            background-color: #b10303;
-            color: black;
-        }
+  <select id="categoryFilter" aria-label="Category Filter">
+    <option value="">All</option>
+    <option value="NEW" class="new">NEW</option>
+    <option value="RAIDS" class="raids">RAIDS</option>
+    <option value="EVENTS-DISTRIBUTION" class="events">EVENTS-DISTRIBUTION</option>
+    <option value="DITTO" class="ditto">DITTO</option>
+    <option value="EGGS" class="eggs">EGGS</option>
+    <option value="HOME" class="home">HOME</option>
+  </select>
 
-        #categoryFilter:hover {
-            background-color: #90ff9d;
-        }
+  <div class="search-container">
+    <input type="text" id="pokemonSearch" placeholder="Search Pokémon..." autocomplete="off">
+    <div id="pokemonDropdown" class="autocomplete-dropdown"></div>
+  </div>
 
-        #categoryFilter option {
-            background-color: rgba(146, 143, 143, 0.7);
-        }
-
-        .new {color: rgb(190, 6, 6);}
-        .event{color: rgb(9, 174, 9);}
-        .ditto{color: rgb(41, 135, 207);}
-        .eggs{color: rgb(190, 129, 14);}
-        .home{color: rgb(205, 205, 81);}
-    </style>
-
-    <select id="categoryFilter" aria-label="Category Filter">
-        <option value="">All</option>
-        <option value="NEW" class="new">NEW</option>
-        <option value="EVENTS-DISTRIBUTION" class="events">EVENTS-DISTRIBUTION</option>
-        <option value="DITTO" class="ditto">DITTO</option>
-        <option value="EGGS" class="eggs">EGGS</option>
-        <option value="HOME" class="home">HOME</option>
-    </select>
-
-    <main>
+  <main>
         <table>
             <tr>
                 <th>Category</th>
@@ -289,8 +209,6 @@
                 <td>Gift Genesect</td>
                 <td>Pokémon Mythical Distribution</td>
             </tr>
-
-
             <tr> 
                 <td class="event">EVENTS-DISTRIBUTION</td>
                 <td>Gift Ash-Gengar-Gmax</td>
@@ -324,19 +242,7 @@
         </table>
     </main>
 
-    <script>
-        document.getElementById('categoryFilter').addEventListener('change', function() {
-            const category = this.value;
-            const rows = document.querySelectorAll('table tr:not(:first-child)');
-            rows.forEach(row => {
-                const cell = row.querySelector('td:first-child');
-                if (category === '' || cell.textContent === category) {
-                    row.style.display = '';
-                } else {
-                    row.style.display = 'none';
-                }
-            });
-        });
-    </script>
+  <script src="../script.js"></script>
 </body>
+
 </html>
