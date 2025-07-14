@@ -63,6 +63,13 @@
             #hp-filter, #attack-filter, #defense-filter, #sp-attack-filter, #sp-defense-filter, #speed-filter {
                 width: 100%; /* Ensure IV inputs also take full width */
             }
+            /* Adjust filter and search input width on small screens */
+            .filter-group input, .filter-group select {
+                width: calc(100% - 16px); /* Full width minus padding */
+            }
+            #hp-filter, #attack-filter, #defense-filter, #sp-attack-filter, #sp-defense-filter, #speed-filter {
+                width: calc(100% - 16px); /* Ensure IV inputs also take full width */
+            }
             .raid-list {
                 overflow-x: auto; /* Enable horizontal scrolling for the table */
                 -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
@@ -153,6 +160,13 @@
             background-color: transparent; /* Transparent background */
             color: white; /* White text */
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .table-responsive {
+            overflow-x: auto; /* Enable horizontal scrolling for the table */
+            width: 100%; /* Ensure it takes full width */
+        }
+        .raid-list table {
+            width: 700px; /* Minimum width for the table to prevent squishing */
         }
         .raid-list th, .raid-list td {
             border: 1px solid #7e00d2;
@@ -316,6 +330,7 @@
             <!-- Raid data will be populated here -->
         </tbody>
     </table>
+    </div>
 
     <div class="pagination-controls">
         <button id="prev-page">Previous</button>
