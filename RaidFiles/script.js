@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const filteredItems = dataList.filter(item => item.toLowerCase().includes(query));
                     populateDropdown(filteredItems, query);
                     dropdown.classList.add('show');
+                    filterRaids(); // Trigger filter on input change
                 });
 
                 input.addEventListener('click', () => {
@@ -162,17 +163,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const selectedPokemon = pokemonSearch.value;
         if (selectedPokemon) {
-            filteredData = filteredData.filter(raid => raid.Pokemon && raid.Pokemon.toLowerCase() === selectedPokemon.toLowerCase());
+            filteredData = filteredData.filter(raid => raid.Pokemon && raid.Pokemon.toLowerCase().includes(selectedPokemon.toLowerCase()));
         }
 
         const selectedAbility = abilityFilter.value;
         if (selectedAbility) {
-            filteredData = filteredData.filter(raid => raid.Ability && raid.Ability.toLowerCase() === selectedAbility.toLowerCase());
+            filteredData = filteredData.filter(raid => raid.Ability && raid.Ability.toLowerCase().includes(selectedAbility.toLowerCase()));
         }
 
         const selectedNature = natureFilter.value;
         if (selectedNature) {
-            filteredData = filteredData.filter(raid => raid.Nature && raid.Nature.toLowerCase() === selectedNature.toLowerCase());
+            filteredData = filteredData.filter(raid => raid.Nature && raid.Nature.toLowerCase().includes(selectedNature.toLowerCase()));
         }
 
         const hpQuery = hpFilter.value;
