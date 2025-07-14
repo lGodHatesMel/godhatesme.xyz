@@ -67,11 +67,12 @@ table {
     color: white; /* White text */
     margin-top: 20px; /* Add spacing above table */
     margin-bottom: 20px; /* Add spacing below table */
+    table-layout: auto; /* Allow table to adjust column widths */
 }
 
 th,
 td {
-    border: 1.5px solid #7e00d2; /* Thicker border */
+    border: 2px solid #7e00d2; /* Thicker border */
     padding: 12px; /* Increased padding for more spacing */
     text-align: center; /* Center text for better alignment */
     color: white; /* Ensure text is white */
@@ -102,11 +103,17 @@ th {
         width: 100%; /* Ensure it takes full width */
     }
     table {
-        width: 600px; /* Set a minimum width for the table content */
+        min-width: 600px; /* Set a minimum width for the table content to ensure scrollability */
     }
     th, td {
         white-space: nowrap; /* Prevent text wrapping in table cells */
     }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
     /* Adjust filter and search input width on small screens */
     #categoryFilter, #pokemonSearch {

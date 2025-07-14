@@ -166,7 +166,8 @@
             width: 100%; /* Ensure it takes full width */
         }
         .raid-list table {
-            width: 700px; /* Minimum width for the table to prevent squishing */
+            width: 100%; /* Let content dictate width, allow scrolling */
+            table-layout: auto; /* Allow table to adjust column widths */
         }
         .raid-list th, .raid-list td {
             border: 1px solid #7e00d2;
