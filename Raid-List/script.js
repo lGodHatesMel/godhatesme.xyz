@@ -18,6 +18,47 @@ document.addEventListener('DOMContentLoaded', () => {
     let raidData = []; // To store the original raid data
     let pressTimer;
     let selectedStars = 'Any';
+    let currentPage = 1;
+    const rowsPerPage = 50; // Display 50 rows per page
+    let filteredRaidData = []; // To store the currently filtered data
+
+    // Initialize the Web Worker outside the function to avoid creating multiple workers
+    const dataWorker = new Worker(`data-parser.js?v=${new Date().getTime()}`);
+
+    dataWorker.onmessage = (event) => {
+        raidData = event.data.raidData;
+        console.log(`Finished loading data. Total raidData length: ${raidData.length}`);
+        filteredRaidData = [...raidData]; // Initialize filtered data with all raid data
+        populateTable(filteredRaidData); // Populate table with the first page of all data
+    };
+
+    dataWorker.onerror = (error) => {
+        console.error('Worker error:', error);
+    };
+
+    // Pagination controls
+    const prevButton = document.getElementById('prev-page');
+    const nextButton = document.getElementById('next-page');
+    const pageInfo = document.getElementById('page-info');
+
+    if (prevButton) {
+        prevButton.addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                populateTable(filteredRaidData);
+            }
+        });
+    }
+
+    if (nextButton) {
+        nextButton.addEventListener('click', () => {
+            const totalPages = Math.ceil(filteredRaidData.length / rowsPerPage);
+            if (currentPage < totalPages) {
+                currentPage++;
+                populateTable(filteredRaidData);
+            }
+        });
+    }
 
     // --- Searchable Dropdown Logic ---
     function setupSearchableDropdown(inputId, dropdownId, dataUrl, isStatFilter = false) {
@@ -50,6 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     e.preventDefault();
                     input.value = item;
                     dropdown.classList.remove('show');
+                    currentPage = 1; // Reset to first page on filter change
                     filterRaids();
                 });
                 dropdown.appendChild(a);
@@ -61,6 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const filteredItems = dataList.filter(item => item.toLowerCase().includes(query));
             populateDropdown(filteredItems, query);
             dropdown.classList.add('show');
+            currentPage = 1; // Reset to first page on filter change
             filterRaids();
         });
 
@@ -98,74 +141,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const violetFiles = ['ID1.txt', 'ID2.txt', 'ID3.txt', 'ID4.txt', 'ID5.txt', 'ID6.txt', 'IDI.txt', 'P1.txt', 'P2.txt', 'P3.txt', 'P4.txt', 'P5.txt', 'P6.txt', 'P7.txt', 'P8.txt', 'PI.txt', 'TM1.txt', 'TM2.txt', 'TM3.txt', 'TM4.txt', 'TM5.txt', 'TM6.txt'];
 
     async function loadRaidData(version) {
-      raidData = [];
-      const filesToLoad = version === "Scarlet" ? scarletFiles : violetFiles;
-      const folderPath = `data/${version}/`;
-
-      console.log(
-        `Loading raid data for ${version} from ${filesToLoad.length} files...`
-      );
-
-      for (const file of filesToLoad) {
-        try {
-          const response = await fetch(`${folderPath}${file}`);
-          if (!response.ok) {
-            console.warn(
-              `Failed to fetch ${folderPath}${file}: ${response.status} ${response.statusText}`
-            );
-            continue;
-          }
-          const data = await response.text();
-          const lines = data
-            .split(/\r?\n/)
-            .map((line) => line.trim())
-            .filter((line) => line);
-          if (lines.length < 2) {
-            console.warn(
-              `Skipping empty or malformed file: ${folderPath}${file}`
-            );
-            continue;
-          }
-          const headers = lines[0].split("\t");
-          let entriesAddedFromFile = 0;
-          for (let i = 1; i < lines.length; i++) {
-            const values = lines[i].split("\t");
-            if (values.length === headers.length) {
-              const raid = {};
-              headers.forEach((header, index) => {
-                raid[header] = values[index];
-              });
-              raidData.push(raid);
-              entriesAddedFromFile++;
-            } else {
-              console.warn(
-                `Skipping malformed line in ${folderPath}${file}: ${lines[i]}`
-              );
-            }
-          }
-          console.log(
-            `File: ${folderPath}${file}, Total lines read: ${lines.length}, Entries added: ${entriesAddedFromFile}`
-          );
-        } catch (error) {
-          console.error(`Error loading file: ${folderPath}${file}`, error);
-        }
-      }
-      console.log(
-        `Finished loading data for ${version}. Total raidData length: ${raidData.length}`
-      );
-      populateTable(raidData);
-      filterRaids(); // Apply initial filters
+        raidData = []; // Clear existing data
+        console.log(`Loading raid data for ${version} using Web Worker...`);
+        // Send message to worker to start loading data
+        dataWorker.postMessage({ version, scarletFiles, violetFiles });
     }
 
     scarletButton.addEventListener('click', () => {
         scarletButton.classList.add('active');
         violetButton.classList.remove('active');
+        currentPage = 1; // Reset to first page on version change
         loadRaidData('Scarlet');
     });
 
     violetButton.addEventListener('click', () => {
         violetButton.classList.add('active');
         scarletButton.classList.remove('active');
+        currentPage = 1; // Reset to first page on version change
         loadRaidData('Violet');
     });
 
@@ -174,6 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
             starButtons.forEach(btn => btn.classList.remove('active'));
             button.classList.add('active');
             selectedStars = button.dataset.stars;
+            currentPage = 1; // Reset to first page on filter change
             filterRaids();
         });
     });
@@ -194,12 +187,18 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('.star-button[data-stars="Any"]').classList.add('active');
         selectedStars = 'Any';
 
+        currentPage = 1; // Reset to first page on filter change
         filterRaids();
     });
 
-    function populateTable(data) {
+    function populateTable(dataToDisplay) {
         tableBody.innerHTML = '';
-        data.forEach(raid => {
+        const startIndex = (currentPage - 1) * rowsPerPage;
+        const endIndex = startIndex + rowsPerPage;
+        const paginatedData = dataToDisplay.slice(startIndex, endIndex);
+        console.log(`populateTable: Displaying ${paginatedData.length} rows.`);
+
+        paginatedData.forEach(raid => {
             const row = document.createElement('tr');
             row.innerHTML = `
                 <td>${raid.ID || ''}</td>
@@ -229,6 +228,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             tableBody.appendChild(row);
         });
+
+        const totalPages = Math.ceil(dataToDisplay.length / rowsPerPage);
+        pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
     }
 
     function filterRaids() {
@@ -308,7 +310,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         console.log(`Final filtered data length: ${filteredData.length}`);
-        populateTable(filteredData);
+        filteredRaidData = filteredData; // Store the filtered data
+        populateTable(filteredRaidData);
     }
 
     function copyToClipboard(text) {
