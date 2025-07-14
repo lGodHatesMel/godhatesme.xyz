@@ -1,0 +1,119 @@
+ID	Type	Seed	Pokemon	Ability	Nature	Gender	HP	ATK	DEF	SPA	SPD	SPE	TeraType	IVCount	Stars	Mark
+P61S	Black	24C2B39A	Amoonguss	Regenerator (H)	Lonely	♂	31	31	23	31	31	31	Fighting	5	6	Jumbo
+P62S	Black	343DB3E2	Amoonguss	Regenerator (H)	Bashful	♀	31	31	31	31	31	5	Dark	5	6	Teeny
+P63S	Black	6DA133FD	Amoonguss	Regenerator (H)	Timid	♀	31	31	31	31	31	4	Dragon	5	6	Jumbo
+P64S	Black	7B26D396	Amoonguss	Regenerator (H)	Naughty	♀	31	31	31	31	31	6	Fairy	5	6	Teeny
+P65S	Black	7F8FDE08	Amoonguss	Regenerator (H)	Modest	♀	31	16	31	31	31	31	Poison	5	6	Jumbo
+P66S	Black	B31C33FC	Amoonguss	Regenerator (H)	Jolly	♂	31	31	31	31	4	31	Bug	5	6	Teeny
+P67S	Black	BA8933E2	Amoonguss	Regenerator (H)	Bashful	♂	25	31	31	31	31	31	Electric	5	6	Teeny
+P68S	Black	EBAC73DF	Amoonguss	Regenerator (H)	Modest	♂	31	31	30	31	31	31	Fairy	5	6	Teeny
+P69S	Black	A8D2C371	Annihilape	Defiant (H)	Adamant	♀	31	31	31	31	31	23	Electric	5	6	Jumbo
+P610S	Black	D9D3F50B	Annihilape	Defiant (H)	Calm	♀	31	31	29	31	31	31	Bug	5	6	Jumbo
+P611S	Black	F0E43546	Annihilape	Defiant (H)	Naive	♂	30	31	31	31	31	31	Fighting	5	6	Jumbo
+P612S	Black	F8BF8366	Annihilape	Defiant (H)	Lonely	♂	31	31	31	31	27	31	Fighting	5	6	Jumbo
+P613S	Black	85155404	Armarouge	Weak Armor (H)	Bashful	♂	31	31	31	31	31	15	Fighting	5	6	Jumbo
+P614S	Black	D2B8A2A9	Armarouge	Weak Armor (H)	Careful	♂	31	20	31	31	31	31	Ground	5	6	Teeny
+P615S	Black	62620B05	Baxcalibur	Thermal Exchange (1)	Naive	♀	31	31	15	31	31	31	Normal	5	6	Teeny
+P616S	Black	C3733A2C	Blissey	Healer (H)	Lax	♀	31	31	31	17	31	31	Ghost	5	6	Teeny
+P617S	Black	05ABEDFF	Bombirdier	Rocky Payload (H)	Hasty	♀	31	31	20	31	31	31	Steel	5	6	Jumbo
+P618S	Black	1A6D6FF9	Breloom	Technician (H)	Hardy	♀	31	31	31	24	31	31	Fire	5	6	Jumbo
+P619S	Black	6386C9C8	Breloom	Technician (H)	Lax	♀	31	31	31	31	0	31	Poison	5	6	Jumbo
+P620S	Black	82B34FDF	Breloom	Technician (H)	Hardy	♀	31	31	31	31	31	14	Dragon	5	6	Jumbo
+P621S	Black	AA8869DB	Breloom	Technician (H)	Impish	♂	31	31	31	1	31	31	Fairy	5	6	Teeny
+P622S	Black	65A101F2	Cetitan	Sheer Force (H)	Adamant	♂	31	31	31	22	31	31	Psychic	5	6	Teeny
+P623S	Black	B87681F2	Cetitan	Sheer Force (H)	Naive	♂	31	31	31	31	29	31	Psychic	5	6	Jumbo
+P624S	Black	BF324FC5	Clodsire	Unaware (H)	Timid	♂	31	31	31	31	31	31	Normal	6	6	Teeny
+P625S	Black	19602FED	Clodsire	Unaware (H)	Quiet	♂	31	24	31	31	31	31	Steel	5	6	Jumbo
+P626S	Black	B17E6A20	Clodsire	Water Absorb (2)	Bashful	♂	3	31	31	31	31	31	Psychic	5	6	Jumbo
+P627S	Black	CDB99128	Corviknight	Mirror Armor (H)	Mild	♀	14	31	31	31	31	31	Poison	5	6	Teeny
+P628S	Black	4CCD8D06	Dachsbun	Well-Baked Body (1)	Docile	♀	31	31	31	31	5	31	Fighting	5	6	Teeny
+P629S	Black	90F60CD3	Dachsbun	Well-Baked Body (1)	Naughty	♀	31	15	31	31	31	31	Ice	5	6	Teeny
+P630S	Black	93EC8D03	Dachsbun	Well-Baked Body (1)	Bashful	♀	31	26	31	31	31	31	Ice	5	6	Jumbo
+P631S	Black	9CD86CC7	Dachsbun	Well-Baked Body (1)	Naive	♀	31	31	16	31	31	31	Flying	5	6	Jumbo
+P632S	Black	05EC24B2	Ditto	Imposter (H)	Naive	-	31	31	14	31	31	31	Psychic	5	6	Jumbo
+P633S	Black	CF8BA49A	Ditto	Imposter (H)	Brave	-	31	31	31	31	31	2	Steel	5	6	Teeny
+P634S	Black	9F7780C6	Dondozo	Water Veil (H)	Lax	♀	31	15	31	31	31	31	Fighting	5	6	Teeny
+P635S	Black	D64660E6	Dondozo	Water Veil (H)	Bashful	♂	31	31	31	31	31	0	Fighting	5	6	Teeny
+P636S	Black	DA17C0C8	Dondozo	Water Veil (H)	Quirky	♀	15	31	31	31	31	31	Poison	5	6	Teeny
+P637S	Black	52285EE7	Dragalge	Adaptability (H)	Lax	♀	31	31	16	31	31	31	Flying	5	6	Teeny
+P638S	Black	C980D030	Dragalge	Adaptability (H)	Lax	♂	31	31	31	28	31	31	Grass	5	6	Teeny
+P639S	Black	CF14D035	Dragalge	Adaptability (H)	Lax	♀	31	31	31	31	31	9	Dark	5	6	Teeny
+P640S	Black	DB113EF6	Dragalge	Adaptability (H)	Gentle	♂	31	31	31	31	22	31	Fairy	5	6	Jumbo
+P641S	Black	E2217ECF	Dragalge	Adaptability (H)	Quirky	♀	31	31	2	31	31	31	Water	5	6	Jumbo
+P642S	Black	6DEF19B2	Dragonite	Multiscale (H)	Careful	♀	31	31	31	31	17	31	Psychic	5	6	Jumbo
+P643S	Black	AC7CF7A5	Espeon	Magic Bounce (H)	Timid	♂	10	31	31	31	31	31	Normal	5	6	Jumbo
+P644S	Black	C173F7B9	Espeon	Magic Bounce (H)	Modest	♂	31	3	31	31	31	31	Fairy	5	6	Teeny
+P645S	Black	F6FA779D	Espeon	Magic Bounce (H)	Rash	♂	31	14	31	31	31	31	Normal	5	6	Teeny
+P646S	Black	D480E6E2	Farigiraf	Sap Sipper (H)	Jolly	♀	31	31	31	31	31	2	Ice	5	6	Teeny
+P647S	Black	059A8B63	Frosmoth	Ice Scales (H)	Gentle	♂	31	31	31	31	0	31	Ice	5	6	Jumbo
+P648S	Black	719C0B46	Frosmoth	Ice Scales (H)	Naive	♂	31	31	16	31	31	31	Fighting	5	6	Teeny
+P649S	Black	C59F692B	Gallade	Sharpness (2)	Rash	♂	17	31	31	31	31	31	Bug	5	6	Jumbo
+P650S	Black	7B3DBB9C	Garchomp	Rough Skin (H)	Sassy	♀	31	31	31	16	31	31	Fighting	5	6	Jumbo
+P651S	Black	1695E87B	Gardevoir	Trace (2)	Rash	♀	31	31	31	31	5	31	Bug	5	6	Jumbo
+P652S	Black	1BD04C26	Garganacl	Clear Body (H)	Naughty	♀	31	31	31	9	31	31	Fighting	5	6	Teeny
+P653S	Black	427FC7CE	Gengar	Cursed Body (1)	Jolly	♀	31	31	25	31	31	31	Fire	5	6	Teeny
+P654S	Black	AE57C7C0	Gengar	Cursed Body (1)	Calm	♀	31	31	31	31	23	31	Electric	5	6	Teeny
+P655S	Black	B604E7CB	Gengar	Cursed Body (1)	Careful	♂	31	31	31	13	31	31	Bug	5	6	Teeny
+P656S	Black	FD4CF882	Glaceon	Ice Body (H)	Impish	♂	9	31	31	31	31	31	Dragon	5	6	Jumbo
+P657S	Black	390BD325	Goodra-Normal	Gooey (H)	Mild	♂	18	31	31	31	31	31	Normal	5	6	Teeny
+P658S	Black	4DCAF373	Goodra-Normal	Gooey (H)	Lonely	♂	31	31	31	31	31	18	Ice	5	6	Jumbo
+P659S	Black	8C535D94	Goodra-Normal	Gooey (H)	Sassy	♀	31	5	31	31	31	31	Dragon	5	6	Jumbo
+P660S	Black	17C3EC62	Grafaiai	Prankster (H)	Adamant	♂	7	31	31	31	31	31	Steel	5	6	Teeny
+P661S	Black	72178CA5	Grafaiai	Prankster (H)	Modest	♀	31	9	31	31	31	31	Normal	5	6	Jumbo
+P662S	Black	14A2596B	Gyarados	Moxie (H)	Hasty	♀	31	31	31	28	31	31	Bug	5	6	Jumbo
+P663S	Black	09015078	Haxorus	Unnerve (H)	Bold	♂	31	31	31	6	31	31	Steel	5	6	Jumbo
+P664S	Black	1B7D905F	Haxorus	Unnerve (H)	Naive	♀	1	31	31	31	31	31	Grass	5	6	Jumbo
+P665S	Black	1EF65E4C	Haxorus	Unnerve (H)	Bashful	♀	31	31	15	31	31	31	Ghost	5	6	Jumbo
+P666S	Black	4CE0B3A9	Haxorus	Unnerve (H)	Jolly	♀	31	31	31	31	18	31	Ground	5	6	Teeny
+P667S	Black	54CCD05E	Haxorus	Unnerve (H)	Brave	♂	31	31	31	3	31	31	Psychic	5	6	Teeny
+P668S	Black	39A74D60	Hippowdon	Sand Force (H)	Naughty	♀	31	31	31	31	31	7	Electric	5	6	Teeny
+P669S	Black	73C74D64	Hippowdon	Sand Force (H)	Bold	♀	31	31	31	31	24	31	Fire	5	6	Jumbo
+P670S	Black	257BB245	Hydreigon	Levitate (1)	Bashful	♂	31	31	31	31	17	31	Normal	5	6	Jumbo
+P671S	Black	80975C90	Hydreigon	Levitate (1)	Serious	♀	31	31	26	31	31	31	Grass	5	6	Teeny
+P672S	Black	C9151C80	Hydreigon	Levitate (1)	Hasty	♀	31	31	31	1	31	31	Ghost	5	6	Teeny
+P673S	Black	418EE30D	Kingambit	Pressure (H)	Naughty	♀	31	31	31	19	31	31	Steel	5	6	Teeny
+P674S	Black	C7B242FD	Kingambit	Pressure (H)	Relaxed	♀	31	6	31	31	31	31	Flying	5	6	Jumbo
+P675S	Black	30AB454D	Klawf	Regenerator (H)	Naughty	♀	31	31	20	31	31	31	Steel	5	6	Jumbo
+P676S	Black	588D5804	Leafeon	Chlorophyll (H)	Lonely	♂	31	31	26	31	31	31	Ice	5	6	Jumbo
+P677S	Black	8E2E584C	Leafeon	Chlorophyll (H)	Mild	♂	31	31	31	31	31	11	Ghost	5	6	Teeny
+P678S	Black	F74E183A	Leafeon	Chlorophyll (H)	Rash	♂	31	31	31	31	31	11	Water	5	6	Teeny
+P679S	Black	6E64C789	Lycanroc-Dusk	Tough Claws (1)	Brave	♂	31	31	8	31	31	31	Ground	5	6	Teeny
+P680S	Black	7A768792	Lycanroc-Dusk	Tough Claws (1)	Impish	♂	31	31	7	31	31	31	Psychic	5	6	Jumbo
+P681S	Black	EF29E794	Lycanroc-Dusk	Tough Claws (1)	Adamant	♀	19	31	31	31	31	31	Dragon	5	6	Teeny
+P682S	Black	5A2C6E5E	Mabosstiff	Stakeout (H)	Calm	♀	31	15	31	31	31	31	Poison	5	6	Jumbo
+P683S	Black	91B3AE94	Mabosstiff	Stakeout (H)	Lonely	♀	31	23	31	31	31	31	Dragon	5	6	Teeny
+P684S	Black	DB1D5C25	Magnezone	Analytic (H)	Bold	-	31	17	31	31	31	31	Normal	5	6	Jumbo
+P685S	Black	5CF32528	Maushold-Family of Four	Technician (H)	Bold	-	31	11	31	31	31	31	Poison	5	6	Jumbo
+P686S	Black	E23B6544	Maushold-Family of Four	Technician (H)	Lax	-	31	31	31	31	31	21	Steel	5	6	Teeny
+P687S	Black	4821A161	Orthworm	Sand Veil (H)	Sassy	♀	10	31	31	31	31	31	Ghost	5	6	Jumbo
+P688S	Black	5DF55B5D	Pelipper	Drizzle (2)	Modest	♂	31	31	31	31	29	31	Flying	5	6	Teeny
+P689S	Black	878F7B27	Pelipper	Drizzle (2)	Impish	♂	31	31	31	31	31	12	Flying	5	6	Jumbo
+P690S	Black	B3D25B76	Pelipper	Drizzle (2)	Docile	♀	31	31	31	31	31	3	Fairy	5	6	Jumbo
+P691S	Black	89A491B3	Pincurchin	Electric Surge (H)	Hasty	♂	31	31	31	31	20	31	Ice	5	6	Teeny
+P692S	Black	C3BDB181	Pincurchin	Electric Surge (H)	Jolly	♂	31	31	31	31	31	11	Steel	5	6	Teeny
+P693S	Black	47508F01	Revavroom	Filter (H)	Hardy	♀	31	3	31	31	31	31	Bug	5	6	Jumbo
+P694S	Black	D61EA83B	Staraptor	Reckless (H)	Sassy	♀	31	4	31	31	31	31	Dark	5	6	Teeny
+P695S	Black	0F5C1915	Sylveon	Pixilate (H)	Jolly	♀	31	31	31	31	4	31	Dark	5	6	Jumbo
+P696S	Black	7CA2DD14	Talonflame	Gale Wings (H)	Impish	♂	31	31	31	31	31	12	Dragon	5	6	Jumbo
+P697S	Black	A85CFD73	Talonflame	Gale Wings (H)	Quiet	♂	31	2	31	31	31	31	Ice	5	6	Teeny
+P698S	Black	F624D2E2	Talonflame	Gale Wings (H)	Naive	♀	31	31	31	31	7	31	Poison	5	6	Teeny
+P699S	Black	1184E3D6	Tauros-Paldea Blaze	Cud Chew (H)	Serious	♂	31	31	31	12	31	31	Fairy	5	6	Teeny
+P6100S	Black	12F4A3FD	Tauros-Paldea Blaze	Cud Chew (H)	Hasty	♂	31	31	31	31	29	31	Electric	5	6	Teeny
+P6101S	Black	91166414	Tauros-Paldea Blaze	Cud Chew (H)	Impish	♂	31	31	31	20	31	31	Dragon	5	6	Jumbo
+P6102S	Black	9361445C	Tauros-Paldea Combat	Cud Chew (H)	Naive	♂	31	31	31	31	31	7	Flying	5	6	Teeny
+P6103S	Black	B5F88479	Tauros-Paldea Combat	Cud Chew (H)	Impish	♂	31	15	31	31	31	31	Ghost	5	6	Jumbo
+P6104S	Black	F7FD0284	Tinkaton	Pickpocket (H)	Careful	♀	31	31	28	31	31	31	Fire	5	6	Teeny
+P6105S	Black	17C72F67	Toedscruel	Mycelium Might (1)	Naughty	♂	31	31	31	31	30	31	Flying	5	6	Teeny
+P6106S	Black	65A2AF4D	Toedscruel	Mycelium Might (1)	Lax	♂	31	31	31	29	31	31	Steel	5	6	Jumbo
+P6107S	Black	BF66E95B	Toedscruel	Mycelium Might (1)	Relaxed	♀	31	19	31	31	31	31	Flying	5	6	Jumbo
+P6108S	Black	DD366F43	Toedscruel	Mycelium Might (1)	Bold	♀	31	31	31	31	5	31	Fire	5	6	Jumbo
+P6109S	Black	EB364AA3	Toxapex	Regenerator (H)	Gentle	♂	31	31	31	31	31	31	Fairy	6	6	Teeny
+P6110S	Black	AE8BEAB5	Toxapex	Regenerator (H)	Hasty	♀	31	31	11	31	31	31	Dark	5	6	Teeny
+P6111S	Black	092DB74B	Umbreon	Inner Focus (H)	Impish	♂	31	31	31	22	31	31	Bug	5	6	Jumbo
+P6112S	Black	4BEF578F	Umbreon	Inner Focus (H)	Sassy	♂	31	31	31	31	12	31	Water	5	6	Teeny
+P6113S	Black	54B5D74E	Umbreon	Inner Focus (H)	Bashful	♂	31	31	31	31	31	23	Fire	5	6	Teeny
+P6114S	Black	7E3CF72A	Vaporeon	Hydration (H)	Lax	♂	31	31	9	31	31	31	Rock	5	6	Teeny
+P6115S	Black	C58FD6F7	Vaporeon	Hydration (H)	Relaxed	♂	31	31	31	31	28	31	Steel	5	6	Jumbo
+P6116S	Black	06D17CEA	Volcarona	Swarm (H)	Hasty	♀	31	11	31	31	31	31	Rock	5	6	Jumbo
+P6117S	Black	4640DCC0	Volcarona	Swarm (H)	Quiet	♀	31	31	31	23	31	31	Ghost	5	6	Jumbo
+P6118S	Black	9671120E	Volcarona	Swarm (H)	Careful	♂	31	31	23	31	31	31	Fire	5	6	Teeny

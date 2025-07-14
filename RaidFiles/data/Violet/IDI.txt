@@ -1,0 +1,14 @@
+ID	Type	Seed	Pokemon	Ability	Nature	Gender	HP	ATK	DEF	SPA	SPD	SPE	TeraType	IVCount	Stars	Mark	Game
+IDIHerba1	Base	0000827B	Minior	Shields Down (1)	Hardy	♀	11	31	18	31	31	31	Ground	4	5		Violet
+IDIHerba2	Base	23E81A86	Kingdra	Swift Swim (1)	Impish	♀	31	19	31	21	31	31	Fighting	4	5		Violet
+IDIHerba3	Base	30C54505	Porygon2	Analytic (H)	Naughty	♀	19	31	31	31	18	31	Normal	4	5		Violet
+IDIHerba4	Base	00161900	Electivire	Unknown	Unknown	♀	0	0	0	0	0	0	Unknown	0	5		Violet
+IDIHerba5	Base	239A0502	Lapras	Unknown	Unknown	♀	0	0	0	0	0	0	Unknown	0	5		Violet
+IDIHerba6	Base	2CD1EE1B	Malamar	Unknown	Unknown	♂	0	0	0	0	0	0	Unknown	0	5		Violet
+IDIHerba7	Base	00162698	Metagross	Unknown	Unknown	♂	0	0	0	0	0	0	Unknown	0	5		Violet
+IDIHerba8	Base	17762F82	Flygon	Unknown	Unknown	♀	0	0	0	0	0	0	Unknown	0	5		Violet
+IDIHerba9	Base	0061C811	Rhyperior	Unknown	Unknown	♀	0	0	0	0	0	0	Unknown	0	5		Violet
+IDIHerba10	Base	004D0F06	Skarmory	Unknown	Unknown	♀	0	0	0	0	0	0	Unknown	0	5		Violet
+IDIHerba11	Base	1BFD9974	Kingdra	Unknown	Unknown	♀	0	0	0	0	0	0	Unknown	0	5		Violet
+IDIHerba12	Base	68FE1E6D	Lapras	Unknown	Unknown	♀	0	0	0	0	0	0	Unknown	0	5		Violet
+IDIHerba13	Base	2461E908	Kingdra	Unknown	Unknown	♂	0	0	0	0	0	0	Unknown	0	5		Violet

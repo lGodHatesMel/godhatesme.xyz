@@ -1,0 +1,121 @@
+ID	Type	Seed	Pokemon	Ability	Nature	Gender	HP	ATK	DEF	SPA	SPD	SPE	TeraType	IVCount	Stars	Mark
+TM21	Base	0613D488	Applin	Gluttony (2)	Bold	♀	13	9	28	7	31	30	Poison	1	2	Jumbo
+TM22	Base	1781AEBD	Chingling	Levitate (1)	Naive	♀	31	17	21	31	30	19	Electric	2	1	Jumbo
+TM23	Base	092DB74B	Chingling	Levitate (1)	Docile	♂	18	31	5	26	0	8	Bug	1	1	Jumbo
+TM24	Base	6457E5DB	Chingling	Levitate (1)	Calm	♂	23	11	17	31	14	21	Steel	1	1	Teeny
+TM25	Base	73C74D64	Chingling	Levitate (1)	Bold	♂	31	6	18	0	1	3	Fire	1	1	Jumbo
+TM26	Base	AC4D9D38	Chingling	Levitate (1)	Impish	♂	21	27	31	28	30	23	Flying	1	1	Teeny
+TM27	Base	249B7A21	Cleffa	Magic Guard (2)	Gentle	♀	15	31	9	9	18	31	Flying	2	1	Jumbo
+TM28	Base	66E1C796	Cleffa	Magic Guard (2)	Adamant	♂	4	31	31	11	7	27	Fairy	2	1	Teeny
+TM29	Base	672E886D	Cleffa	Cute Charm (1)	Adamant	♂	21	16	26	31	31	23	Steel	2	1	Jumbo
+TM210	Base	888AF09F	Cleffa	Cute Charm (1)	Lonely	♀	23	7	19	9	31	31	Ghost	2	1	Teeny
+TM211	Base	5F04CA22	Cleffa	Cute Charm (1)	Hardy	♂	31	8	11	12	15	8	Steel	1	1	Jumbo
+TM212	Base	6D315028	Cleffa	Cute Charm (1)	Bold	♂	31	14	4	2	18	8	Poison	1	1	Teeny
+TM213	Base	6E3D8867	Cleffa	Magic Guard (2)	Docile	♀	13	6	2	31	5	22	Flying	1	1	Jumbo
+TM214	Base	80CCC82C	Cleffa	Cute Charm (1)	Modest	♂	17	31	17	13	10	27	Ghost	1	1	Teeny
+TM215	Base	87EA6036	Cleffa	Magic Guard (2)	Gentle	♀	31	13	23	14	23	5	Fairy	1	1	Teeny
+TM216	Base	90511033	Cleffa	Cute Charm (1)	Relaxed	♀	3	27	9	9	0	31	Ice	1	1	Jumbo
+TM217	Base	633D02D2	Cutiefly	Shield Dust (2)	Bashful	♂	4	27	3	31	16	31	Psychic	2	1	Teeny
+TM218	Base	59C854DA	Cutiefly	Honey Gather (1)	Naive	♀	27	4	11	17	5	31	Dark	1	1	Jumbo
+TM219	Base	608A14CF	Cutiefly	Honey Gather (1)	Jolly	♀	24	30	12	21	13	31	Water	1	1	Teeny
+TM220	Base	745274E9	Cutiefly	Honey Gather (1)	Gentle	♀	11	4	21	31	15	22	Ground	1	1	Teeny
+TM221	Base	7B26D396	Cutiefly	Shield Dust (2)	Naughty	♀	2	12	27	31	6	24	Fairy	1	1	Teeny
+TM222	Base	B6A38C3E	Cutiefly	Shield Dust (2)	Rash	♀	30	31	18	3	1	20	Poison	1	1	Jumbo
+TM223	Base	F624D2E2	Cutiefly	Honey Gather (1)	Relaxed	♂	23	18	21	31	16	8	Poison	1	1	Teeny
+TM224	Base	3459BDAB	Ducklett	Keen Eye (1)	Naughty	♀	1	5	7	20	31	31	Bug	2	1	Jumbo
+TM225	Base	D637AFCF	Ducklett	Keen Eye (1)	Timid	♀	31	17	10	16	31	20	Water	2	1	Teeny
+TM226	Base	3739A70B	Ducklett	Big Pecks (2)	Rash	♂	25	14	9	31	19	10	Bug	1	1	Teeny
+TM227	Base	450CA7E5	Ducklett	Keen Eye (1)	Lonely	♂	31	26	7	15	29	11	Normal	1	1	Teeny
+TM228	Base	555C2FE3	Ducklett	Big Pecks (2)	Serious	♂	17	31	30	30	17	11	Bug	1	1	Jumbo
+TM229	Base	AE57C7C0	Ducklett	Big Pecks (2)	Calm	♀	31	26	27	13	26	25	Electric	1	1	Teeny
+TM230	Base	1D254235	Ekans	Shed Skin (2)	Brave	♂	2	26	31	17	27	10	Dark	1	1	Jumbo
+TM231	Base	5A10EACA	Ekans	Shed Skin (2)	Quirky	♂	20	20	17	27	21	31	Rock	1	1	Jumbo
+TM232	Base	73D0FACE	Ekans	Shed Skin (2)	Timid	♀	24	18	26	31	3	23	Fire	1	1	Teeny
+TM233	Base	878F7B27	Ekans	Shed Skin (2)	Serious	♀	28	8	31	1	25	8	Flying	1	1	Jumbo
+TM234	Base	8CC18E0D	Ekans	Intimidate (1)	Modest	♂	1	26	9	11	31	11	Steel	1	1	Teeny
+TM235	Base	C664DB30	Ekans	Intimidate (1)	Gentle	♂	15	9	28	25	9	31	Grass	1	1	Teeny
+TM236	Base	EEABC326	Ekans	Shed Skin (2)	Adamant	♂	31	26	19	22	2	22	Fighting	1	1	Teeny
+TM237	Base	FE620B3D	Ekans	Shed Skin (2)	Mild	♂	3	17	31	23	15	8	Fighting	1	1	Jumbo
+TM238	Base	0ACE4DFF	Feebas	Oblivious (2)	Naughty	♀	22	31	0	7	4	8	Fire	1	2	Jumbo
+TM239	Base	074F816D	Geodude-Normal	Sturdy (2)	Jolly	♀	0	0	6	19	20	31	Steel	1	1	Jumbo
+TM240	Base	F81F05CE	Geodude-Normal	Rock Head (1)	Quirky	♀	19	20	15	31	9	22	Fire	1	1	Jumbo
+TM241	Base	0E98634D	Grubbin	Swarm (1)	Brave	♀	19	10	0	30	21	31	Steel	1	1	Teeny
+TM242	Base	35D51612	Grubbin	Swarm (1)	Gentle	♂	31	14	8	0	30	11	Psychic	1	1	Jumbo
+TM243	Base	48AE5C52	Grubbin	Swarm (1)	Sassy	♂	28	15	0	27	31	28	Psychic	1	1	Teeny
+TM244	Base	58ECAADE	Grubbin	Swarm (1)	Hardy	♀	19	13	18	11	7	31	Psychic	1	1	Teeny
+TM245	Base	6D51CA2C	Grubbin	Swarm (1)	Naughty	♀	18	1	11	31	23	16	Ghost	1	1	Teeny
+TM246	Base	7C944B8B	Grubbin	Swarm (1)	Naughty	♀	26	31	23	26	15	29	Bug	1	1	Teeny
+TM247	Base	8160045F	Grubbin	Swarm (1)	Quirky	♀	13	15	31	16	10	13	Psychic	1	1	Teeny
+TM248	Base	8E131237	Grubbin	Swarm (1)	Naive	♀	23	23	31	16	7	22	Fighting	1	1	Jumbo
+TM249	Base	9DF8BC68	Grubbin	Swarm (1)	Hardy	♂	31	4	5	28	28	13	Poison	1	1	Teeny
+TM250	Base	DE9EB445	Grubbin	Swarm (1)	Careful	♂	31	2	18	15	29	8	Normal	1	1	Jumbo
+TM251	Base	955C29F1	Hoothoot	Keen Eye (2)	Rash	♂	31	14	31	19	10	16	Electric	2	1	Teeny
+TM252	Base	C1D2869D	Hoothoot	Keen Eye (2)	Bashful	♀	31	23	15	14	8	31	Flying	2	1	Teeny
+TM253	Base	EB364AA3	Hoothoot	Keen Eye (2)	Gentle	♂	29	18	8	3	31	31	Fairy	2	1	Teeny
+TM254	Base	1ACB3E49	Hoothoot	Insomnia (1)	Hasty	♀	27	14	27	31	6	25	Ground	1	1	Jumbo
+TM255	Base	89A491B3	Hoothoot	Insomnia (1)	Calm	♂	31	25	2	7	27	6	Ice	1	1	Teeny
+TM256	Base	B30CAA20	Hoothoot	Insomnia (1)	Careful	♂	31	18	10	14	7	9	Psychic	1	1	Teeny
+TM257	Base	B87681F2	Hoothoot	Insomnia (1)	Naive	♀	29	17	29	31	29	18	Psychic	1	1	Jumbo
+TM258	Base	BF416659	Hoothoot	Insomnia (1)	Quiet	♂	4	11	7	17	31	7	Dragon	1	1	Jumbo
+TM259	Base	F3A269B5	Hoothoot	Keen Eye (2)	Rash	♀	2	17	31	14	8	14	Dark	1	1	Teeny
+TM260	Base	EE19FA02	Litwick	Flash Fire (1)	Brave	♂	31	31	3	9	2	29	Rock	2	2	Jumbo
+TM261	Base	85155404	Litwick	Flash Fire (1)	Modest	♀	31	3	10	14	6	6	Fighting	1	2	Jumbo
+TM262	Base	3E26F07C	Munchlax	Thick Fat (2)	Sassy	♂	31	26	16	29	31	23	Water	2	2	Teeny
+TM263	Base	256F639E	Munchlax	Thick Fat (2)	Hasty	♂	31	8	13	13	25	3	Rock	1	2	Teeny
+TM264	Base	D8D84006	Munchlax	Pickup (1)	Naughty	♂	31	9	24	25	29	23	Fighting	1	2	Teeny
+TM265	Base	06907AE9	Poliwag	Water Absorb (1)	Docile	♂	31	14	18	9	27	10	Ground	1	1	Teeny
+TM266	Base	25A8E69D	Poliwag	Water Absorb (1)	Hasty	♂	31	30	10	0	0	0	Bug	1	1	Teeny
+TM267	Base	2E5038E0	Poliwag	Damp (2)	Quiet	♀	31	4	8	14	23	12	Ground	1	1	Jumbo
+TM268	Base	6E64C789	Poliwag	Damp (2)	Impish	♂	31	1	4	4	24	7	Ground	1	1	Teeny
+TM269	Base	9F7780C6	Poliwag	Water Absorb (1)	Lax	♀	31	22	20	23	21	3	Fighting	1	1	Teeny
+TM270	Base	BEF3B8D6	Poliwag	Water Absorb (1)	Impish	♀	11	30	0	15	16	31	Fairy	1	1	Jumbo
+TM271	Base	DA17C0C8	Poliwag	Damp (2)	Quirky	♀	27	14	31	9	21	28	Poison	1	1	Teeny
+TM272	Base	ABF21EE9	Poochyena	Quick Feet (2)	Calm	♂	15	30	23	7	31	2	Ground	1	1	Jumbo
+TM273	Base	C8070EDF	Poochyena	Quick Feet (2)	Lonely	♂	23	1	31	15	20	26	Fighting	1	1	Jumbo
+TM274	Base	D480E6E2	Poochyena	Run Away (1)	Hasty	♂	27	31	14	22	16	24	Ice	1	1	Teeny
+TM275	Base	E5111E27	Poochyena	Run Away (1)	Jolly	♂	29	31	18	14	0	10	Flying	1	1	Teeny
+TM276	Base	01FE8E13	Sandshrew-Normal	Sand Veil (1)	Timid	♀	20	19	15	14	31	1	Ice	1	1	Teeny
+TM277	Base	1B7D905F	Sandshrew-Normal	Sand Veil (1)	Naive	♀	12	21	31	6	1	11	Grass	1	1	Jumbo
+TM278	Base	2AF11856	Sandshrew-Normal	Sand Veil (1)	Sassy	♂	23	31	16	9	5	15	Fairy	1	1	Teeny
+TM279	Base	57A963A7	Sandshrew-Normal	Sand Veil (1)	Quirky	♀	14	31	8	14	30	21	Flying	1	1	Jumbo
+TM280	Base	A373EBBF	Sandshrew-Normal	Sand Veil (1)	Gentle	♀	2	25	31	26	24	3	Flying	1	1	Jumbo
+TM281	Base	B7CF4D39	Sandshrew-Normal	Sand Veil (1)	Jolly	♂	2	7	31	2	19	28	Flying	1	1	Jumbo
+TM282	Base	D2EF5BF4	Sandshrew-Normal	Sand Veil (1)	Quirky	♂	9	2	26	31	29	12	Dragon	1	1	Teeny
+TM283	Base	D6CC25E6	Sandshrew-Normal	Sand Veil (1)	Calm	♀	5	31	23	7	8	6	Fighting	1	1	Jumbo
+TM284	Base	05ABEDFF	Seedot	Chlorophyll (1)	Modest	♀	31	12	22	27	29	6	Steel	1	2	Jumbo
+TM285	Base	37E4C67A	Seedot	Chlorophyll (1)	Serious	♂	17	20	31	13	13	1	Poison	1	2	Teeny
+TM286	Base	31869139	Sentret	Keen Eye (2)	Quiet	♂	9	26	26	2	31	24	Ground	1	1	Jumbo
+TM287	Base	6D59291D	Sentret	Keen Eye (2)	Gentle	♀	16	31	19	23	10	22	Dragon	1	1	Jumbo
+TM288	Base	7B48A909	Sentret	Keen Eye (2)	Modest	♂	16	15	14	28	31	0	Ground	1	1	Jumbo
+TM289	Base	82E962A5	Sentret	Keen Eye (2)	Naive	♂	19	22	21	12	31	9	Normal	1	1	Teeny
+TM290	Base	C2352F60	Sewaddle	Swarm (1)	Impish	♀	31	20	16	5	6	31	Dark	2	1	Teeny
+TM291	Base	1F390FC9	Sewaddle	Chlorophyll (2)	Impish	♂	27	11	31	5	6	7	Ground	1	1	Jumbo
+TM292	Base	22D86013	Sewaddle	Swarm (1)	Relaxed	♀	26	31	13	5	22	7	Ice	1	1	Teeny
+TM293	Base	427FC7CE	Sewaddle	Swarm (1)	Naughty	♀	31	7	13	28	17	25	Fire	1	1	Teeny
+TM294	Base	6770C2BE	Sewaddle	Swarm (1)	Naughty	♂	5	20	31	15	28	26	Psychic	1	1	Teeny
+TM295	Base	7A0CC7C0	Sewaddle	Chlorophyll (2)	Modest	♀	21	5	26	10	21	31	Bug	1	1	Teeny
+TM296	Base	82B34FDF	Sewaddle	Swarm (1)	Hardy	♀	0	31	14	3	28	26	Dragon	1	1	Jumbo
+TM297	Base	9B87BDC9	Sewaddle	Chlorophyll (2)	Bashful	♂	6	1	19	30	20	31	Ground	1	1	Jumbo
+TM298	Base	CB4F2884	Slugma	Magma Armor (1)	Naughty	♀	10	13	31	17	31	9	Ground	2	2	Jumbo
+TM299	Base	A0869662	Spinarak	Insomnia (2)	Bold	♀	25	31	18	3	31	9	Fire	2	1	Teeny
+TM2100	Base	32EF7667	Spinarak	Swarm (1)	Calm	♀	15	25	16	31	13	29	Flying	1	1	Jumbo
+TM2101	Base	875BBE4D	Spinarak	Swarm (1)	Rash	♂	23	7	19	31	3	30	Steel	1	1	Jumbo
+TM2102	Base	9671120E	Spinarak	Swarm (1)	Careful	♀	29	6	28	25	20	31	Fire	1	1	Teeny
+TM2103	Base	BB17DE54	Spinarak	Swarm (1)	Quiet	♀	6	1	31	11	12	1	Dragon	1	1	Jumbo
+TM2104	Base	F50922C9	Spinarak	Insomnia (2)	Jolly	♂	6	26	16	21	2	31	Ground	1	1	Teeny
+TM2105	Base	8FD52104	Swinub	Snow Cloak (2)	Lax	♂	19	11	28	20	31	29	Ice	1	2	Teeny
+TM2106	Base	0B0F47F6	Timburr	Guts (1)	Quirky	♂	10	10	31	21	3	25	Fairy	1	2	Teeny
+TM2107	Base	816F8379	Timburr	Guts (1)	Impish	♀	29	6	14	12	18	31	Psychic	1	2	Jumbo
+TM2108	Base	0FA59196	Vulpix-Normal	Flash Fire (1)	Rash	♂	10	31	15	1	31	9	Fairy	2	2	Teeny
+TM2109	Base	1CE89367	Wooper-Normal	Water Absorb (2)	Brave	♂	31	23	6	17	26	31	Flying	2	1	Jumbo
+TM2110	Base	4C7D6D5E	Wooper-Normal	Damp (1)	Calm	♀	23	31	31	25	17	6	Fairy	2	1	Teeny
+TM2111	Base	30151551	Wooper-Normal	Damp (1)	Quiet	♂	3	22	28	31	17	15	Electric	1	1	Teeny
+TM2112	Base	4BEF578F	Wooper-Normal	Damp (1)	Sassy	♀	17	31	2	19	23	29	Water	1	1	Teeny
+TM2113	Base	4DCAF373	Wooper-Normal	Water Absorb (2)	Impish	♂	31	23	18	18	1	12	Ice	1	1	Jumbo
+TM2114	Base	574177A1	Wooper-Normal	Water Absorb (2)	Serious	♀	6	26	28	26	3	31	Steel	1	1	Jumbo
+TM2115	Base	81232116	Wooper-Normal	Water Absorb (2)	Naive	♂	6	16	1	0	31	11	Fairy	1	1	Jumbo
+TM2116	Base	81A8B542	Wooper-Normal	Water Absorb (2)	Gentle	♀	2	30	11	29	31	21	Psychic	1	1	Teeny
+TM2117	Base	8B4F2B09	Wooper-Normal	Water Absorb (2)	Lonely	♀	0	30	27	31	3	5	Ground	1	1	Jumbo
+TM2118	Base	E23B6544	Wooper-Normal	Damp (1)	Timid	♂	19	17	19	24	31	30	Steel	1	1	Teeny
+TM2119	Base	F15DFDA0	Wooper-Normal	Damp (1)	Careful	♀	16	10	24	6	17	31	Dark	1	1	Jumbo
+TM2120	Base	CA2F80FE	Yanma	Compound Eyes (2)	Rash	♂	15	6	31	15	6	10	Flying	1	2	Jumbo

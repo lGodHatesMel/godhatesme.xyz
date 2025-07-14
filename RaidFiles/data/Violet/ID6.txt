@@ -1,0 +1,125 @@
+ID	Type	Seed	Pokemon	Ability	Nature	Gender	HP	ATK	DEF	SPA	SPD	SPE	TeraType	IVCount	Stars	Mark
+ID61	Black	059A8B63	Alcremie-Vanilla Cream	Aroma Veil (H)	Gentle	♀	31	31	31	31	0	31	Ice	5	6	Jumbo
+ID62	Black	38F26B79	Alcremie-Vanilla Cream	Aroma Veil (H)	Naive	♀	31	31	31	31	31	27	Rock	5	6	Jumbo
+ID63	Black	5DF55B5D	Alcremie-Vanilla Cream	Aroma Veil (H)	Modest	♀	31	31	31	31	29	31	Flying	5	6	Teeny
+ID64	Black	719C0B46	Alcremie-Vanilla Cream	Aroma Veil (H)	Mild	♀	31	31	16	31	31	31	Fighting	5	6	Teeny
+ID65	Black	878F7B27	Alcremie-Vanilla Cream	Aroma Veil (H)	Bold	♀	31	31	31	31	31	12	Flying	5	6	Jumbo
+ID66	Black	89A491B3	Alcremie-Vanilla Cream	Aroma Veil (H)	Calm	♀	31	31	31	31	20	31	Ice	5	6	Teeny
+ID67	Black	B3D25B76	Alcremie-Vanilla Cream	Aroma Veil (H)	Hardy	♀	31	31	31	31	31	3	Fairy	5	6	Jumbo
+ID68	Black	B5F88479	Alcremie-Vanilla Cream	Aroma Veil (H)	Impish	♀	31	15	31	31	31	31	Ghost	5	6	Jumbo
+ID69	Black	CF349B1E	Alcremie-Vanilla Cream	Aroma Veil (H)	Adamant	♀	31	31	0	31	31	31	Flying	5	6	Jumbo
+ID610	Black	17C72F67	Dugtrio-Alola	Sand Force (H)	Naughty	♂	31	31	31	31	30	31	Flying	5	6	Teeny
+ID611	Black	65A2AF4D	Dugtrio-Alola	Sand Force (H)	Lax	♂	31	31	31	29	31	31	Steel	5	6	Jumbo
+ID612	Black	D64660E6	Dugtrio-Alola	Sand Force (H)	Bashful	♂	31	31	31	31	31	0	Fighting	5	6	Teeny
+ID613	Black	DD366F43	Dugtrio-Alola	Sand Force (H)	Bold	♀	31	31	31	31	5	31	Fire	5	6	Jumbo
+ID614	Black	7B3DBB9C	Duraludon	Stalwart (H)	Sassy	♀	31	31	31	16	31	31	Fighting	5	6	Jumbo
+ID615	Black	05EC24B2	Excadrill	Mold Breaker (H)	Timid	♂	31	31	14	31	31	31	Psychic	5	6	Jumbo
+ID616	Black	1A6D6FF9	Excadrill	Mold Breaker (H)	Hardy	♀	31	31	31	24	31	31	Fire	5	6	Jumbo
+ID617	Black	6386C9C8	Excadrill	Mold Breaker (H)	Lax	♀	31	31	31	31	0	31	Poison	5	6	Jumbo
+ID618	Black	6DEF19B2	Excadrill	Mold Breaker (H)	Careful	♀	31	31	31	31	17	31	Psychic	5	6	Jumbo
+ID619	Black	82B34FDF	Excadrill	Mold Breaker (H)	Hardy	♀	31	31	31	31	31	14	Dragon	5	6	Jumbo
+ID620	Black	AA8869DB	Excadrill	Mold Breaker (H)	Impish	♂	31	31	31	1	31	31	Fairy	5	6	Teeny
+ID621	Black	39A74D60	Exeggutor-Alola	Harvest (H)	Naughty	♀	31	31	31	31	31	7	Electric	5	6	Teeny
+ID622	Black	73C74D64	Exeggutor-Alola	Harvest (H)	Bold	♀	31	31	31	31	24	31	Fire	5	6	Jumbo
+ID623	Black	7CA2DD14	Exeggutor-Alola	Harvest (H)	Impish	♂	31	31	31	31	31	12	Dragon	5	6	Jumbo
+ID624	Black	A85CFD73	Exeggutor-Alola	Harvest (H)	Quiet	♂	31	2	31	31	31	31	Ice	5	6	Teeny
+ID625	Black	CF8BA49A	Exeggutor-Alola	Harvest (H)	Naive	♀	31	31	31	31	31	2	Steel	5	6	Teeny
+ID626	Black	D2B8A2A9	Exeggutor-Alola	Harvest (H)	Careful	♂	31	20	31	31	31	31	Ground	5	6	Teeny
+ID627	Black	F624D2E2	Exeggutor-Alola	Harvest (H)	Naive	♀	31	31	31	31	7	31	Poison	5	6	Teeny
+ID628	Black	F7FD0284	Exeggutor-Alola	Harvest (H)	Careful	♂	31	31	28	31	31	31	Fire	5	6	Teeny
+ID629	Black	0F5C1915	Flygon	Levitate (1)	Jolly	♀	31	31	31	31	4	31	Dark	5	6	Jumbo
+ID630	Black	6F78A8CF	Flygon	Levitate (1)	Gentle	♂	11	31	31	31	31	31	Water	5	6	Teeny
+ID631	Black	4821A161	Golem-Alola	Galvanize (H)	Sassy	♀	10	31	31	31	31	31	Ghost	5	6	Jumbo
+ID632	Black	AE8BEAB5	Golurk	No Guard (H)	Serious	-	31	31	11	31	31	31	Dark	5	6	Teeny
+ID633	Black	9361445C	Kingdra	Damp (H)	Rash	♀	31	31	31	31	31	7	Flying	5	6	Teeny
+ID634	Black	17C3EC62	Kleavor	Sharpness (H)	Adamant	♂	7	31	31	31	31	31	Steel	5	6	Teeny
+ID635	Black	257BB245	Kleavor	Sharpness (H)	Bashful	♂	31	31	31	31	17	31	Normal	5	6	Jumbo
+ID636	Black	72178CA5	Kleavor	Sharpness (H)	Modest	♀	31	9	31	31	31	31	Normal	5	6	Jumbo
+ID637	Black	80975C90	Kleavor	Sharpness (H)	Serious	♀	31	31	26	31	31	31	Grass	5	6	Teeny
+ID638	Black	C9151C80	Kleavor	Sharpness (H)	Hasty	♀	31	31	31	1	31	31	Ghost	5	6	Teeny
+ID639	Black	092DB74B	Lapras	Hydration (H)	Impish	♀	31	31	31	22	31	31	Bug	5	6	Jumbo
+ID640	Black	4BEF578F	Lapras	Hydration (H)	Sassy	♀	31	31	31	31	12	31	Water	5	6	Teeny
+ID641	Black	54B5D74E	Lapras	Hydration (H)	Bashful	♂	31	31	31	31	31	23	Fire	5	6	Teeny
+ID642	Black	6E64C789	Lapras	Hydration (H)	Brave	♂	31	31	8	31	31	31	Ground	5	6	Teeny
+ID643	Black	7A768792	Lapras	Hydration (H)	Impish	♂	31	31	7	31	31	31	Psychic	5	6	Jumbo
+ID644	Black	EF29E794	Lapras	Hydration (H)	Adamant	♀	19	31	31	31	31	31	Dragon	5	6	Teeny
+ID645	Black	30AB454D	Magmortar	Vital Spirit (H)	Naughty	♀	31	31	20	31	31	31	Steel	5	6	Jumbo
+ID646	Black	7E3CF72A	Magmortar	Vital Spirit (H)	Lax	♀	31	31	9	31	31	31	Rock	5	6	Teeny
+ID647	Black	C58FD6F7	Magmortar	Vital Spirit (H)	Relaxed	♂	31	31	31	31	28	31	Steel	5	6	Jumbo
+ID648	Black	D480E6E2	Magmortar	Vital Spirit (H)	Jolly	♀	31	31	31	31	31	2	Ice	5	6	Teeny
+ID649	Black	CDB99128	Malamar	Infiltrator (H)	Mild	♀	14	31	31	31	31	31	Poison	5	6	Teeny
+ID650	Black	D9D3F50B	Malamar	Infiltrator (H)	Calm	♀	31	31	29	31	31	31	Bug	5	6	Jumbo
+ID651	Black	14A2596B	Metagross	Light Metal (H)	Jolly	-	31	31	31	28	31	31	Bug	5	6	Jumbo
+ID652	Black	4088193B	Metagross	Light Metal (H)	Bashful	-	31	31	31	31	3	31	Electric	5	6	Jumbo
+ID653	Black	821ED953	Metagross	Light Metal (H)	Hasty	-	31	31	23	31	31	31	Ice	5	6	Teeny
+ID654	Black	BF66E95B	Metagross	Light Metal (H)	Sassy	-	31	19	31	31	31	31	Flying	5	6	Jumbo
+ID655	Black	C59F692B	Metagross	Light Metal (H)	Quiet	-	17	31	31	31	31	31	Bug	5	6	Jumbo
+ID656	Black	47508F01	Muk-Alola	Power of Alchemy (H)	Hardy	♀	31	3	31	31	31	31	Bug	5	6	Jumbo
+ID657	Black	52285EE7	Muk-Alola	Power of Alchemy (H)	Lax	♀	31	31	16	31	31	31	Flying	5	6	Teeny
+ID658	Black	9F7780C6	Muk-Alola	Power of Alchemy (H)	Lax	♀	31	15	31	31	31	31	Fighting	5	6	Teeny
+ID659	Black	C980D030	Muk-Alola	Power of Alchemy (H)	Lax	♂	31	31	31	28	31	31	Grass	5	6	Teeny
+ID660	Black	CF14D035	Muk-Alola	Power of Alchemy (H)	Lax	♀	31	31	31	31	31	9	Dark	5	6	Teeny
+ID661	Black	DA17C0C8	Muk-Alola	Power of Alchemy (H)	Quirky	♀	15	31	31	31	31	31	Poison	5	6	Teeny
+ID662	Black	DB113EF6	Muk-Alola	Power of Alchemy (H)	Gentle	♂	31	31	31	31	22	31	Fairy	5	6	Jumbo
+ID663	Black	E2217ECF	Muk-Alola	Power of Alchemy (H)	Quirky	♀	31	31	2	31	31	31	Water	5	6	Jumbo
+ID664	Black	06D17CEA	Overqwil	Intimidate (H)	Hasty	♀	31	11	31	31	31	31	Rock	5	6	Jumbo
+ID665	Black	4640DCC0	Overqwil	Intimidate (H)	Quiet	♀	31	31	31	23	31	31	Ghost	5	6	Jumbo
+ID666	Black	93EC8D03	Overqwil	Intimidate (H)	Bashful	♂	31	26	31	31	31	31	Ice	5	6	Jumbo
+ID667	Black	9671120E	Overqwil	Intimidate (H)	Careful	♂	31	31	23	31	31	31	Fire	5	6	Teeny
+ID668	Black	9CD86CC7	Overqwil	Intimidate (H)	Jolly	♂	31	31	16	31	31	31	Flying	5	6	Jumbo
+ID669	Black	C7B242FD	Overqwil	Intimidate (H)	Relaxed	♀	31	6	31	31	31	31	Flying	5	6	Jumbo
+ID670	Black	F0E43546	Overqwil	Intimidate (H)	Naive	♂	30	31	31	31	31	31	Fighting	5	6	Jumbo
+ID671	Black	80CCC82C	Porygon-Z	Analytic (H)	Modest	-	31	31	31	31	19	31	Ghost	5	6	Teeny
+ID672	Black	8E2E584C	Porygon-Z	Analytic (H)	Mild	-	31	31	31	31	31	11	Ghost	5	6	Teeny
+ID673	Black	F74E183A	Porygon-Z	Analytic (H)	Brave	-	31	31	31	31	31	11	Water	5	6	Teeny
+ID674	Black	0B0F47F6	Porygon2	Analytic (H)	Brave	-	31	31	31	31	24	31	Fairy	5	6	Teeny
+ID675	Black	1C1C679A	Porygon2	Analytic (H)	Serious	-	31	3	31	31	31	31	Steel	5	6	Jumbo
+ID676	Black	23FBF7EB	Porygon2	Analytic (H)	Quiet	-	31	25	31	31	31	31	Bug	5	6	Jumbo
+ID677	Black	427FC7CE	Porygon2	Analytic (H)	Naive	-	31	31	25	31	31	31	Fire	5	6	Teeny
+ID678	Black	4B4127AD	Porygon2	Analytic (H)	Lonely	-	14	31	31	31	31	31	Steel	5	6	Jumbo
+ID679	Black	85155404	Porygon2	Analytic (H)	Quiet	-	31	31	31	31	31	15	Fighting	5	6	Jumbo
+ID680	Black	AC7CF7A5	Porygon2	Analytic (H)	Gentle	-	10	31	31	31	31	31	Normal	5	6	Jumbo
+ID681	Black	AE57C7C0	Porygon2	Analytic (H)	Bashful	-	31	31	31	31	23	31	Electric	5	6	Teeny
+ID682	Black	B604E7CB	Porygon2	Analytic (H)	Lonely	-	31	31	31	13	31	31	Bug	5	6	Teeny
+ID683	Black	C173F7B9	Porygon2	Analytic (H)	Rash	-	31	3	31	31	31	31	Fairy	5	6	Teeny
+ID684	Black	F6FA779D	Porygon2	Analytic (H)	Rash	-	31	14	31	31	31	31	Normal	5	6	Teeny
+ID685	Black	19602FED	Reuniclus	Regenerator (H)	Modest	♀	31	24	31	31	31	31	Steel	5	6	Jumbo
+ID686	Black	B17E6A20	Reuniclus	Regenerator (H)	Calm	♀	3	31	31	31	31	31	Psychic	5	6	Jumbo
+ID687	Black	C3733A2C	Reuniclus	Regenerator (H)	Careful	♀	31	31	31	17	31	31	Ghost	5	6	Teeny
+ID688	Black	EE19FA02	Reuniclus	Regenerator (H)	Brave	♂	31	31	31	31	8	31	Rock	5	6	Jumbo
+ID689	Black	FBF9EFE4	Reuniclus	Regenerator (H)	Quirky	♀	31	31	31	31	16	31	Ghost	5	6	Teeny
+ID690	Black	B87681F2	Rhyperior	Reckless (H)	Naive	♂	31	31	31	31	29	31	Psychic	5	6	Jumbo
+ID691	Black	1184E3D6	Sandslash-Alola	Slush Rush (H)	Naughty	♂	31	31	31	12	31	31	Fairy	5	6	Teeny
+ID692	Black	390BD325	Sandslash-Alola	Slush Rush (H)	Mild	♂	18	31	31	31	31	31	Normal	5	6	Teeny
+ID693	Black	418EE30D	Sandslash-Alola	Slush Rush (H)	Naughty	♀	31	31	31	19	31	31	Steel	5	6	Teeny
+ID694	Black	4DCAF373	Sandslash-Alola	Slush Rush (H)	Lonely	♂	31	31	31	31	31	18	Ice	5	6	Jumbo
+ID695	Black	8C535D94	Sandslash-Alola	Slush Rush (H)	Sassy	♀	31	5	31	31	31	31	Dragon	5	6	Jumbo
+ID696	Black	A8D2C371	Sandslash-Alola	Slush Rush (H)	Adamant	♀	31	31	31	31	31	23	Electric	5	6	Jumbo
+ID697	Black	C3BDB181	Sandslash-Alola	Slush Rush (H)	Jolly	♂	31	31	31	31	31	11	Steel	5	6	Teeny
+ID698	Black	F8BF8366	Sandslash-Alola	Slush Rush (H)	Lonely	♂	31	31	31	31	27	31	Fighting	5	6	Jumbo
+ID699	Black	1695E87B	Skarmory	Weak Armor (H)	Rash	♀	31	31	31	31	5	31	Bug	5	6	Jumbo
+ID6100	Black	FD4CF882	Skarmory	Weak Armor (H)	Impish	♂	9	31	31	31	31	31	Dragon	5	6	Jumbo
+ID6101	Black	021DA3C8	Slowbro-Galar	Regenerator (H)	Adamant	♀	31	31	15	31	31	31	Poison	5	6	Teeny
+ID6102	Black	05ABEDFF	Slowbro-Galar	Regenerator (H)	Hasty	♀	31	31	20	31	31	31	Steel	5	6	Jumbo
+ID6103	Black	24C2B39A	Slowbro-Galar	Regenerator (H)	Lonely	♂	31	31	23	31	31	31	Fighting	5	6	Jumbo
+ID6104	Black	343DB3E2	Slowbro-Galar	Regenerator (H)	Bashful	♀	31	31	31	31	31	5	Dark	5	6	Teeny
+ID6105	Black	6DA133FD	Slowbro-Galar	Regenerator (H)	Timid	♀	31	31	31	31	31	4	Dragon	5	6	Jumbo
+ID6106	Black	7B26D396	Slowbro-Galar	Regenerator (H)	Naughty	♀	31	31	31	31	31	6	Fairy	5	6	Teeny
+ID6107	Black	7F8FDE08	Slowbro-Galar	Regenerator (H)	Modest	♀	31	16	31	31	31	31	Poison	5	6	Jumbo
+ID6108	Black	B31C33FC	Slowbro-Galar	Regenerator (H)	Jolly	♂	31	31	31	31	4	31	Bug	5	6	Teeny
+ID6109	Black	BA8933E2	Slowbro-Galar	Regenerator (H)	Bashful	♂	25	31	31	31	31	31	Electric	5	6	Teeny
+ID6110	Black	EBAC73DF	Slowbro-Galar	Regenerator (H)	Modest	♂	31	31	30	31	31	31	Fairy	5	6	Teeny
+ID6111	Black	09015078	Slowking-Galar	Regenerator (H)	Bold	♂	31	31	31	6	31	31	Steel	5	6	Jumbo
+ID6112	Black	1B7D905F	Slowking-Galar	Regenerator (H)	Naive	♀	1	31	31	31	31	31	Grass	5	6	Jumbo
+ID6113	Black	1EF65E4C	Slowking-Galar	Regenerator (H)	Bashful	♀	31	31	15	31	31	31	Ghost	5	6	Jumbo
+ID6114	Black	4CE0B3A9	Slowking-Galar	Regenerator (H)	Jolly	♀	31	31	31	31	18	31	Ground	5	6	Teeny
+ID6115	Black	54CCD05E	Slowking-Galar	Regenerator (H)	Brave	♂	31	31	31	3	31	31	Psychic	5	6	Teeny
+ID6116	Black	5A2C6E5E	Slowking-Galar	Regenerator (H)	Calm	♀	31	15	31	31	31	31	Poison	5	6	Jumbo
+ID6117	Black	91B3AE94	Slowking-Galar	Regenerator (H)	Lonely	♀	31	23	31	31	31	31	Dragon	5	6	Teeny
+ID6118	Black	1BD04C26	Whimsicott	Chlorophyll (H)	Bold	♂	31	31	31	9	31	31	Fighting	5	6	Teeny
+ID6119	Black	32527C32	Whimsicott	Chlorophyll (H)	Serious	♀	31	31	31	13	31	31	Psychic	5	6	Jumbo
+ID6120	Black	65A101F2	Whimsicott	Chlorophyll (H)	Adamant	♂	31	31	31	22	31	31	Psychic	5	6	Teeny
+ID6121	Black	79895C2F	Whimsicott	Chlorophyll (H)	Quiet	♀	31	31	31	31	26	31	Water	5	6	Teeny
+ID6122	Black	97908C43	Whimsicott	Chlorophyll (H)	Gentle	♂	31	31	31	24	31	31	Ice	5	6	Jumbo
+ID6123	Black	D2EF5BF4	Whimsicott	Chlorophyll (H)	Quirky	♂	14	31	31	31	31	31	Dragon	5	6	Teeny
+ID6124	Black	DB1D5C25	Whimsicott	Chlorophyll (H)	Quiet	♀	31	17	31	31	31	31	Normal	5	6	Jumbo

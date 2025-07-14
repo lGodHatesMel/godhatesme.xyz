@@ -1,0 +1,125 @@
+ID	Type	Seed	Pokemon	Ability	Nature	Gender	HP	ATK	DEF	SPA	SPD	SPE	TeraType	IVCount	Stars	Mark
+P21S	Base	1781AEBD	Applin	Ripen (1)	Naive	♀	31	17	21	31	30	19	Electric	2	1	Jumbo
+P22S	Base	6D59291D	Applin	Gluttony (2)	Gentle	♀	16	31	19	23	10	22	Dragon	1	1	Jumbo
+P23S	Base	249B7A21	Azurill	Huge Power (2)	Gentle	♀	15	31	9	9	18	31	Flying	2	1	Jumbo
+P24S	Base	2E5038E0	Azurill	Huge Power (2)	Quiet	♀	31	4	8	14	23	12	Ground	1	1	Jumbo
+P25S	Base	6E64C789	Azurill	Huge Power (2)	Impish	♂	31	1	4	4	24	7	Ground	1	1	Teeny
+P26S	Base	BEF3B8D6	Azurill	Thick Fat (1)	Impish	♀	11	30	0	15	16	31	Fairy	1	1	Jumbo
+P27S	Base	3459BDAB	Bonsly	Sturdy (1)	Naughty	♀	1	5	7	20	31	31	Bug	2	1	Jumbo
+P28S	Base	9B87BDC9	Bonsly	Rock Head (2)	Bashful	♂	6	1	19	30	20	31	Ground	1	1	Jumbo
+P29S	Base	F15DFDA0	Bonsly	Sturdy (1)	Careful	♀	16	10	24	6	17	31	Dark	1	1	Jumbo
+P210S	Base	A0869662	Bounsweet	Oblivious (2)	Bold	♀	25	31	18	3	31	9	Fire	2	1	Teeny
+P211S	Base	32EF7667	Bounsweet	Leaf Guard (1)	Calm	♀	15	25	16	31	13	29	Flying	1	1	Jumbo
+P212S	Base	6F8F11BC	Bounsweet	Oblivious (2)	Careful	♀	5	5	10	6	31	15	Dark	1	1	Teeny
+P213S	Base	89A491B3	Bounsweet	Leaf Guard (1)	Gentle	♀	31	25	2	7	27	6	Ice	1	1	Teeny
+P214S	Base	FF685643	Bounsweet	Oblivious (2)	Naughty	♀	5	15	26	15	28	31	Rock	1	1	Teeny
+P215S	Base	0E98634D	Charcadet	Flash Fire (1)	Brave	♀	19	10	0	30	21	31	Steel	1	1	Teeny
+P216S	Base	7C944B8B	Charcadet	Flash Fire (1)	Naughty	♀	26	31	23	26	15	29	Bug	1	1	Teeny
+P217S	Base	B6A38C3E	Charcadet	Flash Fire (1)	Rash	♀	30	31	18	3	1	20	Poison	1	1	Jumbo
+P218S	Base	AC4D9D38	Combee	Honey Gather (1)	Impish	♂	21	27	31	28	30	23	Flying	1	1	Teeny
+P219S	Base	EE19FA02	Cufant	Sheer Force (1)	Brave	♂	31	31	3	9	2	29	Rock	2	2	Jumbo
+P220S	Base	F624D2E2	Deerling-Spring	Chlorophyll (1)	Relaxed	♂	23	18	21	31	16	8	Poison	1	1	Teeny
+P221S	Base	4C7D6D5E	Drowzee	Insomnia (1)	Calm	♀	23	31	31	25	17	6	Fairy	2	1	Teeny
+P222S	Base	C1D2869D	Dunsparce	Run Away (2)	Bashful	♀	31	23	15	14	8	31	Flying	2	1	Teeny
+P223S	Base	EB364AA3	Dunsparce	Run Away (2)	Gentle	♂	29	18	8	3	31	31	Fairy	2	1	Teeny
+P224S	Base	1ACB3E49	Dunsparce	Serene Grace (1)	Hasty	♀	27	14	27	31	6	25	Ground	1	1	Jumbo
+P225S	Base	73C74D64	Fidough	Own Tempo (1)	Bold	♂	31	6	18	0	1	3	Fire	1	1	Jumbo
+P226S	Base	B7CF4D39	Fidough	Own Tempo (1)	Jolly	♂	2	7	31	2	19	28	Flying	1	1	Jumbo
+P227S	Base	B3D25B76	Finneon	Swift Swim (1)	Hardy	♂	10	19	9	31	16	30	Fairy	1	2	Jumbo
+P228S	Base	57A963A7	Flabébé-Red	Flower Veil (1)	Quirky	♀	14	31	8	14	30	21	Flying	1	1	Jumbo
+P229S	Base	73D0FACE	Flabébé-Red	Flower Veil (1)	Quiet	♀	24	18	26	31	3	23	Fire	1	1	Teeny
+P230S	Base	0613D488	Fletchling	Big Pecks (1)	Bold	♀	13	9	28	7	31	30	Poison	1	2	Jumbo
+P231S	Base	955C29F1	Flittle	Frisk (2)	Rash	♂	31	14	31	19	10	16	Electric	2	1	Teeny
+P232S	Base	35D51612	Flittle	Anticipation (1)	Gentle	♂	31	14	8	0	30	11	Psychic	1	1	Jumbo
+P233S	Base	427FC7CE	Flittle	Anticipation (1)	Naughty	♀	31	7	13	28	17	25	Fire	1	1	Teeny
+P234S	Base	B30CAA20	Flittle	Anticipation (1)	Careful	♂	31	18	10	14	7	9	Psychic	1	1	Teeny
+P235S	Base	F3A269B5	Flittle	Frisk (2)	Rash	♀	2	17	31	14	8	14	Dark	1	1	Teeny
+P236S	Base	D8D84006	Gastly	Levitate (1)	Naughty	♀	31	9	24	25	29	23	Fighting	1	2	Teeny
+P237S	Base	3C3CC71C	Hatenna	Anticipation (2)	Gentle	♀	30	31	22	25	18	23	Water	1	1	Jumbo
+P238S	Base	59C854DA	Hatenna	Healer (1)	Naive	♀	27	4	11	17	5	31	Dark	1	1	Jumbo
+P239S	Base	608A14CF	Hatenna	Healer (1)	Docile	♀	24	30	12	21	13	31	Water	1	1	Teeny
+P240S	Base	DD16C161	Hatenna	Anticipation (2)	Naughty	♀	31	17	7	29	17	10	Fire	1	1	Teeny
+P241S	Base	2AF11856	Igglybuff	Cute Charm (1)	Sassy	♂	23	31	16	9	5	15	Fairy	1	1	Teeny
+P242S	Base	D2EF5BF4	Igglybuff	Cute Charm (1)	Quirky	♀	9	2	26	31	29	12	Dragon	1	1	Teeny
+P243S	Base	574177A1	Kricketot	Shed Skin (1)	Serious	♀	6	26	28	26	3	31	Steel	1	1	Jumbo
+P244S	Base	745274E9	Lechonk	Aroma Veil (1)	Gentle	♀	11	4	21	31	15	22	Ground	1	1	Teeny
+P245S	Base	7B26D396	Lechonk	Gluttony (2)	Naughty	♀	2	12	27	31	6	24	Fairy	1	1	Teeny
+P246S	Base	1CE89367	Litleo	Unnerve (2)	Brave	♀	31	23	6	17	26	31	Flying	2	1	Jumbo
+P247S	Base	4DCAF373	Litleo	Unnerve (2)	Impish	♀	31	23	18	18	1	12	Ice	1	1	Jumbo
+P248S	Base	CA2F80FE	Magikarp	Swift Swim (1)	Rash	♂	15	6	31	15	6	10	Flying	1	2	Jumbo
+P249S	Base	F50922C9	Makuhita	Guts (2)	Jolly	♂	6	26	16	21	2	31	Ground	1	1	Teeny
+P250S	Base	F81F05CE	Makuhita	Thick Fat (1)	Quirky	♂	19	20	15	31	9	22	Fire	1	1	Jumbo
+P251S	Base	37E4C67A	Mankey	Vital Spirit (1)	Serious	♂	17	20	31	13	13	1	Poison	1	2	Teeny
+P252S	Base	8FD52104	Mudbray	Stamina (2)	Lax	♂	19	11	28	20	31	29	Ice	1	2	Teeny
+P253S	Base	672E886D	Nacli	Purifying Salt (1)	Adamant	♂	21	16	26	31	31	23	Steel	2	1	Jumbo
+P254S	Base	888AF09F	Nacli	Purifying Salt (1)	Lonely	♀	23	7	19	9	31	31	Ghost	2	1	Teeny
+P255S	Base	6E3D8867	Nacli	Sturdy (2)	Docile	♀	13	6	2	31	5	22	Flying	1	1	Jumbo
+P256S	Base	80CCC82C	Nacli	Purifying Salt (1)	Modest	♂	17	31	17	13	10	27	Ghost	1	1	Teeny
+P257S	Base	25A8E69D	Nymble	Swarm (1)	Hasty	♂	31	30	10	0	0	0	Bug	1	1	Teeny
+P258S	Base	E23B6544	Nymble	Swarm (1)	Timid	♂	19	17	19	24	31	30	Steel	1	1	Teeny
+P259S	Base	85155404	Pawniard	Defiant (1)	Modest	♀	31	3	10	14	6	6	Fighting	1	2	Jumbo
+P260S	Base	8E131237	Petilil	Own Tempo (2)	Calm	♀	23	23	31	16	7	22	Fighting	1	1	Jumbo
+P261S	Base	96C00642	Petilil	Own Tempo (2)	Quiet	♀	31	29	22	18	23	26	Dragon	1	1	Jumbo
+P262S	Base	878F7B27	Pichu	Static (1)	Serious	♀	28	8	31	1	25	8	Flying	1	1	Jumbo
+P263S	Base	8CC18E0D	Pichu	Static (1)	Modest	♂	1	26	9	11	31	11	Steel	1	1	Teeny
+P264S	Base	C664DB30	Pichu	Static (1)	Gentle	♂	15	9	28	25	9	31	Grass	1	1	Teeny
+P265S	Base	256F639E	Pikachu-Normal	Static (1)	Hasty	♂	31	8	13	13	25	3	Rock	1	2	Teeny
+P266S	Base	0B0F47F6	Psyduck	Damp (1)	Quirky	♂	10	10	31	21	3	25	Fairy	1	2	Teeny
+P267S	Base	875BBE4D	Ralts	Synchronize (1)	Rash	♂	23	7	19	31	3	30	Steel	1	1	Jumbo
+P268S	Base	9671120E	Ralts	Synchronize (1)	Careful	♀	29	6	28	25	20	31	Fire	1	1	Teeny
+P269S	Base	BB17DE54	Ralts	Synchronize (1)	Quiet	♀	6	1	31	11	12	1	Dragon	1	1	Jumbo
+P270S	Base	3739A70B	Rellor	Compound Eyes (1)	Rash	♂	25	14	9	31	19	10	Bug	1	1	Teeny
+P271S	Base	58ECAADE	Rellor	Compound Eyes (1)	Hardy	♀	19	13	18	11	7	31	Psychic	1	1	Teeny
+P272S	Base	6D51CA2C	Rellor	Compound Eyes (1)	Naughty	♀	18	1	11	31	23	16	Ghost	1	1	Teeny
+P273S	Base	31869139	Rockruff-Normal	Vital Spirit (2)	Quiet	♂	9	26	26	2	31	24	Ground	1	1	Jumbo
+P274S	Base	82E962A5	Rockruff-Normal	Vital Spirit (2)	Naive	♂	19	22	21	12	31	9	Normal	1	1	Teeny
+P275S	Base	D480E6E2	Rockruff-Normal	Keen Eye (1)	Hasty	♂	27	31	14	22	16	24	Ice	1	1	Teeny
+P276S	Base	CB4F2884	Sandygast	Water Compaction (1)	Naughty	♀	10	13	31	17	31	9	Ground	2	2	Jumbo
+P277S	Base	D637AFCF	Shellder	Shell Armor (1)	Timid	♀	31	17	10	16	31	20	Water	2	1	Teeny
+P278S	Base	555C2FE3	Shellder	Skill Link (2)	Serious	♂	17	31	30	30	17	11	Bug	1	1	Jumbo
+P279S	Base	633D02D2	Shroodle	Pickpocket (2)	Bashful	♂	4	27	3	31	16	31	Psychic	2	1	Teeny
+P280S	Base	D6CC25E6	Shroodle	Unburden (1)	Calm	♀	5	31	23	7	8	6	Fighting	1	1	Jumbo
+P281S	Base	22D86013	Shroomish	Effect Spore (1)	Relaxed	♀	26	31	13	5	22	7	Ice	1	1	Teeny
+P282S	Base	450CA7E5	Shroomish	Effect Spore (1)	Lonely	♂	31	26	7	15	29	11	Normal	1	1	Teeny
+P283S	Base	EEABC326	Shroomish	Poison Heal (2)	Adamant	♂	31	26	19	22	2	22	Fighting	1	1	Teeny
+P284S	Base	0ACE4DFF	Sinistea-Phony	Weak Armor (1)	Serious	-	22	31	0	7	4	8	Fire	1	2	Jumbo
+P285S	Base	1B7D905F	Skiddo	Sap Sipper (1)	Naive	♀	12	21	31	6	1	11	Grass	1	1	Jumbo
+P286S	Base	5F04CA22	Skiddo	Sap Sipper (1)	Hardy	♂	31	8	11	12	15	8	Steel	1	1	Jumbo
+P287S	Base	092DB74B	Skwovet	Cheek Pouch (1)	Docile	♂	18	31	5	26	0	8	Bug	1	1	Jumbo
+P288S	Base	8160045F	Skwovet	Cheek Pouch (1)	Quirky	♀	13	15	31	16	10	13	Psychic	1	1	Teeny
+P289S	Base	05ABEDFF	Slowpoke-Normal	Oblivious (1)	Modest	♀	31	12	22	27	29	6	Steel	1	2	Jumbo
+P290S	Base	A373EBBF	Smoliv	Early Bird (1)	Gentle	♀	2	25	31	26	24	3	Flying	1	1	Jumbo
+P291S	Base	BF416659	Snom	Shield Dust (1)	Quiet	♂	4	11	7	17	31	7	Dragon	1	1	Jumbo
+P292S	Base	DE9EB445	Snom	Shield Dust (1)	Careful	♂	31	2	18	15	29	8	Normal	1	1	Jumbo
+P293S	Base	3E26F07C	Snorunt	Ice Body (2)	Sassy	♀	31	26	16	29	31	23	Water	2	2	Teeny
+P294S	Base	816F8379	Snorunt	Inner Focus (1)	Impish	♀	29	6	14	12	18	31	Psychic	1	2	Jumbo
+P295S	Base	7B48A909	Sunkern	Solar Power (2)	Modest	♂	16	15	14	28	31	0	Ground	1	1	Jumbo
+P296S	Base	9F7780C6	Sunkern	Chlorophyll (1)	Lax	♀	31	22	20	23	21	3	Fighting	1	1	Teeny
+P297S	Base	48AE5C52	Swablu	Natural Cure (1)	Sassy	♂	28	15	0	27	31	28	Psychic	1	1	Teeny
+P298S	Base	9DF8BC68	Swablu	Natural Cure (1)	Hardy	♂	31	4	5	28	28	13	Poison	1	1	Teeny
+P299S	Base	AE57C7C0	Swablu	Natural Cure (1)	Calm	♀	31	26	27	13	26	25	Electric	1	1	Teeny
+P2100S	Base	C2352F60	Tadbulb	Own Tempo (1)	Impish	♀	31	20	16	5	6	31	Dark	2	1	Teeny
+P2101S	Base	074F816D	Tadbulb	Static (2)	Jolly	♀	0	0	6	19	20	31	Steel	1	1	Jumbo
+P2102S	Base	1F390FC9	Tadbulb	Static (2)	Impish	♂	27	11	31	5	6	7	Ground	1	1	Jumbo
+P2103S	Base	6770C2BE	Tadbulb	Own Tempo (1)	Naughty	♂	5	20	31	15	28	26	Psychic	1	1	Teeny
+P2104S	Base	82B34FDF	Tadbulb	Own Tempo (1)	Hardy	♀	0	31	14	3	28	26	Dragon	1	1	Jumbo
+P2105S	Base	30151551	Tarountula	Insomnia (1)	Quiet	♂	3	22	28	31	17	15	Electric	1	1	Teeny
+P2106S	Base	81232116	Tarountula	Insomnia (1)	Naive	♂	6	16	1	0	31	11	Fairy	1	1	Jumbo
+P2107S	Base	81A8B542	Tarountula	Insomnia (1)	Gentle	♀	2	30	11	29	31	21	Psychic	1	1	Teeny
+P2108S	Base	C8070EDF	Tynamo	Levitate (1)	Lonely	♂	23	1	31	15	20	26	Fighting	1	1	Jumbo
+P2109S	Base	DA17C0C8	Tynamo	Levitate (1)	Quirky	♀	27	14	31	9	21	28	Poison	1	1	Teeny
+P2110S	Base	0FA59196	Varoom	Overcoat (1)	Rash	♂	10	31	15	1	31	9	Fairy	2	2	Teeny
+P2111S	Base	01FE8E13	Wattrel	Wind Power (1)	Timid	♀	20	19	15	14	31	1	Ice	1	1	Teeny
+P2112S	Base	1D254235	Wattrel	Volt Absorb (2)	Brave	♂	2	26	31	17	27	10	Dark	1	1	Jumbo
+P2113S	Base	5A10EACA	Wattrel	Volt Absorb (2)	Quirky	♂	20	20	17	27	21	31	Rock	1	1	Jumbo
+P2114S	Base	7A0CC7C0	Wattrel	Volt Absorb (2)	Modest	♀	21	5	26	10	21	31	Bug	1	1	Teeny
+P2115S	Base	8B4F2B09	Wattrel	Volt Absorb (2)	Lonely	♀	0	30	27	31	3	5	Ground	1	1	Jumbo
+P2116S	Base	B87681F2	Wiglett	Gooey (1)	Naive	♀	29	17	29	31	29	18	Psychic	1	1	Jumbo
+P2117S	Base	FE620B3D	Wiglett	Rattled (2)	Mild	♂	3	17	31	23	15	8	Fighting	1	1	Jumbo
+P2118S	Base	ABF21EE9	Wingull	Hydration (2)	Calm	♂	15	30	23	7	31	2	Ground	1	1	Jumbo
+P2119S	Base	E5111E27	Wingull	Keen Eye (1)	Jolly	♂	29	31	18	14	0	10	Flying	1	1	Teeny
+P2120S	Base	87EA6036	Wooper-Paldea	Water Absorb (2)	Gentle	♀	31	13	23	14	23	5	Fairy	1	1	Teeny
+P2121S	Base	66E1C796	Yungoos	Strong Jaw (2)	Adamant	♂	4	31	31	11	7	27	Fairy	2	1	Teeny
+P2122S	Base	06907AE9	Yungoos	Stakeout (1)	Docile	♂	31	14	18	9	27	10	Ground	1	1	Teeny
+P2123S	Base	6D315028	Yungoos	Stakeout (1)	Bold	♂	31	14	4	2	18	8	Poison	1	1	Teeny
+P2124S	Base	90511033	Yungoos	Stakeout (1)	Relaxed	♂	3	27	9	9	0	31	Ice	1	1	Jumbo

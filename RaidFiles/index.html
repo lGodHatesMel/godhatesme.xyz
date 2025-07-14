@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raid List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="game-version scarlet">Scarlet</div>
+            <div class="pokeball"></div>
+            <div class="game-version violet">Violet</div>
+        </div>
+        <div class="filters">
+            <div class="filter-group">
+                <button class="star-button">Any ★</button>
+                <button class="star-button">1-2 Stars</button>
+                <button class="star-button">3-5 Stars</button>
+                <button class="star-button">6 Stars</button>
+            </div>
+            <div class="filter-group">
+                <div class="searchable-dropdown">
+                    <input type="text" id="pokemon-search" placeholder="Any pokemon" autocomplete="off">
+                    <div class="dropdown-content" id="pokemon-dropdown"></div>
+                </div>
+                <div class="searchable-dropdown">
+                    <input type="text" id="ability-filter" placeholder="Any ability" autocomplete="off">
+                    <div class="dropdown-content" id="ability-dropdown"></div>
+                </div>
+                <div class="searchable-dropdown">
+                    <input type="text" id="nature-filter" placeholder="Any nature" autocomplete="off">
+                    <div class="dropdown-content" id="nature-dropdown"></div>
+                </div>
+            </div>
+            <div class="filter-group">
+                <input type="number" id="hp-filter" placeholder="HP">
+                <input type="number" id="attack-filter" placeholder="Attack">
+                <input type="number" id="defense-filter" placeholder="Defense">
+                <input type="number" id="sp-attack-filter" placeholder="Sp. Attack">
+                <input type="number" id="sp-defense-filter" placeholder="Sp. Defense">
+                <input type="number" id="speed-filter" placeholder="Speed">
+                <select id="tera-filter"><option value="All">Any tera</option></select>
+            </div>
+        </div>
+        <div class="raid-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Pokemon</th>
+                        <th>Ability</th>
+                        <th>Nature</th>
+                        <th>HP</th>
+                        <th>Atk</th>
+                        <th>Def</th>
+                        <th>SpAtk</th>
+                        <th>SpDef</th>
+                        <th>Spe</th>
+                        <th>Gen</th>
+                        <th>Tera</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Raid data will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

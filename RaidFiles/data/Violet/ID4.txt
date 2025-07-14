@@ -1,0 +1,123 @@
+ID	Type	Seed	Pokemon	Ability	Nature	Gender	HP	ATK	DEF	SPA	SPD	SPE	TeraType	IVCount	Stars	Mark
+ID41	Base	9B87BDC9	Araquanid	Water Absorb (H)	Bashful	♂	30	31	20	31	3	31	Ground	3	4	Jumbo
+ID42	Base	AC3A2DE5	Araquanid	Water Bubble (1)	Adamant	♀	31	31	17	31	29	23	Normal	3	4	Jumbo
+ID43	Base	F15DFDA0	Araquanid	Water Absorb (H)	Careful	♀	31	24	31	6	17	31	Dark	3	4	Jumbo
+ID44	Base	C2352F60	Bastiodon	Sturdy (1)	Impish	♂	31	6	31	20	31	31	Dark	4	4	Teeny
+ID45	Base	1F390FC9	Bastiodon	Sturdy (1)	Impish	♂	6	7	31	31	13	31	Ground	3	4	Jumbo
+ID46	Base	427FC7CE	Bastiodon	Sturdy (1)	Naughty	♂	31	17	25	16	31	31	Fire	3	4	Teeny
+ID47	Base	82B34FDF	Bastiodon	Sturdy (1)	Hardy	♂	31	31	28	31	26	14	Dragon	3	4	Jumbo
+ID48	Base	E127B7D8	Bastiodon	Sturdy (1)	Quiet	♂	31	31	11	31	17	22	Normal	3	4	Jumbo
+ID49	Base	96C00642	Beldum	Clear Body (1)	Quiet	-	31	22	18	23	26	31	Dragon	2	3	Jumbo
+ID410	Base	633D02D2	Bellossom	Healer (H)	Hasty	♂	3	31	16	31	31	31	Psychic	4	4	Teeny
+ID411	Base	06907AE9	Bellossom	Healer (H)	Docile	♂	31	31	31	27	10	14	Ground	3	4	Teeny
+ID412	Base	0E98634D	Bellossom	Chlorophyll (1)	Brave	♀	0	30	31	31	21	31	Steel	3	4	Teeny
+ID413	Base	3739A70B	Bellossom	Healer (H)	Docile	♀	13	31	31	31	1	19	Bug	3	4	Teeny
+ID414	Base	5A10EACA	Bellossom	Chlorophyll (1)	Quirky	♂	27	31	21	17	31	31	Rock	3	4	Jumbo
+ID415	Base	73D0FACE	Bellossom	Chlorophyll (1)	Timid	♀	31	26	31	31	3	23	Fire	3	4	Teeny
+ID416	Base	1F3900A6	Chinchou	Water Absorb (H)	Bold	♂	14	28	20	31	31	14	Fighting	2	3	Teeny
+ID417	Base	7530A8AB	Chinchou	Water Absorb (H)	Mild	♂	23	31	17	0	31	28	Bug	2	3	Jumbo
+ID418	Base	5F04CA22	Dewgong	Hydration (2)	Adamant	♀	31	15	8	31	31	22	Steel	3	4	Jumbo
+ID419	Base	01FE8E13	Diglett-Alola	Sand Force (H)	Timid	♀	15	14	1	31	31	6	Ice	2	3	Teeny
+ID420	Base	4BEF578F	Diglett-Alola	Sand Veil (1)	Sassy	♀	19	31	31	23	29	0	Water	2	3	Teeny
+ID421	Base	6D51CA2C	Diglett-Alola	Sand Veil (1)	Naughty	♀	1	11	31	31	23	16	Ghost	2	3	Teeny
+ID422	Base	81232116	Diglett-Alola	Sand Veil (1)	Mild	♂	31	1	0	11	31	19	Fairy	2	3	Jumbo
+ID423	Base	8E131237	Diglett-Alola	Sand Force (H)	Relaxed	♂	31	7	31	22	19	20	Fighting	2	3	Jumbo
+ID424	Base	1B7D905F	Dodrio	Early Bird (2)	Naive	♀	6	1	31	11	31	31	Grass	3	4	Jumbo
+ID425	Base	F33D63E1	Dodrio	Tangled Feet (H)	Sassy	♂	18	31	4	25	31	31	Water	3	4	Teeny
+ID426	Base	1781AEBD	Drilbur	Sand Rush (1)	Naive	♀	31	31	21	31	30	19	Electric	3	3	Jumbo
+ID427	Base	D60CCEB1	Drilbur	Sand Rush (1)	Impish	♀	31	21	5	31	0	22	Electric	2	3	Jumbo
+ID428	Base	732107F6	Duraludon	Light Metal (1)	Sassy	♂	31	29	31	2	31	31	Fairy	4	5	Teeny
+ID429	Base	AC852285	Duraludon	Light Metal (1)	Naughty	♂	31	31	1	31	31	26	Normal	4	5	Teeny
+ID430	Base	F7FD0284	Duraludon	Heavy Metal (2)	Careful	♀	31	31	3	31	21	31	Fire	4	5	Teeny
+ID431	Base	480FF164	Electabuzz	Static (1)	Hasty	♀	31	16	22	31	4	31	Electric	3	4	Teeny
+ID432	Base	821ED953	Electabuzz	Static (1)	Mild	♀	21	31	30	31	31	6	Ice	3	4	Teeny
+ID433	Base	37E4C67A	Electivire	Vital Spirit (H)	Serious	♂	13	31	31	1	31	31	Poison	4	5	Teeny
+ID434	Base	618CA780	Electivire	Motor Drive (1)	Lonely	♂	6	11	31	31	31	31	Poison	4	5	Jumbo
+ID435	Base	6B0E27ED	Electivire	Motor Drive (1)	Sassy	♂	31	31	31	9	31	17	Steel	4	5	Jumbo
+ID436	Base	85155404	Electivire	Motor Drive (1)	Bashful	♂	31	1	31	31	31	15	Fighting	4	5	Jumbo
+ID437	Base	9100C672	Electivire	Motor Drive (1)	Quirky	♂	15	31	31	31	31	9	Psychic	4	5	Teeny
+ID438	Base	AF953002	Electivire	Motor Drive (1)	Gentle	♂	31	31	13	21	31	31	Water	4	5	Jumbo
+ID439	Base	E5580A07	Electivire	Motor Drive (1)	Brave	♂	9	31	31	26	31	31	Flying	4	5	Jumbo
+ID440	Base	A5377AFE	Exeggutor-Normal	Harvest (H)	Bold	♀	31	31	31	18	31	31	Normal	5	5	Teeny
+ID441	Base	C3BDB181	Exeggutor-Normal	Chlorophyll (1)	Jolly	♂	31	31	26	31	31	11	Steel	4	5	Teeny
+ID442	Base	574177A1	Galvantula	Swarm (H)	Naughty	♀	26	3	31	31	31	31	Steel	4	4	Jumbo
+ID443	Base	E23B6544	Galvantula	Swarm (H)	Timid	♂	19	31	24	31	31	30	Steel	3	4	Teeny
+ID444	Base	22D86013	Geodude-Alola	Galvanize (H)	Relaxed	♀	13	31	31	5	22	7	Ice	2	3	Teeny
+ID445	Base	6770C2BE	Geodude-Alola	Galvanize (H)	Naughty	♂	20	15	31	28	26	31	Psychic	2	3	Teeny
+ID446	Base	82E962A5	Geodude-Alola	Sturdy (2)	Naive	♂	22	21	12	31	31	9	Normal	2	3	Teeny
+ID447	Base	C5DF1AB3	Geodude-Alola	Magnet Pull (1)	Adamant	♀	3	2	31	26	31	17	Ice	2	3	Teeny
+ID448	Base	878F7B27	Gloom	Chlorophyll (1)	Impish	♂	8	1	31	25	31	8	Flying	2	3	Jumbo
+ID449	Base	8CC18E0D	Gloom	Chlorophyll (1)	Modest	♂	26	31	9	11	31	11	Steel	2	3	Teeny
+ID450	Base	C664DB30	Gloom	Chlorophyll (1)	Mild	♂	28	31	25	9	30	31	Grass	2	3	Teeny
+ID451	Base	EEABC326	Gloom	Chlorophyll (1)	Adamant	♂	31	19	31	22	2	22	Fighting	2	3	Teeny
+ID452	Base	FE620B3D	Gloom	Chlorophyll (1)	Mild	♂	17	23	31	31	15	8	Fighting	2	3	Jumbo
+ID453	Base	AE57C7C0	Golett	No Guard (H)	Calm	-	31	27	31	13	26	25	Electric	2	3	Teeny
+ID454	Base	2AC45D03	Golurk	Klutz (2)	Gentle	-	31	31	31	10	31	31	Fairy	5	5	Jumbo
+ID455	Base	059A8B63	Granbull	Rattled (H)	Quiet	♀	31	21	29	31	31	31	Ice	4	4	Jumbo
+ID456	Base	A0869662	Granbull	Quick Feet (2)	Timid	♀	31	31	31	31	9	15	Fire	4	4	Teeny
+ID457	Base	32EF7667	Granbull	Intimidate (1)	Brave	♀	31	31	13	31	29	6	Flying	3	4	Jumbo
+ID458	Base	5D820662	Granbull	Intimidate (1)	Lonely	♀	31	31	11	7	31	15	Steel	3	4	Jumbo
+ID459	Base	A5C34664	Granbull	Quick Feet (2)	Relaxed	♀	15	18	31	31	31	15	Dragon	3	4	Jumbo
+ID460	Base	EE805368	Granbull	Intimidate (1)	Naive	♀	2	31	13	31	31	2	Poison	3	4	Jumbo
+ID461	Base	62620B05	Hitmonchan	Iron Fist (2)	Brave	♂	31	31	5	31	31	15	Normal	4	5	Teeny
+ID462	Base	D2EF5BF4	Hitmonlee	Unburden (H)	Quirky	♂	12	31	31	31	14	31	Dragon	4	5	Teeny
+ID463	Base	7B26D396	Hitmontop	Technician (2)	Sassy	♂	31	17	31	31	31	6	Fairy	4	5	Teeny
+ID464	Base	8C535D94	Inkay	Suction Cups (2)	Modest	♀	13	4	31	31	0	5	Dragon	2	3	Jumbo
+ID465	Base	CB4F2884	Kingdra	Sniper (2)	Naughty	♂	9	31	31	12	31	31	Ground	4	5	Jumbo
+ID466	Base	FD4CF882	Kingdra	Damp (H)	Naive	♀	15	6	31	31	31	31	Dragon	4	5	Jumbo
+ID467	Base	62FBF65E	Lanturn	Illuminate (2)	Rash	♀	12	31	31	31	1	4	Psychic	3	4	Teeny
+ID468	Base	7F8FDE08	Lapras	Water Absorb (1)	Modest	♂	31	18	16	31	31	31	Poison	4	5	Jumbo
+ID469	Base	6386C9C8	Magmar	Flame Body (1)	Lax	♂	17	27	31	31	16	31	Poison	3	4	Jumbo
+ID470	Base	B17E6A20	Magmar	Flame Body (1)	Bashful	♂	11	22	31	25	31	31	Psychic	3	4	Jumbo
+ID471	Base	BED10324	Magmar	Flame Body (1)	Modest	♀	31	31	5	31	27	22	Normal	3	4	Teeny
+ID472	Base	6DA133FD	Magmortar	Flame Body (1)	Timid	♂	31	9	31	31	31	4	Dragon	4	5	Jumbo
+ID473	Base	05ABEDFF	Malamar	Contrary (1)	Calm	♂	31	6	14	31	31	31	Steel	4	5	Jumbo
+ID474	Base	558C2DF7	Malamar	Infiltrator (H)	Calm	♀	31	31	31	31	29	25	Fairy	4	5	Jumbo
+ID475	Base	65A101F2	Malamar	Infiltrator (H)	Adamant	♂	31	29	31	1	31	31	Psychic	4	5	Teeny
+ID476	Base	1CE7EC71	Metagross	Light Metal (H)	Relaxed	-	31	31	10	31	5	31	Electric	4	5	Jumbo
+ID477	Base	38F26B79	Metagross	Light Metal (H)	Naive	-	31	31	31	26	31	14	Rock	4	5	Jumbo
+ID478	Base	EE19FA02	Metagross	Light Metal (H)	Docile	-	31	31	31	31	29	8	Rock	4	5	Jumbo
+ID479	Base	719C0B46	Metang	Clear Body (1)	Mild	-	31	24	29	31	31	17	Fighting	3	4	Teeny
+ID480	Base	3E26F07C	Minior-31	Shields Down (1)	Lax	-	31	23	31	29	31	31	Water	4	5	Teeny
+ID481	Base	89A491B3	Minun	Volt Absorb (H)	Calm	♂	31	31	2	7	27	6	Ice	2	3	Teeny
+ID482	Base	7B48A909	Plusle	Plus (1)	Modest	♂	31	15	14	28	31	0	Ground	2	3	Jumbo
+ID483	Base	AC91310F	Porygon	Trace (1)	Lonely	-	31	31	31	26	1	4	Water	3	3	Jumbo
+ID484	Base	6EA090BE	Porygon	Download (2)	Adamant	-	0	22	31	7	31	26	Ice	2	3	Teeny
+ID485	Base	F6FA779D	Porygon	Analytic (H)	Rash	-	29	5	31	31	12	16	Normal	2	3	Teeny
+ID486	Base	3162507D	Porygon-Z	Adaptability (1)	Bold	-	31	31	31	31	18	27	Steel	4	5	Jumbo
+ID487	Base	6D59291D	Porygon-Z	Download (2)	Hasty	-	31	31	31	31	22	11	Dragon	4	5	Jumbo
+ID488	Base	DB113EF6	Porygon2	Download (2)	Naughty	-	31	31	2	31	22	31	Fairy	4	5	Jumbo
+ID489	Base	BEF3B8D6	Rhydon	Reckless (H)	Careful	♀	31	15	16	31	20	31	Fairy	3	4	Jumbo
+ID490	Base	0BA50BAF	Rhyhorn	Lightning Rod (1)	Mild	♀	31	14	21	1	8	31	Water	2	3	Jumbo
+ID491	Base	57A963A7	Rhyhorn	Rock Head (2)	Hardy	♂	31	31	14	30	21	23	Flying	2	3	Jumbo
+ID492	Base	EACA8BBF	Rhyhorn	Reckless (H)	Impish	♂	20	10	31	9	31	14	Bug	2	3	Teeny
+ID493	Base	2C95207F	Rhyperior	Solid Rock (2)	Modest	♂	31	2	31	31	5	31	Rock	4	5	Teeny
+ID494	Base	A8818B72	Rhyperior	Reckless (H)	Rash	♂	30	31	31	0	31	31	Psychic	4	5	Teeny
+ID495	Base	33A8FD30	Sandshrew-Alola	Snow Cloak (1)	Quiet	♂	21	0	31	31	28	27	Grass	2	3	Teeny
+ID496	Base	AC4D9D38	Sandshrew-Alola	Snow Cloak (1)	Impish	♂	27	28	31	30	23	31	Flying	2	3	Teeny
+ID497	Base	40A17CE7	Scrafty	Moxie (2)	Bashful	♂	31	22	11	31	9	31	Flying	3	4	Jumbo
+ID498	Base	59C854DA	Scrafty	Intimidate (H)	Naive	♀	11	17	5	31	31	31	Dark	3	4	Jumbo
+ID499	Base	608A14CF	Scrafty	Intimidate (H)	Bashful	♀	31	21	13	12	31	31	Water	3	4	Teeny
+ID4100	Base	745274E9	Scrafty	Moxie (2)	Gentle	♀	15	22	0	31	31	31	Ground	3	4	Teeny
+ID4101	Base	F624D2E2	Scrafty	Moxie (2)	Modest	♀	16	8	31	31	0	31	Poison	3	4	Teeny
+ID4102	Base	249B7A21	Seadra	Sniper (2)	Bold	♂	9	31	18	29	7	31	Flying	2	3	Jumbo
+ID4103	Base	87EA6036	Seadra	Sniper (2)	Gentle	♀	31	23	14	23	5	31	Fairy	2	3	Teeny
+ID4104	Base	90511033	Seadra	Poison Point (1)	Relaxed	♂	27	9	9	31	0	31	Ice	2	3	Jumbo
+ID4105	Base	C980D030	Seadra	Poison Point (1)	Sassy	♀	10	31	5	8	29	31	Grass	2	3	Teeny
+ID4106	Base	E5111E27	Shieldon	Sturdy (1)	Jolly	♂	18	31	14	0	10	31	Flying	2	3	Teeny
+ID4107	Base	1A6D6FF9	Skarmory	Keen Eye (1)	Bold	♀	31	31	31	8	14	31	Fire	4	5	Jumbo
+ID4108	Base	3459BDAB	Slowpoke-Galar	Gluttony (1)	Naughty	♀	5	31	7	20	31	31	Bug	3	3	Jumbo
+ID4109	Base	C3DC9314	Slowpoke-Galar	Regenerator (H)	Jolly	♀	21	30	31	31	13	13	Dragon	2	3	Jumbo
+ID4110	Base	EBAC73DF	Tentacruel	Rain Dish (H)	Modest	♂	31	31	19	31	21	4	Fairy	3	4	Teeny
+ID4111	Base	36283C26	Trumbeak	Pickup (H)	Jolly	♀	29	31	1	31	12	26	Fighting	2	3	Jumbo
+ID4112	Base	B6A38C3E	Trumbeak	Pickup (H)	Rash	♀	3	31	31	1	20	19	Poison	2	3	Jumbo
+ID4113	Base	D480E6E2	Vibrava	Levitate (1)	Hasty	♂	31	31	24	31	2	11	Ice	3	4	Teeny
+ID4114	Base	0477DA66	Vileplume	Chlorophyll (1)	Impish	♀	31	31	19	31	24	29	Fighting	3	4	Jumbo
+ID4115	Base	CF8BA49A	Vileplume	Effect Spore (H)	Brave	♂	7	31	31	2	31	20	Steel	3	4	Teeny
+ID4116	Base	F8BF8366	Whimsicott	Infiltrator (2)	Lonely	♂	31	31	18	31	19	31	Fighting	4	4	Jumbo
+ID4117	Base	8DF5B59D	Whimsicott	Infiltrator (2)	Hasty	♀	23	31	11	31	31	27	Dragon	3	4	Teeny
+ID4118	Base	9DF8BC68	Whimsicott	Chlorophyll (H)	Hardy	♂	31	28	28	13	31	31	Poison	3	4	Teeny
+ID4119	Base	C3E0CC4D	Whimsicott	Infiltrator (2)	Lax	♀	31	15	1	31	31	5	Steel	3	4	Teeny
+ID4120	Base	DD27846A	Whimsicott	Chlorophyll (H)	Serious	♀	18	31	31	31	10	0	Rock	3	4	Teeny
+ID4121	Base	DE9EB445	Whimsicott	Prankster (1)	Lax	♂	31	8	31	16	5	31	Normal	3	4	Jumbo
+ID4122	Base	F09A6FE2	Zebstrika	Sap Sipper (H)	Sassy	♂	31	12	31	12	31	27	Bug	3	4	Jumbo

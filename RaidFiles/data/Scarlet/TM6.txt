@@ -1,0 +1,120 @@
+ID	Type	Seed	Pokemon	Ability	Nature	Gender	HP	ATK	DEF	SPA	SPD	SPE	TeraType	IVCount	Stars	Mark
+TM61S	Black	0EAB73A3	Basculegion-M	Mold Breaker (H)	Naive	♂	31	31	1	31	31	31	Poison	5	6	Teeny
+TM62S	Black	5A2C6E5E	Basculegion-M	Mold Breaker (H)	Hardy	♂	31	15	31	31	31	31	Poison	5	6	Jumbo
+TM63S	Black	BD8154B5	Basculegion-M	Mold Breaker (H)	Careful	♂	31	31	31	31	31	20	Dark	5	6	Teeny
+TM64S	Black	1BD04C26	Chandelure	Infiltrator (H)	Bold	♂	31	31	31	9	31	31	Fighting	5	6	Teeny
+TM65S	Black	32527C32	Chandelure	Infiltrator (H)	Serious	♀	31	31	31	13	31	31	Psychic	5	6	Jumbo
+TM66S	Black	65A101F2	Chandelure	Infiltrator (H)	Adamant	♂	31	31	31	22	31	31	Psychic	5	6	Teeny
+TM67S	Black	79895C2F	Chandelure	Infiltrator (H)	Quiet	♀	31	31	31	31	26	31	Water	5	6	Teeny
+TM68S	Black	D2EF5BF4	Chandelure	Infiltrator (H)	Quirky	♂	14	31	31	31	31	31	Dragon	5	6	Teeny
+TM69S	Black	DB1D5C25	Chandelure	Infiltrator (H)	Quiet	♀	31	17	31	31	31	31	Normal	5	6	Jumbo
+TM610S	Black	B87681F2	Clefable	Unaware (H)	Naive	♀	31	31	31	31	29	31	Psychic	5	6	Jumbo
+TM611S	Black	059A8B63	Conkeldurr	Iron Fist (H)	Gentle	♂	31	31	31	31	0	31	Ice	5	6	Jumbo
+TM612S	Black	5DF55B5D	Conkeldurr	Iron Fist (H)	Modest	♂	31	31	31	31	29	31	Flying	5	6	Teeny
+TM613S	Black	719C0B46	Conkeldurr	Iron Fist (H)	Naive	♂	31	31	16	31	31	31	Fighting	5	6	Teeny
+TM614S	Black	878F7B27	Conkeldurr	Iron Fist (H)	Impish	♂	31	31	31	31	31	12	Flying	5	6	Jumbo
+TM615S	Black	89A491B3	Conkeldurr	Iron Fist (H)	Hasty	♂	31	31	31	31	20	31	Ice	5	6	Teeny
+TM616S	Black	05EC24B2	Crawdaunt	Adaptability (H)	Timid	♂	31	31	14	31	31	31	Psychic	5	6	Jumbo
+TM617S	Black	19602FED	Crawdaunt	Adaptability (H)	Modest	♀	31	24	31	31	31	31	Steel	5	6	Jumbo
+TM618S	Black	1A6D6FF9	Crawdaunt	Adaptability (H)	Hardy	♀	31	31	31	24	31	31	Fire	5	6	Jumbo
+TM619S	Black	B17E6A20	Crawdaunt	Adaptability (H)	Calm	♀	3	31	31	31	31	31	Psychic	5	6	Jumbo
+TM620S	Black	C3733A2C	Crawdaunt	Adaptability (H)	Careful	♀	31	31	31	17	31	31	Ghost	5	6	Teeny
+TM621S	Black	EE19FA02	Crawdaunt	Adaptability (H)	Brave	♂	31	31	31	31	8	31	Rock	5	6	Jumbo
+TM622S	Black	FBF9EFE4	Crawdaunt	Adaptability (H)	Quirky	♀	31	31	31	31	16	31	Ghost	5	6	Teeny
+TM623S	Black	AE8BEAB5	Dusknoir	Frisk (H)	Hasty	♀	31	31	11	31	31	31	Dark	5	6	Teeny
+TM624S	Black	CDB99128	Dusknoir	Frisk (H)	Mild	♀	14	31	31	31	31	31	Poison	5	6	Teeny
+TM625S	Black	D9D3F50B	Dusknoir	Frisk (H)	Calm	♀	31	31	29	31	31	31	Bug	5	6	Jumbo
+TM626S	Black	1695E87B	Gliscor	Poison Heal (H)	Rash	♀	31	31	31	31	5	31	Bug	5	6	Jumbo
+TM627S	Black	FD4CF882	Gliscor	Poison Heal (H)	Impish	♂	9	31	31	31	31	31	Dragon	5	6	Jumbo
+TM628S	Black	092DB74B	Golem-Normal	Sand Veil (H)	Impish	♀	31	31	31	22	31	31	Bug	5	6	Jumbo
+TM629S	Black	4BEF578F	Golem-Normal	Sand Veil (H)	Sassy	♀	31	31	31	31	12	31	Water	5	6	Teeny
+TM630S	Black	54B5D74E	Golem-Normal	Sand Veil (H)	Bashful	♂	31	31	31	31	31	23	Fire	5	6	Teeny
+TM631S	Black	6E64C789	Golem-Normal	Sand Veil (H)	Brave	♂	31	31	8	31	31	31	Ground	5	6	Teeny
+TM632S	Black	7A768792	Golem-Normal	Sand Veil (H)	Impish	♂	31	31	7	31	31	31	Psychic	5	6	Jumbo
+TM633S	Black	418EE30D	Kommo-o	Overcoat (H)	Naughty	♀	31	31	31	19	31	31	Steel	5	6	Teeny
+TM634S	Black	4DCAF373	Kommo-o	Overcoat (H)	Lonely	♂	31	31	31	31	31	18	Ice	5	6	Jumbo
+TM635S	Black	73C74D64	Kommo-o	Overcoat (H)	Bold	♀	31	31	31	31	24	31	Fire	5	6	Jumbo
+TM636S	Black	8C535D94	Kommo-o	Overcoat (H)	Sassy	♀	31	5	31	31	31	31	Dragon	5	6	Jumbo
+TM637S	Black	A85CFD73	Kommo-o	Overcoat (H)	Quiet	♂	31	2	31	31	31	31	Ice	5	6	Teeny
+TM638S	Black	A8D2C371	Kommo-o	Overcoat (H)	Adamant	♀	31	31	31	31	31	23	Electric	5	6	Jumbo
+TM639S	Black	F8BF8366	Kommo-o	Overcoat (H)	Lonely	♂	31	31	31	31	27	31	Fighting	5	6	Jumbo
+TM640S	Black	7B3DBB9C	Leavanny	Overcoat (H)	Sassy	♀	31	31	31	16	31	31	Fighting	5	6	Jumbo
+TM641S	Black	B3D25B76	Leavanny	Overcoat (H)	Docile	♀	31	31	31	31	31	3	Fairy	5	6	Jumbo
+TM642S	Black	14A2596B	Ludicolo	Own Tempo (H)	Hasty	♀	31	31	31	28	31	31	Bug	5	6	Jumbo
+TM643S	Black	BF66E95B	Ludicolo	Own Tempo (H)	Relaxed	♀	31	19	31	31	31	31	Flying	5	6	Jumbo
+TM644S	Black	C59F692B	Ludicolo	Own Tempo (H)	Rash	♀	17	31	31	31	31	31	Bug	5	6	Jumbo
+TM645S	Black	0F5C1915	Mamoswine	Thick Fat (H)	Jolly	♀	31	31	31	31	4	31	Dark	5	6	Jumbo
+TM646S	Black	6F78A8CF	Mamoswine	Thick Fat (H)	Gentle	♂	11	31	31	31	31	31	Water	5	6	Teeny
+TM647S	Black	CF889215	Mandibuzz	Weak Armor (H)	Sassy	♀	31	31	31	31	31	31	Dark	6	6	Teeny
+TM648S	Black	06D17CEA	Mandibuzz	Weak Armor (H)	Adamant	♀	31	11	31	31	31	31	Rock	5	6	Jumbo
+TM649S	Black	480FF164	Mandibuzz	Weak Armor (H)	Hasty	♀	31	31	8	31	31	31	Electric	5	6	Teeny
+TM650S	Black	633D02D2	Mandibuzz	Weak Armor (H)	Hasty	♀	31	8	31	31	31	31	Psychic	5	6	Teeny
+TM651S	Black	72178CA5	Mandibuzz	Weak Armor (H)	Lax	♀	31	9	31	31	31	31	Normal	5	6	Jumbo
+TM652S	Black	8B7222D3	Mandibuzz	Weak Armor (H)	Rash	♀	31	30	31	31	31	31	Ice	5	6	Jumbo
+TM653S	Black	9671120E	Mandibuzz	Weak Armor (H)	Careful	♀	31	31	23	31	31	31	Fire	5	6	Teeny
+TM654S	Black	F0E43546	Mandibuzz	Weak Armor (H)	Bashful	♀	30	31	31	31	31	31	Fighting	5	6	Jumbo
+TM655S	Black	17C3EC62	Mienshao	Reckless (H)	Adamant	♂	7	31	31	31	31	31	Steel	5	6	Teeny
+TM656S	Black	257BB245	Mienshao	Reckless (H)	Bashful	♂	31	31	31	31	17	31	Normal	5	6	Jumbo
+TM657S	Black	80975C90	Mienshao	Reckless (H)	Serious	♀	31	31	26	31	31	31	Grass	5	6	Teeny
+TM658S	Black	97908C43	Mienshao	Reckless (H)	Gentle	♂	31	31	31	24	31	31	Ice	5	6	Jumbo
+TM659S	Black	C9151C80	Mienshao	Reckless (H)	Hasty	♀	31	31	31	1	31	31	Ghost	5	6	Teeny
+TM660S	Black	EB364AA3	Milotic	Cute Charm (H)	Gentle	♂	31	31	31	31	31	31	Fairy	6	6	Teeny
+TM661S	Black	9361445C	Ninetales-Normal	Drought (H)	Rash	♀	31	31	31	31	31	7	Flying	5	6	Teeny
+TM662S	Black	30AB454D	Politoed	Drizzle (H)	Naughty	♀	31	31	20	31	31	31	Steel	5	6	Jumbo
+TM663S	Black	4821A161	Politoed	Drizzle (H)	Sassy	♀	10	31	31	31	31	31	Ghost	5	6	Jumbo
+TM664S	Black	7E3CF72A	Politoed	Drizzle (H)	Lax	♀	31	31	9	31	31	31	Rock	5	6	Teeny
+TM665S	Black	C58FD6F7	Politoed	Drizzle (H)	Relaxed	♂	31	31	31	31	28	31	Steel	5	6	Jumbo
+TM666S	Black	D480E6E2	Politoed	Drizzle (H)	Jolly	♀	31	31	31	31	31	2	Ice	5	6	Teeny
+TM667S	Black	021DA3C8	Quagsire	Unaware (H)	Adamant	♀	31	31	15	31	31	31	Poison	5	6	Teeny
+TM668S	Black	05ABEDFF	Quagsire	Unaware (H)	Hasty	♀	31	31	20	31	31	31	Steel	5	6	Jumbo
+TM669S	Black	1184E3D6	Quagsire	Unaware (H)	Naughty	♂	31	31	31	12	31	31	Fairy	5	6	Teeny
+TM670S	Black	24C2B39A	Quagsire	Unaware (H)	Lonely	♂	31	31	23	31	31	31	Fighting	5	6	Jumbo
+TM671S	Black	343DB3E2	Quagsire	Unaware (H)	Bashful	♀	31	31	31	31	31	5	Dark	5	6	Teeny
+TM672S	Black	390BD325	Quagsire	Unaware (H)	Mild	♂	18	31	31	31	31	31	Normal	5	6	Teeny
+TM673S	Black	6DA133FD	Quagsire	Unaware (H)	Timid	♀	31	31	31	31	31	4	Dragon	5	6	Jumbo
+TM674S	Black	7B26D396	Quagsire	Unaware (H)	Naughty	♀	31	31	31	31	31	6	Fairy	5	6	Teeny
+TM675S	Black	7F8FDE08	Quagsire	Unaware (H)	Modest	♀	31	16	31	31	31	31	Poison	5	6	Jumbo
+TM676S	Black	B31C33FC	Quagsire	Unaware (H)	Jolly	♂	31	31	31	31	4	31	Bug	5	6	Teeny
+TM677S	Black	BA8933E2	Quagsire	Unaware (H)	Bashful	♂	25	31	31	31	31	31	Electric	5	6	Teeny
+TM678S	Black	C3BDB181	Quagsire	Unaware (H)	Jolly	♂	31	31	31	31	31	11	Steel	5	6	Teeny
+TM679S	Black	EBAC73DF	Quagsire	Unaware (H)	Modest	♂	31	31	30	31	31	31	Fairy	5	6	Teeny
+TM680S	Black	17C72F67	Shiftry	Pickpocket (H)	Naughty	♂	31	31	31	31	30	31	Flying	5	6	Teeny
+TM681S	Black	6386C9C8	Shiftry	Pickpocket (H)	Lax	♀	31	31	31	31	0	31	Poison	5	6	Jumbo
+TM682S	Black	6DEF19B2	Shiftry	Pickpocket (H)	Careful	♀	31	31	31	31	17	31	Psychic	5	6	Jumbo
+TM683S	Black	82B34FDF	Shiftry	Pickpocket (H)	Hardy	♀	31	31	31	31	31	14	Dragon	5	6	Jumbo
+TM684S	Black	AA8869DB	Shiftry	Pickpocket (H)	Impish	♂	31	31	31	1	31	31	Fairy	5	6	Teeny
+TM685S	Black	1F65F0B7	Sinistcha-Masterpiece	Heatproof (H)	Jolly	-	31	18	31	31	31	31	Water	5	6	Teeny
+TM686S	Black	31869139	Sinistcha-Masterpiece	Heatproof (H)	Quiet	-	31	31	31	31	31	1	Ground	5	6	Jumbo
+TM687S	Black	65A2AF4D	Sinistcha-Masterpiece	Heatproof (H)	Naughty	-	31	31	31	29	31	31	Steel	5	6	Jumbo
+TM688S	Black	9F7780C6	Sinistcha-Masterpiece	Heatproof (H)	Lax	-	31	15	31	31	31	31	Fighting	5	6	Teeny
+TM689S	Black	DA17C0C8	Sinistcha-Masterpiece	Heatproof (H)	Modest	-	15	31	31	31	31	31	Poison	5	6	Teeny
+TM690S	Black	F97000BD	Sinistcha-Masterpiece	Heatproof (H)	Relaxed	-	31	31	31	31	31	21	Fighting	5	6	Jumbo
+TM691S	Black	1781AEBD	Sinistcha-Unremarkable	Heatproof (H)	Naive	-	31	31	31	31	31	31	Electric	6	6	Jumbo
+TM692S	Black	5119EEA3	Sinistcha-Unremarkable	Heatproof (H)	Jolly	-	31	3	31	31	31	31	Bug	5	6	Jumbo
+TM693S	Black	5427EEAB	Sinistcha-Unremarkable	Heatproof (H)	Brave	-	3	31	31	31	31	31	Bug	5	6	Teeny
+TM694S	Black	7C68EED2	Sinistcha-Unremarkable	Heatproof (H)	Calm	-	31	17	31	31	31	31	Psychic	5	6	Teeny
+TM695S	Black	90511033	Sinistcha-Unremarkable	Heatproof (H)	Relaxed	-	31	31	27	31	31	31	Ice	5	6	Jumbo
+TM696S	Black	91B3AE94	Sinistcha-Unremarkable	Heatproof (H)	Lonely	-	31	23	31	31	31	31	Dragon	5	6	Teeny
+TM697S	Black	C980D030	Sinistcha-Unremarkable	Heatproof (H)	Sassy	-	31	31	31	28	31	31	Grass	5	6	Teeny
+TM698S	Black	CF14D035	Sinistcha-Unremarkable	Heatproof (H)	Lax	-	31	31	31	31	31	9	Dark	5	6	Teeny
+TM699S	Black	E2217ECF	Sinistcha-Unremarkable	Heatproof (H)	Quirky	-	31	31	2	31	31	31	Water	5	6	Jumbo
+TM6100S	Black	427FC7CE	Snorlax	Gluttony (H)	Jolly	♂	31	31	25	31	31	31	Fire	5	6	Teeny
+TM6101S	Black	85155404	Snorlax	Gluttony (H)	Bashful	♂	31	31	31	31	31	15	Fighting	5	6	Jumbo
+TM6102S	Black	AC7CF7A5	Snorlax	Gluttony (H)	Timid	♂	10	31	31	31	31	31	Normal	5	6	Jumbo
+TM6103S	Black	AE57C7C0	Snorlax	Gluttony (H)	Calm	♂	31	31	31	31	23	31	Electric	5	6	Teeny
+TM6104S	Black	B604E7CB	Snorlax	Gluttony (H)	Careful	♂	31	31	31	13	31	31	Bug	5	6	Teeny
+TM6105S	Black	C173F7B9	Snorlax	Gluttony (H)	Modest	♂	31	3	31	31	31	31	Fairy	5	6	Teeny
+TM6106S	Black	EF29E794	Snorlax	Gluttony (H)	Adamant	♂	19	31	31	31	31	31	Dragon	5	6	Teeny
+TM6107S	Black	F6FA779D	Snorlax	Gluttony (H)	Rash	♂	31	14	31	31	31	31	Normal	5	6	Teeny
+TM6108S	Black	39A74D60	Trevenant	Harvest (H)	Naughty	♀	31	31	31	31	31	7	Electric	5	6	Teeny
+TM6109S	Black	7CA2DD14	Trevenant	Harvest (H)	Impish	♂	31	31	31	31	31	12	Dragon	5	6	Jumbo
+TM6110S	Black	93EC8D03	Trevenant	Harvest (H)	Bashful	♂	31	26	31	31	31	31	Ice	5	6	Jumbo
+TM6111S	Black	C7B242FD	Trevenant	Harvest (H)	Relaxed	♀	31	6	31	31	31	31	Flying	5	6	Jumbo
+TM6112S	Black	CF8BA49A	Trevenant	Harvest (H)	Naive	♀	31	31	31	31	31	2	Steel	5	6	Teeny
+TM6113S	Black	D2B8A2A9	Trevenant	Harvest (H)	Careful	♂	31	20	31	31	31	31	Ground	5	6	Teeny
+TM6114S	Black	F624D2E2	Trevenant	Harvest (H)	Naive	♀	31	31	31	31	7	31	Poison	5	6	Teeny
+TM6115S	Black	F7FD0284	Trevenant	Harvest (H)	Careful	♂	31	31	28	31	31	31	Fire	5	6	Teeny
+TM6116S	Black	588D5804	Yanmega	Frisk (H)	Lonely	♂	31	31	26	31	31	31	Ice	5	6	Jumbo
+TM6117S	Black	8E2E584C	Yanmega	Frisk (H)	Mild	♀	31	31	31	31	31	11	Ghost	5	6	Teeny
+TM6118S	Black	D61EA83B	Yanmega	Frisk (H)	Sassy	♀	31	4	31	31	31	31	Dark	5	6	Teeny
+TM6119S	Black	F74E183A	Yanmega	Frisk (H)	Rash	♂	31	31	31	31	31	11	Water	5	6	Teeny

@@ -1,0 +1,119 @@
+ID	Type	Seed	Pokemon	Ability	Nature	Gender	HP	ATK	DEF	SPA	SPD	SPE	TeraType	IVCount	Stars	Mark
+ID21S	Base	1CE89367	Blitzle	Motor Drive (2)	Brave	♂	31	23	6	17	26	31	Flying	2	1	Jumbo
+ID22S	Base	633D02D2	Blitzle	Motor Drive (2)	Bashful	♂	4	27	3	31	16	31	Psychic	2	1	Teeny
+ID23S	Base	955C29F1	Blitzle	Motor Drive (2)	Rash	♂	31	14	31	19	10	16	Electric	2	1	Teeny
+ID24S	Base	C1D2869D	Blitzle	Motor Drive (2)	Bashful	♀	31	23	15	14	8	31	Flying	2	1	Teeny
+ID25S	Base	EB364AA3	Blitzle	Motor Drive (2)	Gentle	♂	29	18	8	3	31	31	Fairy	2	1	Teeny
+ID26S	Base	1ACB3E49	Blitzle	Lightning Rod (1)	Hasty	♀	27	14	27	31	6	25	Ground	1	1	Jumbo
+ID27S	Base	35D51612	Blitzle	Lightning Rod (1)	Gentle	♂	31	14	8	0	30	11	Psychic	1	1	Jumbo
+ID28S	Base	8160045F	Blitzle	Motor Drive (2)	Quirky	♀	13	15	31	16	10	13	Psychic	1	1	Teeny
+ID29S	Base	89A491B3	Blitzle	Lightning Rod (1)	Calm	♂	31	25	2	7	27	6	Ice	1	1	Teeny
+ID210S	Base	B30CAA20	Blitzle	Lightning Rod (1)	Careful	♂	31	18	10	14	7	9	Psychic	1	1	Teeny
+ID211S	Base	B87681F2	Blitzle	Lightning Rod (1)	Naive	♀	29	17	29	31	29	18	Psychic	1	1	Jumbo
+ID212S	Base	BF416659	Blitzle	Lightning Rod (1)	Quiet	♂	4	11	7	17	31	7	Dragon	1	1	Jumbo
+ID213S	Base	F3A269B5	Blitzle	Motor Drive (2)	Rash	♀	2	17	31	14	8	14	Dark	1	1	Teeny
+ID214S	Base	F624D2E2	Blitzle	Lightning Rod (1)	Relaxed	♂	23	18	21	31	16	8	Poison	1	1	Teeny
+ID215S	Base	074F816D	Chinchou	Illuminate (2)	Jolly	♀	0	0	6	19	20	31	Steel	1	1	Jumbo
+ID216S	Base	30151551	Chinchou	Volt Absorb (1)	Quiet	♂	3	22	28	31	17	15	Electric	1	1	Teeny
+ID217S	Base	3739A70B	Chinchou	Illuminate (2)	Rash	♂	25	14	9	31	19	10	Bug	1	1	Teeny
+ID218S	Base	81232116	Chinchou	Illuminate (2)	Naive	♂	6	16	1	0	31	11	Fairy	1	1	Jumbo
+ID219S	Base	F81F05CE	Chinchou	Volt Absorb (1)	Quirky	♀	19	20	15	31	9	22	Fire	1	1	Jumbo
+ID220S	Base	EE19FA02	Cottonee	Prankster (1)	Brave	♂	31	31	3	9	2	29	Rock	2	2	Jumbo
+ID221S	Base	0ACE4DFF	Dewpider	Water Bubble (1)	Naughty	♀	22	31	0	7	4	8	Fire	1	2	Jumbo
+ID222S	Base	85155404	Dewpider	Water Bubble (1)	Modest	♀	31	3	10	14	6	6	Fighting	1	2	Jumbo
+ID223S	Base	816F8379	Doduo	Run Away (1)	Impish	♀	29	6	14	12	18	31	Psychic	1	2	Jumbo
+ID224S	Base	CA2F80FE	Elekid	Static (1)	Rash	♂	15	6	31	15	6	10	Flying	1	2	Jumbo
+ID225S	Base	1781AEBD	Espurr	Keen Eye (1)	Naive	♀	31	17	21	31	30	19	Electric	2	1	Jumbo
+ID226S	Base	092DB74B	Espurr	Keen Eye (1)	Docile	♂	18	31	5	26	0	8	Bug	1	1	Jumbo
+ID227S	Base	6457E5DB	Espurr	Keen Eye (1)	Calm	♂	23	11	17	31	14	21	Steel	1	1	Teeny
+ID228S	Base	73C74D64	Espurr	Infiltrator (2)	Bold	♂	31	6	18	0	1	3	Fire	1	1	Jumbo
+ID229S	Base	AC4D9D38	Espurr	Keen Eye (1)	Impish	♂	21	27	31	28	30	23	Flying	1	1	Teeny
+ID230S	Base	DE9EB445	Espurr	Keen Eye (1)	Careful	♂	31	2	18	15	29	8	Normal	1	1	Jumbo
+ID231S	Base	01FE8E13	Exeggcute	Chlorophyll (1)	Timid	♀	20	19	15	14	31	1	Ice	1	1	Teeny
+ID232S	Base	1B7D905F	Exeggcute	Chlorophyll (1)	Naive	♀	12	21	31	6	1	11	Grass	1	1	Jumbo
+ID233S	Base	2AF11856	Exeggcute	Chlorophyll (1)	Sassy	♂	23	31	16	9	5	15	Fairy	1	1	Teeny
+ID234S	Base	57A963A7	Exeggcute	Chlorophyll (1)	Quirky	♀	14	31	8	14	30	21	Flying	1	1	Jumbo
+ID235S	Base	A373EBBF	Exeggcute	Chlorophyll (1)	Gentle	♀	2	25	31	26	24	3	Flying	1	1	Jumbo
+ID236S	Base	B7CF4D39	Exeggcute	Chlorophyll (1)	Jolly	♂	2	7	31	2	19	28	Flying	1	1	Jumbo
+ID237S	Base	D2EF5BF4	Exeggcute	Chlorophyll (1)	Quirky	♂	9	2	26	31	29	12	Dragon	1	1	Teeny
+ID238S	Base	D6CC25E6	Exeggcute	Chlorophyll (1)	Calm	♀	5	31	23	7	8	6	Fighting	1	1	Jumbo
+ID239S	Base	06907AE9	Horsea	Swift Swim (1)	Docile	♂	31	14	18	9	27	10	Ground	1	1	Teeny
+ID240S	Base	25A8E69D	Horsea	Swift Swim (1)	Hasty	♂	31	30	10	0	0	0	Bug	1	1	Teeny
+ID241S	Base	2E5038E0	Horsea	Sniper (2)	Quiet	♀	31	4	8	14	23	12	Ground	1	1	Jumbo
+ID242S	Base	4DCAF373	Horsea	Sniper (2)	Impish	♂	31	23	18	18	1	12	Ice	1	1	Jumbo
+ID243S	Base	574177A1	Horsea	Sniper (2)	Serious	♀	6	26	28	26	3	31	Steel	1	1	Jumbo
+ID244S	Base	58ECAADE	Horsea	Sniper (2)	Hardy	♀	19	13	18	11	7	31	Psychic	1	1	Teeny
+ID245S	Base	6D51CA2C	Horsea	Sniper (2)	Naughty	♀	18	1	11	31	23	16	Ghost	1	1	Teeny
+ID246S	Base	6E64C789	Horsea	Sniper (2)	Impish	♂	31	1	4	4	24	7	Ground	1	1	Teeny
+ID247S	Base	9F7780C6	Horsea	Swift Swim (1)	Lax	♀	31	22	20	23	21	3	Fighting	1	1	Teeny
+ID248S	Base	BEF3B8D6	Horsea	Swift Swim (1)	Impish	♀	11	30	0	15	16	31	Fairy	1	1	Jumbo
+ID249S	Base	DA17C0C8	Horsea	Sniper (2)	Quirky	♀	27	14	31	9	21	28	Poison	1	1	Teeny
+ID250S	Base	0E98634D	Joltik	Unnerve (2)	Brave	♀	19	10	0	30	21	31	Steel	1	1	Teeny
+ID251S	Base	7C944B8B	Joltik	Compound Eyes (1)	Naughty	♀	26	31	23	26	15	29	Bug	1	1	Teeny
+ID252S	Base	8E131237	Joltik	Unnerve (2)	Naive	♀	23	23	31	16	7	22	Fighting	1	1	Jumbo
+ID253S	Base	9DF8BC68	Joltik	Compound Eyes (1)	Hardy	♂	31	4	5	28	28	13	Poison	1	1	Teeny
+ID254S	Base	ABF21EE9	Joltik	Unnerve (2)	Calm	♂	15	30	23	7	31	2	Ground	1	1	Jumbo
+ID255S	Base	AE57C7C0	Joltik	Unnerve (2)	Calm	♀	31	26	27	13	26	25	Electric	1	1	Teeny
+ID256S	Base	C8070EDF	Joltik	Unnerve (2)	Lonely	♂	23	1	31	15	20	26	Fighting	1	1	Jumbo
+ID257S	Base	D480E6E2	Joltik	Compound Eyes (1)	Hasty	♂	27	31	14	22	16	24	Ice	1	1	Teeny
+ID258S	Base	E5111E27	Joltik	Compound Eyes (1)	Jolly	♂	29	31	18	14	0	10	Flying	1	1	Teeny
+ID259S	Base	CB4F2884	Magby	Flame Body (1)	Naughty	♀	10	13	31	17	31	9	Ground	2	2	Jumbo
+ID260S	Base	0B0F47F6	Magby	Flame Body (1)	Quirky	♂	10	10	31	21	3	25	Fairy	1	2	Teeny
+ID261S	Base	05ABEDFF	Minccino	Cute Charm (1)	Modest	♀	31	12	22	27	29	6	Steel	1	2	Jumbo
+ID262S	Base	37E4C67A	Minccino	Cute Charm (1)	Serious	♂	17	20	31	13	13	1	Poison	1	2	Teeny
+ID263S	Base	1D254235	Oddish	Chlorophyll (1)	Brave	♂	2	26	31	17	27	10	Dark	1	1	Jumbo
+ID264S	Base	48AE5C52	Oddish	Chlorophyll (1)	Sassy	♂	28	15	0	27	31	28	Psychic	1	1	Teeny
+ID265S	Base	4BEF578F	Oddish	Chlorophyll (1)	Sassy	♀	17	31	2	19	23	29	Water	1	1	Teeny
+ID266S	Base	5A10EACA	Oddish	Chlorophyll (1)	Quirky	♂	20	20	17	27	21	31	Rock	1	1	Jumbo
+ID267S	Base	73D0FACE	Oddish	Chlorophyll (1)	Timid	♀	24	18	26	31	3	23	Fire	1	1	Teeny
+ID268S	Base	878F7B27	Oddish	Chlorophyll (1)	Serious	♀	28	8	31	1	25	8	Flying	1	1	Jumbo
+ID269S	Base	8CC18E0D	Oddish	Chlorophyll (1)	Modest	♂	1	26	9	11	31	11	Steel	1	1	Teeny
+ID270S	Base	B6A38C3E	Oddish	Chlorophyll (1)	Rash	♀	30	31	18	3	1	20	Poison	1	1	Jumbo
+ID271S	Base	C664DB30	Oddish	Chlorophyll (1)	Gentle	♂	15	9	28	25	9	31	Grass	1	1	Teeny
+ID272S	Base	EEABC326	Oddish	Chlorophyll (1)	Adamant	♂	31	26	19	22	2	22	Fighting	1	1	Teeny
+ID273S	Base	FE620B3D	Oddish	Chlorophyll (1)	Mild	♂	3	17	31	23	15	8	Fighting	1	1	Jumbo
+ID274S	Base	C2352F60	Pikipek	Keen Eye (1)	Impish	♀	31	20	16	5	6	31	Dark	2	1	Teeny
+ID275S	Base	D637AFCF	Pikipek	Keen Eye (1)	Timid	♀	31	17	10	16	31	20	Water	2	1	Teeny
+ID276S	Base	1F390FC9	Pikipek	Skill Link (2)	Impish	♂	27	11	31	5	6	7	Ground	1	1	Jumbo
+ID277S	Base	22D86013	Pikipek	Keen Eye (1)	Relaxed	♀	26	31	13	5	22	7	Ice	1	1	Teeny
+ID278S	Base	427FC7CE	Pikipek	Keen Eye (1)	Naughty	♀	31	7	13	28	17	25	Fire	1	1	Teeny
+ID279S	Base	450CA7E5	Pikipek	Keen Eye (1)	Lonely	♂	31	26	7	15	29	11	Normal	1	1	Teeny
+ID280S	Base	608A14CF	Pikipek	Keen Eye (1)	Jolly	♀	24	30	12	21	13	31	Water	1	1	Teeny
+ID281S	Base	6770C2BE	Pikipek	Keen Eye (1)	Naughty	♂	5	20	31	15	28	26	Psychic	1	1	Teeny
+ID282S	Base	745274E9	Pikipek	Keen Eye (1)	Gentle	♀	11	4	21	31	15	22	Ground	1	1	Teeny
+ID283S	Base	7A0CC7C0	Pikipek	Skill Link (2)	Modest	♀	21	5	26	10	21	31	Bug	1	1	Teeny
+ID284S	Base	82B34FDF	Pikipek	Keen Eye (1)	Hardy	♀	0	31	14	3	28	26	Dragon	1	1	Jumbo
+ID285S	Base	9B87BDC9	Pikipek	Skill Link (2)	Bashful	♂	6	1	19	30	20	31	Ground	1	1	Jumbo
+ID286S	Base	4C7D6D5E	Scraggy	Shed Skin (1)	Calm	♀	23	31	31	25	17	6	Fairy	2	1	Teeny
+ID287S	Base	A0869662	Scraggy	Moxie (2)	Bold	♀	25	31	18	3	31	9	Fire	2	1	Teeny
+ID288S	Base	32EF7667	Scraggy	Shed Skin (1)	Calm	♀	15	25	16	31	13	29	Flying	1	1	Jumbo
+ID289S	Base	555C2FE3	Scraggy	Moxie (2)	Serious	♂	17	31	30	30	17	11	Bug	1	1	Jumbo
+ID290S	Base	59C854DA	Scraggy	Shed Skin (1)	Naive	♀	27	4	11	17	5	31	Dark	1	1	Jumbo
+ID291S	Base	81A8B542	Scraggy	Moxie (2)	Gentle	♀	2	30	11	29	31	21	Psychic	1	1	Teeny
+ID292S	Base	875BBE4D	Scraggy	Shed Skin (1)	Rash	♂	23	7	19	31	3	30	Steel	1	1	Jumbo
+ID293S	Base	9671120E	Scraggy	Shed Skin (1)	Careful	♀	29	6	28	25	20	31	Fire	1	1	Teeny
+ID294S	Base	BB17DE54	Scraggy	Shed Skin (1)	Quiet	♀	6	1	31	11	12	1	Dragon	1	1	Jumbo
+ID295S	Base	F50922C9	Scraggy	Moxie (2)	Jolly	♂	6	26	16	21	2	31	Ground	1	1	Teeny
+ID296S	Base	3E26F07C	Seel	Hydration (2)	Sassy	♀	31	26	16	29	31	23	Water	2	2	Teeny
+ID297S	Base	256F639E	Seel	Hydration (2)	Hasty	♂	31	8	13	13	25	3	Rock	1	2	Teeny
+ID298S	Base	D8D84006	Seel	Thick Fat (1)	Naughty	♀	31	9	24	25	29	23	Fighting	1	2	Teeny
+ID299S	Base	31869139	Snubbull	Run Away (2)	Quiet	♂	9	26	26	2	31	24	Ground	1	1	Jumbo
+ID2100S	Base	6D59291D	Snubbull	Run Away (2)	Gentle	♀	16	31	19	23	10	22	Dragon	1	1	Jumbo
+ID2101S	Base	7B48A909	Snubbull	Run Away (2)	Modest	♂	16	15	14	28	31	0	Ground	1	1	Jumbo
+ID2102S	Base	82E962A5	Snubbull	Run Away (2)	Naive	♂	19	22	21	12	31	9	Normal	1	1	Teeny
+ID2103S	Base	B3D25B76	Solosis	Overcoat (1)	Hardy	♂	10	19	9	31	16	30	Fairy	1	2	Jumbo
+ID2104S	Base	0FA59196	Tentacool	Liquid Ooze (2)	Rash	♂	10	31	15	1	31	9	Fairy	2	2	Teeny
+ID2105S	Base	0613D488	Tentacool	Liquid Ooze (2)	Bold	♀	13	9	28	7	31	30	Poison	1	2	Jumbo
+ID2106S	Base	8FD52104	Trapinch	Arena Trap (2)	Lax	♂	19	11	28	20	31	29	Ice	1	2	Teeny
+ID2107S	Base	3459BDAB	Tyrogue	Guts (1)	Rash	♂	1	5	7	20	31	31	Bug	2	1	Jumbo
+ID2108S	Base	66E1C796	Tyrogue	Steadfast (2)	Rash	♂	4	31	31	11	7	27	Fairy	2	1	Teeny
+ID2109S	Base	888AF09F	Tyrogue	Guts (1)	Bold	♂	23	7	19	9	31	31	Ghost	2	1	Teeny
+ID2110S	Base	6D315028	Tyrogue	Guts (1)	Modest	♂	31	14	4	2	18	8	Poison	1	1	Teeny
+ID2111S	Base	6E3D8867	Tyrogue	Steadfast (2)	Jolly	♂	13	6	2	31	5	22	Flying	1	1	Jumbo
+ID2112S	Base	7B26D396	Tyrogue	Steadfast (2)	Docile	♂	2	12	27	31	6	24	Fairy	1	1	Teeny
+ID2113S	Base	80CCC82C	Tyrogue	Guts (1)	Rash	♂	17	31	17	13	10	27	Ghost	1	1	Teeny
+ID2114S	Base	87EA6036	Tyrogue	Steadfast (2)	Lax	♂	31	13	23	14	23	5	Fairy	1	1	Teeny
+ID2115S	Base	8B4F2B09	Tyrogue	Steadfast (2)	Mild	♂	0	30	27	31	3	5	Ground	1	1	Jumbo
+ID2116S	Base	90511033	Tyrogue	Guts (1)	Relaxed	♂	3	27	9	9	0	31	Ice	1	1	Jumbo
+ID2117S	Base	E334BAE9	Tyrogue	Guts (1)	Brave	♂	28	13	31	20	4	17	Ground	1	1	Teeny
+ID2118S	Base	F15DFDA0	Tyrogue	Guts (1)	Lonely	♂	16	10	24	6	17	31	Dark	1	1	Jumbo
