@@ -1,11 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #1a1a1a;
     color: #fff;
     font-family: sans-serif;
-    background-image: url('../images/background.png');
+    background-image: url('../images/dark-hunter.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed; /* This helps prevent flickering */
 }
 
 .container {
@@ -70,12 +77,17 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.star-button:hover {
+    background-color: #666;
 }
 
 .star-button.active {
-    background-color: #007bff;
-    color: #fff;
-    border: 1px solid #007bff;
+    background-color: #007bff; /* A more distinct color for active state */
+    border: 2px solid #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.7); /* Add a subtle glow */
 }
 
 select, input[type="text"] {
