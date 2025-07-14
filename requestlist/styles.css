@@ -97,12 +97,21 @@ th {
         margin-left: auto;
         margin-right: auto;
     }
-    table {
+    .table-responsive {
         overflow-x: auto; /* Enable horizontal scrolling for tables */
-        display: block;
+        width: 100%; /* Ensure it takes full width */
+    }
+    table {
+        width: 600px; /* Set a minimum width for the table content */
     }
     th, td {
         white-space: nowrap; /* Prevent text wrapping in table cells */
+    }
+
+    /* Adjust filter and search input width on small screens */
+    #categoryFilter, #pokemonSearch {
+        width: calc(100% - 20px); /* Full width minus padding/margin */
+        margin: 5px 10px; /* Adjust margin */
     }
 }
 
