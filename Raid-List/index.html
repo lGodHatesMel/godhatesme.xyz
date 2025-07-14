@@ -116,6 +116,7 @@
             padding: 8px;
             text-align: left;
             color: white; /* Ensure text is white */
+            font-weight: bold; /* Make text bold */
         }
         .raid-list th {
             background-color: #4CAF50;
@@ -226,6 +227,14 @@
                 <label for="tera-filter">Tera Type:</label>
                 <select id="tera-filter"></select>
             </div>
+            <div class="filter-group">
+                <label for="mark-filter">Marks:</label>
+                <select id="mark-filter">
+                    <option value="Any">Any</option>
+                    <option value="Teeny">Teeny</option>
+                    <option value="Jumbo">Jumbo</option>
+                </select>
+            </div>
         </div>
     </div>
 
@@ -257,6 +266,7 @@
                 <th>SPE</th>
                 <th>Gender</th>
                 <th>Tera Type</th>
+                <th>Mark</th>
             </tr>
         </thead>
         <tbody>

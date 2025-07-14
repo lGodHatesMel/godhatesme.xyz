@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const spDefenseFilter = document.getElementById('sp-defense-filter');
     const speedFilter = document.getElementById('speed-filter');
     const teraFilter = document.getElementById('tera-filter');
+    const markFilter = document.getElementById('mark-filter');
     const tableBody = document.querySelector('.raid-list tbody');
     const scarletButton = document.querySelector('.scarlet');
     const violetButton = document.querySelector('.violet');
@@ -182,6 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
         spDefenseFilter.value = '';
         speedFilter.value = '';
         teraFilter.value = 'All';
+        markFilter.value = 'Any';
 
         starButtons.forEach(btn => btn.classList.remove('active'));
         document.querySelector('.star-button[data-stars="Any"]').classList.add('active');
@@ -201,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
         paginatedData.forEach(raid => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td>${raid.ID || ''}</td>
+                <td class="copyable-id" data-id="${raid.ID || ''}">${raid.ID || ''}</td>
                 <td>${raid.Pokemon || ''}</td>
                 <td>${raid.Ability || ''}</td>
                 <td>${raid.Nature || ''}</td>
@@ -213,6 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <td>${raid.SPE || ''}</td>
                 <td>${raid.Gender || ''}</td>
                 <td>${raid.TeraType || ''}</td>
+                <td>${raid.Mark || 'None'}</td>
             `;
 
             row.addEventListener('mousedown', () => {
@@ -229,8 +232,21 @@ document.addEventListener('DOMContentLoaded', () => {
             tableBody.appendChild(row);
         });
 
+        // Add click listener for copying ID
+        tableBody.querySelectorAll('.copyable-id').forEach(idCell => {
+            idCell.addEventListener('click', (event) => {
+                const idToCopy = event.target.dataset.id;
+                if (idToCopy) {
+                    copyToClipboard(idToCopy);
+                    alert(`Copied ${idToCopy} to clipboard`);
+                }
+            });
+        });
+
         const totalPages = Math.ceil(dataToDisplay.length / rowsPerPage);
-        pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+        if (pageInfo) {
+            pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+        }
     }
 
     function filterRaids() {
@@ -297,6 +313,12 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(`After Tera filter (${selectedTera}): ${filteredData.length}`);
         }
 
+        const selectedMark = markFilter.value;
+        if (selectedMark && selectedMark !== 'Any') {
+            filteredData = filteredData.filter(raid => raid.Mark === selectedMark);
+            console.log(`After Mark filter (${selectedMark}): ${filteredData.length}`);
+        }
+
         // Filter by stars
         if (selectedStars === '1-2') {
             filteredData = filteredData.filter(raid => raid.Stars && (parseInt(raid.Stars) === 1 || parseInt(raid.Stars) === 2));
@@ -328,6 +350,7 @@ document.addEventListener('DOMContentLoaded', () => {
         el.addEventListener('input', filterRaids);
     });
     teraFilter.addEventListener('change', filterRaids);
+    markFilter.addEventListener('change', filterRaids);
 
     // Set Scarlet as the default active button and load data
     scarletButton.click();
