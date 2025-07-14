@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         function populateDropdown(items, query = '') {
             dropdown.innerHTML = '';
-            const itemsToShow = query ? items.filter(item => item.toLowerCase().includes(query.toLowerCase())) : items; // Removed .slice(0, 10)
+            const itemsToShow = (query ? items.filter(item => item.toLowerCase().includes(query.toLowerCase())) : items);
             itemsToShow.forEach(item => {
                 const a = document.createElement('a');
                 a.href = '#';
@@ -102,13 +102,21 @@ document.addEventListener('DOMContentLoaded', () => {
         const filesToLoad = version === 'Scarlet' ? scarletFiles : violetFiles;
         const folderPath = `data/${version}/`;
 
+        console.log(`Loading raid data for ${version} from ${filesToLoad.length} files...`);
+
         for (const file of filesToLoad) {
             try {
                 const response = await fetch(`${folderPath}${file}`);
-                if (!response.ok) continue;
+                if (!response.ok) {
+                    console.warn(`Failed to fetch ${folderPath}${file}: ${response.status} ${response.statusText}`);
+                    continue;
+                }
                 const data = await response.text();
                 const lines = data.split(/\r?\n/).map(line => line.trim()).filter(line => line);
-                if (lines.length < 2) continue;
+                if (lines.length < 2) {
+                    console.warn(`Skipping empty or malformed file: ${folderPath}${file}`);
+                    continue;
+                }
 
                 const headers = lines[0].split('\t');
                 for (let i = 1; i < lines.length; i++) {
@@ -119,12 +127,16 @@ document.addEventListener('DOMContentLoaded', () => {
                             raid[header] = values[index];
                         });
                         raidData.push(raid);
+                        // console.log(`Added raid: ${raid.ID}, Pokemon: ${raid.Pokemon}, Current raidData length: ${raidData.length}`);
+                    } else {
+                        console.warn(`Skipping malformed line in ${folderPath}${file}: ${lines[i]}`);
                     }
                 }
             } catch (error) {
                 console.error(`Error loading file: ${folderPath}${file}`, error);
             }
         }
+        console.log(`Finished loading data for ${version}. Total raidData length: ${raidData.length}`);
         populateTable(raidData);
         filterRaids(); // Apply initial filters
     }
@@ -205,66 +217,81 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function filterRaids() {
         let filteredData = [...raidData];
+        console.log(`Filtering raids. Initial data length: ${filteredData.length}`);
 
         const selectedPokemon = pokemonSearch.value;
         if (selectedPokemon) {
             filteredData = filteredData.filter(raid => raid.Pokemon && raid.Pokemon.toLowerCase().includes(selectedPokemon.toLowerCase()));
+            console.log(`After Pokemon filter (${selectedPokemon}): ${filteredData.length}`);
         }
 
         const selectedAbility = abilityFilter.value;
         if (selectedAbility) {
             filteredData = filteredData.filter(raid => raid.Ability && raid.Ability.toLowerCase().includes(selectedAbility.toLowerCase()));
+            console.log(`After Ability filter (${selectedAbility}): ${filteredData.length}`);
         }
 
         const selectedNature = natureFilter.value;
         if (selectedNature) {
             filteredData = filteredData.filter(raid => raid.Nature && raid.Nature.toLowerCase().includes(selectedNature.toLowerCase()));
+            console.log(`After Nature filter (${selectedNature}): ${filteredData.length}`);
         }
 
         const hpQuery = hpFilter.value;
         if (hpQuery) {
             filteredData = filteredData.filter(raid => raid.HP === hpQuery);
+            console.log(`After HP filter (${hpQuery}): ${filteredData.length}`);
         }
 
         const attackQuery = attackFilter.value;
         if (attackQuery) {
             filteredData = filteredData.filter(raid => raid.ATK === attackQuery);
+            console.log(`After Attack filter (${attackQuery}): ${filteredData.length}`);
         }
 
         const defenseQuery = defenseFilter.value;
         if (defenseQuery) {
             filteredData = filteredData.filter(raid => raid.DEF === defenseQuery);
+            console.log(`After Defense filter (${defenseQuery}): ${filteredData.length}`);
         }
 
         const spAttackQuery = spAttackFilter.value;
         if (spAttackQuery) {
             filteredData = filteredData.filter(raid => raid.SPA === spAttackQuery);
+            console.log(`After Sp. Attack filter (${spAttackQuery}): ${filteredData.length}`);
         }
 
         const spDefenseQuery = spDefenseFilter.value;
         if (spDefenseQuery) {
             filteredData = filteredData.filter(raid => raid.SPD === spDefenseQuery);
+            console.log(`After Sp. Defense filter (${spDefenseQuery}): ${filteredData.length}`);
         }
 
         const speedQuery = speedFilter.value;
         if (speedQuery) {
             filteredData = filteredData.filter(raid => raid.SPE === speedQuery);
+            console.log(`After Speed filter (${speedQuery}): ${filteredData.length}`);
         }
 
         const selectedTera = teraFilter.value;
         if (selectedTera && selectedTera !== 'All') {
             filteredData = filteredData.filter(raid => raid.TeraType === selectedTera);
+            console.log(`After Tera filter (${selectedTera}): ${filteredData.length}`);
         }
 
         // Filter by stars
         if (selectedStars === '1-2') {
             filteredData = filteredData.filter(raid => raid.Stars && (parseInt(raid.Stars) === 1 || parseInt(raid.Stars) === 2));
+            console.log(`After Stars filter (1-2): ${filteredData.length}`);
         } else if (selectedStars === '3-5') {
             filteredData = filteredData.filter(raid => raid.Stars && (parseInt(raid.Stars) >= 3 && parseInt(raid.Stars) <= 5));
+            console.log(`After Stars filter (3-5): ${filteredData.length}`);
         } else if (selectedStars === '6') {
             filteredData = filteredData.filter(raid => raid.Stars && parseInt(raid.Stars) === 6);
+            console.log(`After Stars filter (6): ${filteredData.length}`);
         }
 
+        console.log(`Final filtered data length: ${filteredData.length}`);
         populateTable(filteredData);
     }
 
