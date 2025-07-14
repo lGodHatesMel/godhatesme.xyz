@@ -15,10 +15,11 @@
         </div>
         <div class="filters">
             <div class="filter-group">
-                <button class="star-button">Any ★</button>
-                <button class="star-button">1-2 Stars</button>
-                <button class="star-button">3-5 Stars</button>
-                <button class="star-button">6 Stars</button>
+                <button class="star-button" data-stars="Any">Any ★</button>
+                <button class="star-button" data-stars="1-2">1-2 Stars</button>
+                <button class="star-button" data-stars="3-5">3-5 Stars</button>
+                <button class="star-button" data-stars="6">6 Stars</button>
+                <button id="reset-filters" class="star-button">Reset Filters</button>
             </div>
             <div class="filter-group">
                 <div class="searchable-dropdown">
@@ -35,12 +36,30 @@
                 </div>
             </div>
             <div class="filter-group">
-                <input type="number" id="hp-filter" placeholder="HP">
-                <input type="number" id="attack-filter" placeholder="Attack">
-                <input type="number" id="defense-filter" placeholder="Defense">
-                <input type="number" id="sp-attack-filter" placeholder="Sp. Attack">
-                <input type="number" id="sp-defense-filter" placeholder="Sp. Defense">
-                <input type="number" id="speed-filter" placeholder="Speed">
+                <div class="searchable-dropdown">
+                    <input type="text" id="hp-filter" placeholder="HP" autocomplete="off">
+                    <div class="dropdown-content" id="hp-dropdown"></div>
+                </div>
+                <div class="searchable-dropdown">
+                    <input type="text" id="attack-filter" placeholder="Attack" autocomplete="off">
+                    <div class="dropdown-content" id="attack-dropdown"></div>
+                </div>
+                <div class="searchable-dropdown">
+                    <input type="text" id="defense-filter" placeholder="Defense" autocomplete="off">
+                    <div class="dropdown-content" id="defense-dropdown"></div>
+                </div>
+                <div class="searchable-dropdown">
+                    <input type="text" id="sp-attack-filter" placeholder="Sp. Attack" autocomplete="off">
+                    <div class="dropdown-content" id="sp-attack-dropdown"></div>
+                </div>
+                <div class="searchable-dropdown">
+                    <input type="text" id="sp-defense-filter" placeholder="Sp. Defense" autocomplete="off">
+                    <div class="dropdown-content" id="sp-defense-dropdown"></div>
+                </div>
+                <div class="searchable-dropdown">
+                    <input type="text" id="speed-filter" placeholder="Speed" autocomplete="off">
+                    <div class="dropdown-content" id="speed-dropdown"></div>
+                </div>
                 <select id="tera-filter"><option value="All">Any tera</option></select>
             </div>
         </div>

@@ -2,7 +2,7 @@ body {
     background-color: #1a1a1a;
     color: #fff;
     font-family: sans-serif;
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,6 +70,12 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.star-button.active {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
 }
 
 select, input[type="text"] {

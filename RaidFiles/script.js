@@ -12,38 +12,36 @@ document.addEventListener('DOMContentLoaded', () => {
     const tableBody = document.querySelector('.raid-list tbody');
     const scarletButton = document.querySelector('.scarlet');
     const violetButton = document.querySelector('.violet');
+    const starButtons = document.querySelectorAll('.star-button[data-stars]');
+    const resetFiltersButton = document.getElementById('reset-filters');
 
     let raidData = []; // To store the original raid data
     let pressTimer;
+    let selectedStars = 'Any';
 
     // --- Searchable Dropdown Logic ---
-    function setupSearchableDropdown(inputId, dropdownId, dataUrl) {
+    function setupSearchableDropdown(inputId, dropdownId, dataUrl, isStatFilter = false) {
         const input = document.getElementById(inputId);
         const dropdown = document.getElementById(dropdownId);
         let dataList = [];
 
-        fetch(dataUrl)
-            .then(response => response.text())
-            .then(data => {
-                dataList = data.split('\n').map(item => item.trim()).filter(item => item);
-
-                input.addEventListener('input', () => {
-                    const query = input.value.toLowerCase();
-                    const filteredItems = dataList.filter(item => item.toLowerCase().includes(query));
-                    populateDropdown(filteredItems, query);
-                    dropdown.classList.add('show');
-                    filterRaids(); // Trigger filter on input change
+        if (isStatFilter) {
+            for (let i = 0; i <= 31; i++) {
+                dataList.push(i.toString());
+            }
+            populateDropdown(dataList); // Populate initially for stat filters
+        } else {
+            fetch(dataUrl)
+                .then(response => response.text())
+                .then(data => {
+                    dataList = data.split('\n').map(item => item.trim()).filter(item => item);
+                    populateDropdown(dataList); // Populate initially for text filters
                 });
-
-                input.addEventListener('click', () => {
-                    populateDropdown(dataList);
-                    dropdown.classList.add('show');
-                });
-            });
+        }
 
         function populateDropdown(items, query = '') {
             dropdown.innerHTML = '';
-            const itemsToShow = (query ? items : items.slice(0, 10));
+            const itemsToShow = (query ? items.filter(item => item.toLowerCase().includes(query.toLowerCase())) : items.slice(0, 10));
             itemsToShow.forEach(item => {
                 const a = document.createElement('a');
                 a.href = '#';
@@ -58,6 +56,19 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
+        input.addEventListener('input', () => {
+            const query = input.value.toLowerCase();
+            const filteredItems = dataList.filter(item => item.toLowerCase().includes(query));
+            populateDropdown(filteredItems, query);
+            dropdown.classList.add('show');
+            filterRaids();
+        });
+
+        input.addEventListener('click', () => {
+            populateDropdown(dataList);
+            dropdown.classList.add('show');
+        });
+
         document.addEventListener('click', (e) => {
             if (!dropdown.contains(e.target) && e.target !== input) {
                 dropdown.classList.remove('show');
@@ -68,6 +79,12 @@ document.addEventListener('DOMContentLoaded', () => {
     setupSearchableDropdown('pokemon-search', 'pokemon-dropdown', 'data/species.txt');
     setupSearchableDropdown('ability-filter', 'ability-dropdown', 'data/abilities.txt');
     setupSearchableDropdown('nature-filter', 'nature-dropdown', 'data/natures.txt');
+    setupSearchableDropdown('hp-filter', 'hp-dropdown', null, true);
+    setupSearchableDropdown('attack-filter', 'attack-dropdown', null, true);
+    setupSearchableDropdown('defense-filter', 'defense-dropdown', null, true);
+    setupSearchableDropdown('sp-attack-filter', 'sp-attack-dropdown', null, true);
+    setupSearchableDropdown('sp-defense-filter', 'sp-defense-dropdown', null, true);
+    setupSearchableDropdown('speed-filter', 'speed-dropdown', null, true);
     // --- End Searchable Dropdown Logic ---
 
     // Populate Tera Type Filter
@@ -122,6 +139,34 @@ document.addEventListener('DOMContentLoaded', () => {
         violetButton.classList.add('active');
         scarletButton.classList.remove('active');
         loadRaidData('Violet');
+    });
+
+    starButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            starButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            selectedStars = button.dataset.stars;
+            filterRaids();
+        });
+    });
+
+    resetFiltersButton.addEventListener('click', () => {
+        pokemonSearch.value = '';
+        abilityFilter.value = '';
+        natureFilter.value = '';
+        hpFilter.value = '';
+        attackFilter.value = '';
+        defenseFilter.value = '';
+        spAttackFilter.value = '';
+        spDefenseFilter.value = '';
+        speedFilter.value = '';
+        teraFilter.value = 'All';
+
+        starButtons.forEach(btn => btn.classList.remove('active'));
+        document.querySelector('.star-button[data-stars="Any"]').classList.add('active');
+        selectedStars = 'Any';
+
+        filterRaids();
     });
 
     function populateTable(data) {
@@ -211,6 +256,15 @@ document.addEventListener('DOMContentLoaded', () => {
             filteredData = filteredData.filter(raid => raid.TeraType === selectedTera);
         }
 
+        // Filter by stars
+        if (selectedStars === '1-2') {
+            filteredData = filteredData.filter(raid => raid.Stars && (parseInt(raid.Stars) === 1 || parseInt(raid.Stars) === 2));
+        } else if (selectedStars === '3-5') {
+            filteredData = filteredData.filter(raid => raid.Stars && (parseInt(raid.Stars) >= 3 && parseInt(raid.Stars) <= 5));
+        } else if (selectedStars === '6') {
+            filteredData = filteredData.filter(raid => raid.Stars && parseInt(raid.Stars) === 6);
+        }
+
         populateTable(filteredData);
     }
 
@@ -229,6 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     teraFilter.addEventListener('change', filterRaids);
 
-    // Set Scarlet as the default active button
+    // Set Scarlet as the default active button and load data
     scarletButton.click();
+    document.querySelector('.star-button[data-stars="Any"]').classList.add('active');
 });
