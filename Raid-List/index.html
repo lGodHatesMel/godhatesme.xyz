@@ -35,6 +35,37 @@
             justify-content: center; /* Center items within each row */
             width: 100%;
         }
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 768px) {
+            .controls {
+                padding: 0 10px;
+            }
+            .filter-row {
+                flex-direction: column; /* Stack filter groups vertically on small screens */
+                align-items: center;
+            }
+            .filter-group {
+                width: 90%; /* Make filter groups take more width */
+                min-width: unset;
+            }
+            .filter-group input, .filter-group select {
+                width: 100%; /* Make inputs/selects full width */
+            }
+            #hp-filter, #attack-filter, #defense-filter, #sp-attack-filter, #sp-defense-filter, #speed-filter {
+                width: 100%; /* Ensure IV inputs also take full width */
+            }
+            .raid-list {
+                overflow-x: auto; /* Enable horizontal scrolling for the table */
+                -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+            }
+            .raid-list table {
+                width: 700px; /* Minimum width for the table to prevent squishing */
+            }
+            .button-group button {
+                width: 100%; /* Make buttons full width */
+                margin-bottom: 5px;
+            }
+        }
         .filter-group {
             display: flex;
             flex-direction: column;
