@@ -16,7 +16,12 @@
             align-items: center;
         }
         h1 {
-            color: #800080; /* Purple color */
+            font-size: 3em;
+            background: linear-gradient(45deg, #800080, #ff69b4); /* Purple to Pink gradient */
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
             margin-bottom: 20px;
         }
         .controls {
@@ -31,9 +36,13 @@
         .filter-row {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 5px;
             justify-content: center; /* Center items within each row */
             width: 100%;
+        }
+        /* Specific spacing for the IV filter row */
+        .controls .filter-row:nth-child(2) {
+            gap: 15px; /* Increased gap for IVs */
         }
         /* Responsive adjustments for smaller screens */
         @media (max-width: 768px) {
@@ -70,6 +79,9 @@
             display: flex;
             flex-direction: column;
             min-width: 150px;
+        }
+        .iv-filter-group {
+            min-width: unset; /* Remove minimum width for IV groups */
         }
         .filter-group label {
             margin-bottom: 5px;
@@ -209,42 +221,42 @@
         </div>
 
         <div class="filter-row">
-            <div class="filter-group">
+            <div class="filter-group iv-filter-group">
                 <label for="hp-filter">HP IV:</label>
                 <div class="dropdown-container">
                     <input type="text" id="hp-filter" placeholder="HP IV">
                     <div id="hp-dropdown" class="dropdown-content"></div>
                 </div>
             </div>
-            <div class="filter-group">
+            <div class="filter-group iv-filter-group">
                 <label for="attack-filter">ATK IV:</label>
                 <div class="dropdown-container">
                     <input type="text" id="attack-filter" placeholder="ATK IV">
                     <div id="attack-dropdown" class="dropdown-content"></div>
                 </div>
             </div>
-            <div class="filter-group">
+            <div class="filter-group iv-filter-group">
                 <label for="defense-filter">DEF IV:</label>
                 <div class="dropdown-container">
                     <input type="text" id="defense-filter" placeholder="DEF IV">
                     <div id="defense-dropdown" class="dropdown-content"></div>
                 </div>
             </div>
-            <div class="filter-group">
+            <div class="filter-group iv-filter-group">
                 <label for="sp-attack-filter">SPA IV:</label>
                 <div class="dropdown-container">
                     <input type="text" id="sp-attack-filter" placeholder="SPA IV">
                     <div id="sp-attack-dropdown" class="dropdown-content"></div>
                 </div>
             </div>
-            <div class="filter-group">
+            <div class="filter-group iv-filter-group">
                 <label for="sp-defense-filter">SPD IV:</label>
                 <div class="dropdown-container">
                     <input type="text" id="sp-defense-filter" placeholder="SPD IV">
                     <div id="sp-defense-dropdown" class="dropdown-content"></div>
                 </div>
             </div>
-            <div class="filter-group">
+            <div class="filter-group iv-filter-group">
                 <label for="speed-filter">SPE IV:</label>
                 <div class="dropdown-container">
                     <input type="text" id="speed-filter" placeholder="SPE IV">
