@@ -37,19 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Worker error:', error);
     };
 
-    // Debounce function to limit frequent function calls
-    function debounce(func, wait) {
-        let timeout;
-        return function executedFunction(...args) {
-            const later = () => {
-                clearTimeout(timeout);
-                func(...args);
-            };
-            clearTimeout(timeout);
-            timeout = setTimeout(later, wait);
-        };
-    }
-
     // Pagination controls
     const prevButton = document.getElementById('prev-page');
     const nextButton = document.getElementById('next-page');
@@ -112,14 +99,14 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        input.addEventListener('input', debounce(() => {
+        input.addEventListener('input', () => {
             const query = input.value.toLowerCase();
             const filteredItems = dataList.filter(item => item.toLowerCase().includes(query));
             populateDropdown(filteredItems, query);
             dropdown.classList.add('show');
             currentPage = 1; // Reset to first page on filter change
             filterRaids();
-        }, 300));
+        });
 
         input.addEventListener('click', () => {
             populateDropdown(dataList);
@@ -216,19 +203,19 @@ document.addEventListener('DOMContentLoaded', () => {
         paginatedData.forEach(raid => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td class="copyable-id" data-id="${raid.ID || ''}" data-label="ID">${raid.ID || ''}</td>
-                <td data-label="Pokemon">${raid.Pokemon || ''}</td>
-                <td data-label="Ability">${raid.Ability || ''}</td>
-                <td data-label="Nature">${raid.Nature || ''}</td>
-                <td data-label="HP">${raid.HP || ''}</td>
-                <td data-label="ATK">${raid.ATK || ''}</td>
-                <td data-label="DEF">${raid.DEF || ''}</td>
-                <td data-label="SPA">${raid.SPA || ''}</td>
-                <td data-label="SPD">${raid.SPD || ''}</td>
-                <td data-label="SPE">${raid.SPE || ''}</td>
-                <td data-label="Gender">${raid.Gender || ''}</td>
-                <td data-label="Tera Type">${raid.TeraType || ''}</td>
-                <td data-label="Mark">${raid.Mark || 'None'}</td>
+                <td class="copyable-id" data-id="${raid.ID || ''}">${raid.ID || ''}</td>
+                <td>${raid.Pokemon || ''}</td>
+                <td>${raid.Ability || ''}</td>
+                <td>${raid.Nature || ''}</td>
+                <td>${raid.HP || ''}</td>
+                <td>${raid.ATK || ''}</td>
+                <td>${raid.DEF || ''}</td>
+                <td>${raid.SPA || ''}</td>
+                <td>${raid.SPD || ''}</td>
+                <td>${raid.SPE || ''}</td>
+                <td>${raid.Gender || ''}</td>
+                <td>${raid.TeraType || ''}</td>
+                <td>${raid.Mark || 'None'}</td>
             `;
 
             row.addEventListener('mousedown', () => {
@@ -359,9 +346,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.removeChild(textarea);
     }
 
-    // Use debounced filterRaids for input fields
     [hpFilter, attackFilter, defenseFilter, spAttackFilter, spDefenseFilter, speedFilter].forEach(el => {
-        el.addEventListener('input', debounce(filterRaids, 300));
+        el.addEventListener('input', filterRaids);
     });
     teraFilter.addEventListener('change', filterRaids);
     markFilter.addEventListener('change', filterRaids);

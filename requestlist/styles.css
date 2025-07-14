@@ -107,46 +107,7 @@ th {
     }
     th, td {
         white-space: nowrap; /* Prevent text wrapping in table cells */
-    }
-
-    /* Stacked table layout for mobile */
-    table, thead, tbody, th, td, tr {
-        display: block; /* Make table elements behave like blocks */
-    }
-
-    thead tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px; /* Hide table headers visually */
-    }
-
-    tr {
-        border: 1px solid #4d4d4d; /* Add border to rows */
-        margin-bottom: 10px; /* Spacing between stacked rows */
-    }
-
-    td {
-        border: none; /* Remove individual cell borders */
-        border-bottom: 1px solid #eee; /* Add bottom border for separation */
-        position: relative;
-        padding-left: 50%; /* Make space for data-label */
-        text-align: left; /* Align text to left */
-    }
-
-    td:last-child {
-        border-bottom: 0; /* No border on last cell */
-    }
-
-    td::before {
-        position: absolute;
-        top: 6px;
-        left: 6px;
-        width: 45%;
-        padding-right: 10px;
-        white-space: nowrap;
-        content: attr(data-label); /* Display data-label as pseudo-element */
-        font-weight: bold;
-    }
+}
 
 img {
     max-width: 100%;
