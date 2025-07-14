@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         function populateDropdown(items, query = '') {
             dropdown.innerHTML = '';
-            const itemsToShow = (query ? items.filter(item => item.toLowerCase().includes(query.toLowerCase())) : items.slice(0, 10));
+            const itemsToShow = query ? items.filter(item => item.toLowerCase().includes(query.toLowerCase())) : items; // Removed .slice(0, 10)
             itemsToShow.forEach(item => {
                 const a = document.createElement('a');
                 a.href = '#';
