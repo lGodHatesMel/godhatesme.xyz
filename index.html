@@ -47,10 +47,15 @@
             width: 150px;
             height: auto;
             margin: 0 15px;
-            transition: transform 0.3s;
+            border-radius: 50%; /* Makes the logos circular */
+            border: 3px solid rgba(255, 255, 255, 0.6); /* Adds a border */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); /* Adds a shadow to make it "pop" */
+            background-color: rgba(0, 0, 0, 0.4); /* Adds a dark background to the circle */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
         }
         .logo:hover {
-            transform: scale(1.1);
+            transform: scale(1.15); /* Makes the logo slightly larger on hover */
+            box-shadow: 0 8px 25px rgba(126, 0, 210, 0.7); /* Adds a colored glow on hover */
         }
         @media (max-width: 600px) {
             h1 {
@@ -74,11 +79,11 @@
 <body>
     <h1>Welcome to GodHatesMe Pages</h1>
     <a href="requestlist/" class="button">Special Request List</a>
-    <a href="discord/discord.html" class="button">Discord Servers</a>
-    <a href="Raid-List/index.html" class="button" target="_blank">Raid List</a>
+    <a href="discord/" class="button">Discord Servers</a>
+    <a href="Raid-List/" class="button" target="_blank">Raid List</a>
     <div class="logo-container">
         <a href="https://www.twitch.tv/lgodhatesmel" target="_blank" title="My Twitch"><img src="images/twitch-logo.png" alt="Twitch" class="logo"></a>
-        <a href="donate/donate.html" title="Donate"><img src="images/donate-logo.png" alt="Donate" class="logo"></a>
+        <a href="donate/" title="Donate"><img src="images/donate-logo.png" alt="Donate" class="logo"></a>
         <a href="https://www.youtube.com/@lGodHatesMel/streams" target="_blank" title="My YouTube"><img src="images/youtube-logo.png" alt="YouTube" class="logo"></a>
     </div>
 </body>
