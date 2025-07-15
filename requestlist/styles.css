@@ -83,12 +83,6 @@ table td {
     font-weight: bold;
 }
 
-table tbody tr:hover {
-    background-color: rgba(77, 77, 77, 0.7);
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-}
-
 table th {
     background-color: #01d3d3; /* Keep header background */
 }
@@ -117,28 +111,6 @@ table th {
     table th, table td {
         white-space: nowrap; /* Prevent text wrapping in table cells */
     }
-
-/* Toast Notification */
-.toast-notification {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #28a745; /* Green for success */
-    color: white;
-    padding: 12px 24px;
-    border-radius: 8px;
-    z-index: 1000;
-    opacity: 0;
-    transition: opacity 0.5s, bottom 0.5s;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    text-align: center;
-}
-
-.toast-notification.show {
-    opacity: 1;
-    bottom: 40px;
-}
 
 img {
     max-width: 100%;
