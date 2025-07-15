@@ -59,6 +59,11 @@ body {
     color: #fff; /* White text for info box content */
 }
 
+main {
+    width: 100%;
+    max-width: 1200px; /* Constrain content width for better readability on large screens */
+}
+
 /* Table styles for game_pages */
 table {
     width: 100%;
@@ -103,7 +108,7 @@ table th {
     table {
         min-width: 600px; /* Set a minimum width for the table content to ensure scrollability */
     }
-    th, td {
+    table th, table td {
         white-space: nowrap; /* Prevent text wrapping in table cells */
     }
 
