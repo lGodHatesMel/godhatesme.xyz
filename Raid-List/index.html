@@ -134,11 +134,7 @@
             box-shadow: 0 0 8px rgba(0,0,0,0.1);
         }
         .raid-list {
-            width: 100%;
-        }
-        .raid-list table {
-            width: 100%;
-            table-layout: fixed; /* Consistent column widths */
+            min-width: 900px; /* Force table to be wide enough to scroll */
             border-collapse: collapse;
         }
         .raid-list th, .raid-list td {
@@ -153,7 +149,7 @@
             font-size: 0.85em;
         }
         .raid-list th {
-            background-color: #4CAF50;
+            background-color: #333;
             color: white;
             position: sticky;
             top: 0;
@@ -256,12 +252,6 @@
                 overscroll-behavior-x: contain;
             }
             .raid-list {
-                width: 100%;
-            }
-            .raid-list table {
-                width: 100%;
-            }
-            .raid-list th, .raid-list td {
                 padding: 3px 4px;
                 font-size: 0.65em;
             }
@@ -408,28 +398,29 @@
         <button id="reset-filters">Reset Filters</button>
     </div>
 
-    <table class="raid-list">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Pokemon</th>
-                <th>Ability</th>
-                <th>Nature</th>
-                <th>HP</th>
-                <th>ATK</th>
-                <th>DEF</th>
-                <th>SPA</th>
-                <th>SPD</th>
-                <th>SPE</th>
-                <th>Gender</th>
-                <th>Tera Type</th>
-                <th>Mark</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Raid data will be populated here -->
-        </tbody>
-    </table>
+    <div class="table-container">
+        <table class="raid-list">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Pokemon</th>
+                    <th>Ability</th>
+                    <th>Nature</th>
+                    <th>HP</th>
+                    <th>ATK</th>
+                    <th>DEF</th>
+                    <th>SPA</th>
+                    <th>SPD</th>
+                    <th>SPE</th>
+                    <th>Gender</th>
+                    <th>Tera Type</th>
+                    <th>Mark</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Raid data will be populated here -->
+            </tbody>
+        </table>
     </div>
 
     <div class="pagination-controls">
