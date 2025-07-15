@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const starButtons = document.querySelectorAll('.star-button[data-stars]');
     const resetFiltersButton = document.getElementById('reset-filters');
     const customTooltip = document.getElementById('custom-tooltip');
+    const loadingOverlay = document.getElementById('loading-overlay');
 
     let raidData = []; // To store the original raid data
     let pressTimer;
@@ -32,10 +33,12 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`Finished loading data. Total raidData length: ${raidData.length}`);
         filteredRaidData = [...raidData]; // Initialize filtered data with all raid data
         populateTable(filteredRaidData); // Populate table with the first page of all data
+        if (loadingOverlay) loadingOverlay.style.display = 'none'; // Hide loader
     };
 
     dataWorker.onerror = (error) => {
         console.error('Worker error:', error);
+        if (loadingOverlay) loadingOverlay.style.display = 'none'; // Hide loader on error
     };
 
     // Debounce function to limit frequent function calls
@@ -156,6 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const violetFiles = ['ID1.txt', 'ID2.txt', 'ID3.txt', 'ID4.txt', 'ID5.txt', 'ID6.txt', 'IDI.txt', 'P1.txt', 'P2.txt', 'P3.txt', 'P4.txt', 'P5.txt', 'P6.txt', 'P7.txt', 'P8.txt', 'PI.txt', 'TM1.txt', 'TM2.txt', 'TM3.txt', 'TM4.txt', 'TM5.txt', 'TM6.txt'];
 
     async function loadRaidData(version) {
+        if (loadingOverlay) loadingOverlay.style.display = 'flex'; // Show loader
         raidData = []; // Clear existing data
         console.log(`Loading raid data for ${version} using Web Worker...`);
         // Send message to worker to start loading data
