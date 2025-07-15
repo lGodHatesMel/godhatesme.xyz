@@ -63,25 +63,23 @@ body {
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: transparent; /* Transparent background */
-    color: white; /* White text */
+    background-color: transparent;
     margin-top: 20px; /* Add spacing above table */
     margin-bottom: 20px; /* Add spacing below table */
     table-layout: auto; /* Allow table to adjust column widths */
 }
 
-th,
-td {
+table th,
+table td {
     border: 2px solid #7e00d2; /* Thicker border */
     padding: 12px; /* Increased padding for more spacing */
     text-align: center; /* Center text for better alignment */
-    color: white; /* Ensure text is white */
-    font-weight: bold; /* Make text bold */
+    color: red; /* Sets the text color for table cells */
+    font-weight: bold;
 }
 
-th {
+table th {
     background-color: #01d3d3; /* Keep header background */
-    color: white;
 }
 
 /* Responsive adjustments */
