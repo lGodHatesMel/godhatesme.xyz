@@ -105,7 +105,7 @@ table th {
     }
     th, td {
         white-space: nowrap; /* Prevent text wrapping in table cells */
-}
+    }
 
 img {
     max-width: 100%;
