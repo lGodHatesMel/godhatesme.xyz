@@ -1,3 +1,33 @@
+function copyToClipboard(text) {
+    if (!text) return;
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+}
+
+function showToast(message) {
+    // Remove any existing toast
+    const existingToast = document.querySelector('.toast-notification');
+    if (existingToast) {
+        existingToast.remove();
+    }
+
+    const toast = document.createElement('div');
+    toast.className = 'toast-notification';
+    toast.textContent = message;
+    document.body.appendChild(toast);
+
+    // Animate in and then out
+    setTimeout(() => toast.classList.add('show'), 10);
+    setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 500);
+    }, 2000);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const categoryFilter = document.getElementById('categoryFilter');
     const pokemonSearch = document.getElementById('pokemonSearch');

@@ -40,6 +40,13 @@ function populateTable(gameId) {
     // Populate the table with the sorted data
     allEntries.forEach(item => {
         const row = tableBody.insertRow();
+        row.title = 'Click to copy File Name'; // Add a native tooltip
+
+        // Add click listener to the row to copy the file name
+        row.addEventListener('click', () => {
+            copyToClipboard(item.fileName);
+            showToast(`Copied: ${item.fileName}`);
+        });
 
         // Create and append cells for better security and clarity
         const categoryCell = row.insertCell();
