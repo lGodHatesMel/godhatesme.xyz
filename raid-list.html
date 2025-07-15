@@ -90,6 +90,13 @@
         .button-group button.active {
             background-color: #28a745;
         }
+        .table-container {
+            width: 100%;
+            max-width: 1200px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+            overscroll-behavior-x: contain; /* Prevent scroll chaining */
+        }
         .raid-list {
             width: 100%;
             max-width: 1200px;
@@ -222,27 +229,29 @@
         <button id="reset-filters">Reset Filters</button>
     </div>
 
-    <table class="raid-list">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Pokemon</th>
-                <th>Ability</th>
-                <th>Nature</th>
-                <th>HP</th>
-                <th>ATK</th>
-                <th>DEF</th>
-                <th>SPA</th>
-                <th>SPD</th>
-                <th>SPE</th>
-                <th>Gender</th>
-                <th>Tera Type</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Raid data will be populated here -->
-        </tbody>
-    </table>
+    <div class="table-container">
+        <table class="raid-list">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Pokemon</th>
+                    <th>Ability</th>
+                    <th>Nature</th>
+                    <th>HP</th>
+                    <th>ATK</th>
+                    <th>DEF</th>
+                    <th>SPA</th>
+                    <th>SPD</th>
+                    <th>SPE</th>
+                    <th>Gender</th>
+                    <th>Tera Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Raid data will be populated here -->
+            </tbody>
+        </table>
+    </div>
 
     <div class="pagination-controls">
         <button id="prev-page">Previous</button>
