@@ -214,6 +214,11 @@ select, input[type="text"] {
     margin-bottom: 20px;
 }
 
+main {
+    width: 100%;
+    max-width: 1200px; /* Constrain content width for better readability on large screens */
+}
+
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
