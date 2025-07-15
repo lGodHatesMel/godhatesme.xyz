@@ -134,11 +134,7 @@
             box-shadow: 0 0 8px rgba(0,0,0,0.1);
         }
         .raid-list {
-            width: 100%;
-        }
-        .raid-list table {
-            width: 100%;
-            table-layout: fixed; /* Consistent column widths */
+            min-width: 900px; /* Force table to be wide enough to scroll */
             border-collapse: collapse;
         }
         .raid-list th, .raid-list td {
@@ -153,7 +149,7 @@
             font-size: 0.85em;
         }
         .raid-list th {
-            background-color: #4CAF50;
+            background-color: #333;
             color: white;
             position: sticky;
             top: 0;
@@ -256,19 +252,8 @@
                 overscroll-behavior-x: contain;
             }
             .raid-list {
-                width: 100%;
-            }
-            .raid-list table {
-                width: 100%;
-            }
-            .raid-list th, .raid-list td {
                 padding: 3px 4px;
                 font-size: 0.65em;
-            }
-            /* Hide  on mobile */
-            .raid-list th:nth-child(11), .raid-list td:nth-child(11), /* Gender */
-            .raid-list th:nth-child(13), .raid-list td:nth-child(13) { /* Mark */
-                display: none;
             }
             /* Redistribute column widths for mobile (total 100%) */
             .raid-list th:nth-child(1), .raid-list td:nth-child(1) { width: 12%; } /* ID */
@@ -281,7 +266,9 @@
             .raid-list th:nth-child(8), .raid-list td:nth-child(8) { width: 8%; } /* SPA */
             .raid-list th:nth-child(9), .raid-list td:nth-child(9) { width: 8%; } /* SPD */
             .raid-list th:nth-child(10), .raid-list td:nth-child(10) { width: 8%; } /* SPE */
+            .raid-list th:nth-child(11), .raid-list td:nth-child(11) { width: 12%; } /* Gender */
             .raid-list th:nth-child(12), .raid-list td:nth-child(12) { width: 12%; } /* Tera Type */
+            .raid-list th:nth-child(13), .raid-list td:nth-child(13) { width: 12%; } /* Mark */
         }
         @media (max-width: 480px) {
             h1 {
@@ -408,28 +395,29 @@
         <button id="reset-filters">Reset Filters</button>
     </div>
 
-    <table class="raid-list">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Pokemon</th>
-                <th>Ability</th>
-                <th>Nature</th>
-                <th>HP</th>
-                <th>ATK</th>
-                <th>DEF</th>
-                <th>SPA</th>
-                <th>SPD</th>
-                <th>SPE</th>
-                <th>Gender</th>
-                <th>Tera Type</th>
-                <th>Mark</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Raid data will be populated here -->
-        </tbody>
-    </table>
+    <div class="table-container">
+        <table class="raid-list">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Pokemon</th>
+                    <th>Ability</th>
+                    <th>Nature</th>
+                    <th>HP</th>
+                    <th>ATK</th>
+                    <th>DEF</th>
+                    <th>SPA</th>
+                    <th>SPD</th>
+                    <th>SPE</th>
+                    <th>Gender</th>
+                    <th>Tera Type</th>
+                    <th>Mark</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Raid data will be populated here -->
+            </tbody>
+        </table>
     </div>
 
     <div class="pagination-controls">
