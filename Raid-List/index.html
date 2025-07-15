@@ -134,12 +134,10 @@
             box-shadow: 0 0 8px rgba(0,0,0,0.1);
         }
         .raid-list {
-            width: 100%;
-            table-layout: fixed; /* Consistent column widths */
+            min-width: 800px; /* Force table to be wide enough to scroll */
             border-collapse: collapse;
         }
-        .raid-list th,
-        .raid-list td {
+        .raid-list th, .raid-list td {
             border: 1px solid #7e00d2;
             padding: 5px 6px;
             text-align: left;
@@ -253,16 +251,17 @@
                 -webkit-overflow-scrolling: touch;
                 overscroll-behavior-x: contain;
             }
-            .raid-list {
-                width: 100%;
-            }
-            .raid-list table {
-                width: 100%;
-            }
             .raid-list th, .raid-list td {
                 padding: 3px 4px;
                 font-size: 0.65em;
             }
+            /* Hide  on mobile */
+            /* .raid-list th:nth-child(9), .raid-list td:nth-child(9),
+            .raid-list th:nth-child(11), .raid-list td:nth-child(11),
+            .raid-list th:nth-child(12), .raid-list td:nth-child(12),
+            .raid-list th:nth-child(13), .raid-list td:nth-child(13) {
+                display: none;
+            } */
             /* Redistribute column widths for mobile (total 100%) */
             .raid-list th:nth-child(1), .raid-list td:nth-child(1) { width: 12%; } /* ID */
             .raid-list th:nth-child(2), .raid-list td:nth-child(2) { width: 18%; } /* Pokemon */
