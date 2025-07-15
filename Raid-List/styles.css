@@ -146,6 +146,44 @@ select, input[type="text"] {
 }
 
 .raid-list tbody tr:hover {
-    background-color: #4d4d4d;
+    background-color: rgba(77, 77, 77, 0.7);
     cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Toast Notification */
+.toast-notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745; /* Green for success */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.5s, bottom 0.5s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.toast-notification.show {
+    opacity: 1;
+    bottom: 40px;
+}
+
+/* Custom Tooltip */
+#custom-tooltip {
+    position: fixed;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    z-index: 1001;
+    pointer-events: none; /* So it doesn't interfere with mouse events on the row */
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
 }

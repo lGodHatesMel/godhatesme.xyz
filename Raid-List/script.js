@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const violetButton = document.querySelector('.violet');
     const starButtons = document.querySelectorAll('.star-button[data-stars]');
     const resetFiltersButton = document.getElementById('reset-filters');
+    const customTooltip = document.getElementById('custom-tooltip');
 
     let raidData = []; // To store the original raid data
     let pressTimer;
@@ -215,8 +216,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         paginatedData.forEach(raid => {
             const row = document.createElement('tr');
+            row.title = 'Click to copy ID'; // Native tooltip for mobile long-press & accessibility
+            // Store the ID on the row itself for easy access
+            row.dataset.id = raid.ID || '';
             row.innerHTML = `
-                <td class="copyable-id" data-id="${raid.ID || ''}" data-label="ID">${raid.ID || ''}</td>
+                <td data-label="ID">${raid.ID || ''}</td>
                 <td data-label="Pokemon">${raid.Pokemon || ''}</td>
                 <td data-label="Ability">${raid.Ability || ''}</td>
                 <td data-label="Nature">${raid.Nature || ''}</td>
@@ -231,29 +235,35 @@ document.addEventListener('DOMContentLoaded', () => {
                 <td data-label="Mark">${raid.Mark || 'None'}</td>
             `;
 
-            row.addEventListener('mousedown', () => {
-                pressTimer = window.setTimeout(() => {
-                    copyToClipboard(raid.ID);
-                    alert(`Copied ${raid.ID} to clipboard`);
-                }, 1000);
+            // Add a single click listener to the entire row
+            row.addEventListener('click', () => {
+                const idToCopy = row.dataset.id;
+                if (idToCopy) {
+                    copyToClipboard(idToCopy);
+                    showToast(`Copied ${idToCopy} to clipboard`);
+                }
             });
 
-            row.addEventListener('mouseup', () => {
-                clearTimeout(pressTimer);
+            // Custom tooltip for desktop hover
+            row.addEventListener('mouseover', (e) => {
+                if (customTooltip) {
+                    customTooltip.textContent = 'Click to copy ID';
+                    // Use clientX/Y for fixed positioning
+                    customTooltip.style.left = `${e.clientX + 15}px`;
+                    customTooltip.style.top = `${e.clientY + 15}px`;
+                    customTooltip.style.display = 'block';
+                    setTimeout(() => { customTooltip.style.opacity = '1'; }, 10); // Fade in
+                }
+            });
+            row.addEventListener('mouseout', () => {
+                if (customTooltip) {
+                    customTooltip.style.opacity = '0';
+                    // Hide element after the fade-out transition
+                    setTimeout(() => { customTooltip.style.display = 'none'; }, 200);
+                }
             });
 
             tableBody.appendChild(row);
-        });
-
-        // Add click listener for copying ID
-        tableBody.querySelectorAll('.copyable-id').forEach(idCell => {
-            idCell.addEventListener('click', (event) => {
-                const idToCopy = event.target.dataset.id;
-                if (idToCopy) {
-                    copyToClipboard(idToCopy);
-                    alert(`Copied ${idToCopy} to clipboard`);
-                }
-            });
         });
 
         const totalPages = Math.ceil(dataToDisplay.length / rowsPerPage);
@@ -357,6 +367,30 @@ document.addEventListener('DOMContentLoaded', () => {
         textarea.select();
         document.execCommand('copy');
         document.body.removeChild(textarea);
+    }
+
+    function showToast(message) {
+        // Remove any existing toast
+        const existingToast = document.querySelector('.toast-notification');
+        if (existingToast) {
+            existingToast.remove();
+        }
+
+        const toast = document.createElement('div');
+        toast.className = 'toast-notification';
+        toast.textContent = message;
+        document.body.appendChild(toast);
+
+        // Animate in
+        setTimeout(() => {
+            toast.classList.add('show');
+        }, 10); // Small delay to allow CSS transition
+
+        // Animate out and remove
+        setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => toast.remove(), 500); // Wait for fade out
+        }, 2000); // Toast visible for 2 seconds
     }
 
     // Use debounced filterRaids for input fields
