@@ -20,7 +20,7 @@
     <option value="">All</option>
     <option value="NEW" class="new">NEW</option>
     <option value="RAIDS" class="raids">RAIDS</option>
-    <option value="EVENTS-DISTRIBUTION" class="events">EVENTS-DISTRIBUTION</option>
+    <option value="EVENTS" class="events">EVENTS</option>
     <option value="DITTO" class="ditto">DITTO</option>
     <option value="EGGS" class="eggs">EGGS</option>
     <option value="HOME" class="home">HOME</option>
@@ -34,15 +34,31 @@
   <main>
     <div class="table-responsive">
     <table>
-      <tr>
-        <th>Category</th>
-        <th>File Name</th>
-        <th>Info</th>
-      </tr>
-      <!-- Data will be dynamically loaded here by script.js -->
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>File Name</th>
+          <th>Info</th>
+        </tr>
+      </thead>
+      <tbody id="pokemon-table-body">
+        <!-- Pokémon data will be dynamically inserted here by JavaScript -->
+      </tbody>
     </table>
     </div>
   </main>
+
+  <!-- Load the shared Pokémon data -->
+  <script src="../pokemon-data.js"></script>
+  <!-- Load the script that builds the table -->
+  <script src="../table-generator.js"></script>
+  
+  <!-- This script block populates the table for this specific page -->
+  <script>
+    // Call the function with the key for this game from pokemon-data.js
+    populateTable('brilliant-diamond-shining-pearl');
+  </script>
+
   <script src="../script.js"></script>
 </body>
 

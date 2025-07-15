@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoryFilter = document.getElementById('categoryFilter');
     const pokemonSearch = document.getElementById('pokemonSearch');
     const pokemonDropdown = document.getElementById('pokemonDropdown');
-    const tableRows = document.querySelectorAll('table tr:not(:first-child)');
 
     let allPokemonNames = [];
 
@@ -16,14 +15,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to filter and display table rows
     function filterTable() {
+        const tableRows = document.querySelectorAll('#pokemon-table-body tr');
         const selectedCategory = categoryFilter.value;
         const searchTerm = pokemonSearch.value.toLowerCase();
 
         tableRows.forEach(row => {
             const categoryCell = row.querySelector('td:first-child');
             const fileNameCell = row.querySelector('td:nth-child(2)');
-
-            const categoryMatch = selectedCategory === '' || (categoryCell && categoryCell.textContent === selectedCategory);
+            
+            const categoryMatch = selectedCategory === '' || (categoryCell && categoryCell.textContent.trim() === selectedCategory);
 
             let pokemonNameMatch = true;
             if (searchTerm) {
@@ -91,6 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
     categoryFilter.addEventListener('change', filterTable);
     pokemonSearch.addEventListener('change', filterTable); // Trigger filter on blur/enter
 
-    // Initial filter on page load
+    // Initial filter on page load.
+    // This runs after the inline script on the page has populated the table.
     filterTable();
 });
